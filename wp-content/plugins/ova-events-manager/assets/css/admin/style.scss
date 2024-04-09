@@ -1,0 +1,769 @@
+/* Event Metabox Admin */
+#event-metabox-settings{
+	.inside{
+		margin: 0;
+		padding: 0;
+	}
+	.ui-widget.ui-widget-content{
+		margin: 0;
+		padding: 0;
+	}
+	.ui-tabs .ui-tabs-nav{
+		border-radius: 0;
+	}
+}
+
+.ovaem_event_row{
+
+	display: block;
+
+	label{
+		min-width: 150px;
+		display: inline-block;
+		color: #555;
+		font-size: 14px;
+		font-weight: normal;
+		text-align: left;
+	}
+
+}
+
+
+/* Map Metabox */
+.ovaevent_map{
+	#map {
+		width: 100%;
+		height: 400px;
+		display: block;
+	}
+	.controls {
+		background-color: #fff;
+		border-radius: 2px;
+		border: 1px solid transparent;
+		box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+		box-sizing: border-box;
+		font-family: Roboto;
+		font-size: 15px;
+		font-weight: 300;
+		height: 29px;
+		margin-left: 17px;
+		margin-top: 10px;
+		outline: none;
+		padding: 0 11px 0 13px;
+		text-overflow: ellipsis;
+		width: 400px;
+
+		&:focus {
+			border-color: #4d90fe;
+		}
+	}
+
+	.title {
+		font-weight: bold;
+	}
+
+	#infowindow-content {
+		display: none;
+	}
+
+	#map #infowindow-content {
+		display: inline;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+/* Schedule Item */
+.schedule_item{
+	
+	display: block;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+
+	.schedule_content{
+		margin: 30px 0px;
+	}
+
+	.ovaem_event_row{
+		padding: 0px 15px;
+	}
+
+	.head{
+
+		min-height: 30px;
+		width: 100%;
+		display: flex;
+		background-color: #ccc;
+		
+		&:hover{
+			cursor: move;
+		}
+
+		.date_label{
+			font-size: 16px;
+			float: left;
+			width: 90%;
+			
+		}
+		.icon{
+			float: right;
+			width: 10%;
+			text-align: right;
+
+		}
+		.date_label a,
+		.icon a{
+			line-height: 30px;
+			padding-left: 10px;
+			padding-right: 10px;
+			color: #999;
+			font-size: 14px;
+			display: inline-block;
+
+			&:hover{
+				color: #333;
+			}
+		}
+
+		
+	}
+
+}
+
+
+.label_title{
+	font-weight: bold;
+	color: #929292;
+}
+
+.add_schedule_plan{
+	margin: 30px 15px 0px 15px!important;
+}
+.content_plan{
+	
+	margin: 10px;
+	border: 1px solid #e4e4e4;
+
+	.head{
+		background-color: #efefef;
+	}
+	.plan_data{
+		margin-top: 20px;
+	}
+
+}
+
+input.schedule_name{
+	font-weight: bold;
+	width: 138px
+}
+input.schedule_date{
+	font-size: 16px;
+}
+
+
+
+
+/* table  */
+table{
+	&.display{
+		width: 100%;
+		thead{
+			background-color: #ccc;
+			td{
+				padding: 5px;
+			}
+		}
+		tbody{
+			tr{
+				td{
+					padding: 10px 10px 0px 0px;
+					margin-bottom: 5px;
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+/* Gallery metabox */
+.ovaem_ad_galleries.form-table{
+	margin-top: 0;
+	td{
+		padding-left: 0;
+		padding-top: 0;
+	}
+} 
+#gallery-metabox-list li {
+	float: left;
+	width: 150px;
+	text-align: center;
+	margin: 10px 10px 10px 0;
+	cursor: move;
+}	
+
+
+/* pagination speaker popup */
+
+
+#ovaem_pagin {
+	clear: both;
+	padding:0;
+	margin-bottom: 10px;
+}
+#ovaem_pagin li {
+	float:left;
+	margin-right:10px;
+}
+#ovaem_pagin li a {
+	display:block;
+	color:#717171;
+	font:bold 11px;
+	text-shadow:0px 1px white;
+	padding:5px 8px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-box-shadow:0px 1px 3px 0px rgba(0,0,0,0.35);
+	-moz-box-shadow:0px 1px 3px 0px rgba(0,0,0,0.35);
+	box-shadow:0px 1px 3px 0px rgba(0,0,0,0.35);
+	background:#f9f9f9;
+	background:-webkit-linear-gradient(top,#f9f9f9 0%,#e8e8e8 100%);
+	background:-moz-linear-gradient(top,#f9f9f9 0%,#e8e8e8 100%);
+	background:-o-linear-gradient(top,#f9f9f9 0%,#e8e8e8 100%);
+	background:-ms-linear-gradient(top,#f9f9f9 0%,#e8e8e8 100%);
+	background:linear-gradient(top,#f9f9f9 0%,#e8e8e8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9',endColorstr='#e8e8e8',GradientType=0 );
+}
+#ovaem_pagin li a.current {
+	color:white;
+	text-shadow:0px 1px #3f789f;
+	-webkit-box-shadow:0px 1px 2px 0px rgba(0,0,0,0.8);
+	-moz-box-shadow:0px 1px 2px 0px rgba(0,0,0,0.8);
+	box-shadow:0px 1px 2px 0px rgba(0,0,0,0.8);
+	background:#7cb9e5;
+	background:-webkit-linear-gradient(top,#7cb9e5 0%,#57a1d8 100%);
+	background:-moz-linear-gradient(top,#7cb9e5 0%,#57a1d8 100%);
+	background:-o-linear-gradient(top,#7cb9e5 0%,#57a1d8 100%);
+	background:-ms-linear-gradient(top,#7cb9e5 0%,#57a1d8 100%);
+	background:linear-gradient(top,#7cb9e5 0%,#57a1d8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cb9e5',endColorstr='#57a1d8',GradientType=0 );
+}
+#ovaem_pagin li a:hover {
+	-webkit-box-shadow:0px 1px 3px 0px rgba(0,0,0,0.55);
+	-moz-box-shadow:0px 1px 3px 0px rgba(0,0,0,0.55);
+	box-shadow:0px 1px 3px 0px rgba(0,0,0,0.55);
+	background:#fff;
+	background:-webkit-linear-gradient(top,#fff 0%,#e8e8e8 100%);
+	background:-moz-linear-gradient(top,#fff 0%,#e8e8e8 100%);
+	background:-o-linear-gradient(top,#fff 0%,#e8e8e8 100%);
+	background:-ms-linear-gradient(top,#fff 0%,#e8e8e8 100%);
+	background:linear-gradient(top,#fff 0%,#e8e8e8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff',endColorstr='#e8e8e8',GradientType=0 );
+}
+#ovaem_pagin li a:active,
+#ovaem_pagin li a.current:active {
+	-webkit-box-shadow:inset 0px 1px 3px 0px rgba(0,0,0,0.5),0px 1px 1px 0px rgba(255,255,255,1) !important;
+	-moz-box-shadow:inset 0px 1px 3px 0px rgba(0,0,0,0.5),0px 1px 1px 0px rgba(255,255,255,1) !important;
+	box-shadow:inset 0px 1px 3px 0px rgba(0,0,0,0.5),0px 1px 1px 0px rgba(255,255,255,1) !important;
+}
+#ovaem_pagin li a.current:hover {
+	-webkit-box-shadow:0px 1px 2px 0px rgba(0,0,0,0.9);
+	-moz-box-shadow:0px 1px 2px 0px rgba(0,0,0,0.9);
+	box-shadow:0px 1px 2px 0px rgba(0,0,0,0.9);
+	background:#99cefc;
+	background:-webkit-linear-gradient(top,#99cefc 0%,#57a1d8 100%);
+	background:-moz-linear-gradient(top,#99cefc 0%,#57a1d8 100%);
+	background:-o-linear-gradient(top,#99cefc 0%,#57a1d8 100%);
+	background:-ms-linear-gradient(top,#99cefc 0%,#57a1d8 100%);
+	background:linear-gradient(top,#99cefc 0%,#57a1d8 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#99cefc',endColorstr='#57a1d8',GradientType=0 );
+}
+
+
+/* Sponsor */
+.sponsor_item{
+	
+	display: block;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+
+	.schedule_content{
+		margin: 30px 0px;
+	}
+
+
+
+	.ovaem_event_row{
+		padding: 0px 15px;
+		&.sponsor_wrap{
+			padding: 15px;
+		}
+	}
+
+	.head{
+
+		min-height: 30px;
+		width: 100%;
+		display: flex;
+		background-color: #ccc;
+		
+		&:hover{
+			cursor: move;
+		}
+
+		.date_label{
+			font-size: 16px;
+			float: left;
+			width: 90%;
+			
+		}
+		.icon{
+			float: right;
+			width: 10%;
+			text-align: right;
+
+		}
+		.date_label a,
+		.icon a{
+			line-height: 30px;
+			padding-left: 10px;
+			padding-right: 10px;
+			color: #999;
+			font-size: 14px;
+			display: inline-block;
+
+			&:hover{
+				color: #333;
+			}
+		}
+
+		
+	}
+
+	.sponsor_list{
+
+		margin: 10px;
+
+
+		.head{
+			background-color: #efefef;
+		}
+		.plan_data{
+			margin-top: 20px;
+		}
+
+	}
+	.add_sponsor_info.button  {
+		margin: 15px;
+	}
+
+}
+#ovaem_sponsor_logo{
+	display: inline-flex;
+}
+#image-metabox-list{
+	margin-top: 0;
+	margin-left: 70px;	
+}
+
+
+
+
+
+
+
+/* ticket Item */
+.ticket_item{
+	
+	display: block;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+
+	.ticket_content{
+		margin: 30px 0px;
+	}
+
+	.ovaem_event_row{
+		padding: 0px 15px;
+	}
+
+	.head{
+
+		min-height: 30px;
+		width: 100%;
+		display: flex;
+		background-color: #ccc;
+		
+		&:hover{
+			cursor: move;
+		}
+
+		.date_label{
+			font-size: 16px;
+			float: left;
+			width: 90%;
+			
+		}
+		.icon{
+			float: right;
+			width: 10%;
+			text-align: right;
+
+		}
+		.date_label a,
+		.icon a{
+			line-height: 30px;
+			padding-left: 10px;
+			padding-right: 10px;
+			color: #999;
+			font-size: 14px;
+			display: inline-block;
+
+			&:hover{
+				color: #333;
+			}
+		}
+
+		
+	}
+
+}
+
+
+/* Setting */
+.ovaem_settings{
+	.form-table{
+		th,td{
+			color: #222;
+			font-weight: 500;	
+		}
+		td{
+			font-weight: normal;
+		}
+		
+
+	}
+}
+
+/* Menu admin */
+#adminmenu{
+	ul{
+		li{
+			a{
+				text-transform: capitalize;
+			}
+		}
+	}
+}
+
+
+/* ORder Event */
+.text_grey{
+	color: grey;
+}
+.ovame_order_detail{
+	.ovaem_row{
+		strong{
+			min-width: 150px;
+			display: inline-block;
+		}		
+	}
+	.checkout_order{
+		text-align: left;
+		margin-top: 10px;
+	}
+}
+
+
+.woo_payment_section_setting .multiple-select{
+	min-height: 100px;
+}
+
+
+.hide_change_slug{
+	display: none;
+}
+
+.title_virtual_event{
+	margin-bottom: 10px;
+}
+.sub_title_virtual_event{
+	margin-bottom: 0;
+}
+.ticket_link, 
+.ticket_password{
+	min-width: 250px;
+}
+
+
+/* FAQ */
+.faq_item{
+	
+	display: block;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+
+	.schedule_content{
+		margin: 30px 0px;
+	}
+
+
+
+	.ovaem_event_row{
+		padding: 15px 15px;
+		&.sponsor_wrap{
+			padding: 15px;
+		}
+	}
+
+	.head{
+
+		min-height: 30px;
+		width: 100%;
+		display: flex;
+		background-color: #ccc;
+		
+		&:hover{
+			cursor: move;
+		}
+
+		.date_label{
+			font-size: 16px;
+			float: left;
+			width: 90%;
+			
+		}
+		.icon{
+			float: right;
+			width: 10%;
+			text-align: right;
+
+		}
+		.date_label a,
+		.icon a{
+			line-height: 30px;
+			padding-left: 10px;
+			padding-right: 10px;
+			color: #999;
+			font-size: 14px;
+			display: inline-block;
+
+			&:hover{
+				color: #333;
+			}
+		}
+
+		
+	}
+
+	.faq_list{
+
+		margin: 10px;
+
+
+		.head{
+			background-color: #efefef;
+		}
+		.plan_data{
+			margin-top: 20px;
+		}
+
+	}
+	.add_faq_info.button  {
+		margin: 15px;
+	}
+
+}
+#ovaem_faq_logo{
+	display: inline-flex;
+}
+
+/* Custom field checkout */
+
+.ova-list-checkout-field {
+	position: relative;
+	text-align: left;
+	table {
+		margin: 0px;
+		width: 100%;
+	}
+	tbody tr:nth-child(odd) {
+		background: #f9f9f9;
+	}
+	tbody tr:nth-child(even) {
+		background: #fff;
+	}
+	.wrap_loader {
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: rgba(255, 255, 255, 0.5);
+		width: 100%;
+		height: 100%;
+		z-index: 9;
+	}
+	.loader {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		display: inline-block;
+		border: 7px solid;
+		border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.5);
+		box-sizing: border-box;
+		animation: ovaem_rotation 1s linear infinite;
+	}
+
+	@keyframes ovaem_rotation {
+		0% {
+			transform: rotate(0deg);
+		}
+		100% {
+			transform: rotate(360deg);
+		}
+	}
+	table tbody tr td.ova-checkbox {
+		opacity: 1 !important;
+	}
+	table tbody tr.ova-disable td {
+		opacity: 0.4;
+	}
+}
+
+.ova-wrap-popup-checkout-field {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.3);
+	height: 120vh;
+	display: none;
+	.ova-popup-wrapper {
+		position: relative;
+		margin: 150px auto;
+		width: 40%;
+		height: auto;
+		background: #fff;
+		padding: 40px;
+		.close_popup {
+			font-size: 16px;
+			color: #333;
+			text-decoration: none;
+			position: absolute;
+			top: 10px;
+			right: 10px;
+		}
+		table {
+			border-spacing: 0 20px;
+		}
+		tr {
+			margin-bottom: 20px;
+			&.ova-row-type {
+				.file-format {
+					display: none;
+				}
+			}
+
+			&.max-file-size {
+				display: none;
+			}
+			td {
+				select, input[type=text] {
+					width: 100%;
+					min-width: 100%;
+				}
+				&.label {
+					font-size: 16px;
+					color: #333333;
+				}
+			}
+			&.row-required {
+				input[type=checkbox] {
+					margin-bottom: 10px;
+					margin-right: 5px;
+				}
+				label {
+					margin-bottom: 10px;
+					display: inline-block;
+					font-size: 15px;
+					color: #333;
+				}
+			}
+		}
+		.ova-sub-table {
+			border-spacing: 0px;
+			tr {
+				display: table;
+				margin-bottom: 10px;
+			}
+		}
+	} 
+}
+
+
+.ova-wrap-popup-checkout-field {
+	.ova-popup-wrapper {
+		tr {
+			&.row-options, &.row-radio, &.row-checkbox {
+				display: none;
+
+				table {
+					&.ova-sub-table {
+						td {
+							width: 30%;
+							padding-right: 10px;
+
+							input {
+								width: 100%;
+							}
+
+							&.ova-box {
+								width: 5%;
+								padding-right: 0px;
+
+								&.sort {
+									span {
+										cursor: pointer;
+									}
+								}
+
+								a {
+									color: #FFFFFF;
+									padding: 2px 5px;
+									border-radius: 3px;
+									font-size: 12px;
+									text-decoration: none;
+
+									&.btn-blue {
+										background-color: #00A0D2;
+										border: 1px solid #0073AA;
+									}
+
+									&.btn-red {
+										background-color: #ff6666;
+										border: 1px solid #ff4c4c;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

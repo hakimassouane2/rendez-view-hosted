@@ -1,0 +1,5081 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ovatheme Events Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-18 07:15+0000\n"
+"PO-Revision-Date: 2024-03-01 09:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.6; wp-6.4.3\n"
+"X-Domain: ovaem-events-manager"
+
+#: inc/class-ovaem-coupon.php:104
+msgid " ( Coupon: "
+msgstr ""
+
+#: inc/class-ovaem-location.php:17
+msgid " All Cities"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:89
+msgid " Event Archives"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:90
+msgid " Event Attributes"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:95
+msgid " Event Post Type"
+msgstr "Poste de type Événement"
+
+#: admin/class-ovaem-admin-settings.php:2506
+msgid ""
+" Name should only contain lowercase letters and the underscore character, "
+"and not be more than 32 characters long"
+msgstr ""
+"Le nom ne doit contenir que des lettres minuscules et le caractère _, et ne "
+"doit pas comporter plus de 32 caractères.\n"
+
+#: admin/class-ovaem-admin-settings.php:2436
+#: admin/class-ovaem-admin-settings.php:2446
+msgid ""
+" Name should only contain lowercase letters and the underscore character, "
+"and not be more than 32 characters long  and  without any spaces"
+msgstr ""
+"Le nom ne doit contenir que des lettres minuscules et le caractère de "
+"soulignement, ne doit pas dépasser 32 caractères et ne doit pas comporter "
+"d'espaces.\n"
+
+#: admin/class-ovaem-admin-settings.php:2456
+#: admin/class-ovaem-admin-settings.php:2466
+#: admin/class-ovaem-admin-settings.php:2476
+#: admin/class-ovaem-admin-settings.php:2486
+#: admin/class-ovaem-admin-settings.php:2496
+msgid ""
+" Name should only contain lowercase letters and the underscore character, "
+"and not be more than 32 characters long and  without any spaces"
+msgstr ""
+"Le nom ne doit contenir que des lettres minuscules et le caractère de "
+"soulignement, ne doit pas dépasser 32 caractères et ne doit pas comporter "
+"d'espaces."
+
+#: inc/class-ovaem-custom-post-types.php:134
+msgid " new"
+msgstr ""
+
+#: inc/ovaem-core-functions.php:215
+msgid " Register Event Success"
+msgstr ""
+
+#: templates/checkout/checkout.php:49
+msgid " Update Cart "
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3511
+#: admin/class-ovaem-admin-settings.php:3520
+#: admin/class-ovaem-admin-settings.php:3529
+msgid ""
+" You can find here: https://codex.wordpress.org/Formatting_Date_and_Time"
+msgstr ""
+"Vous pouvez trouver cela ici : https://codex.wordpress."
+"org/Formatting_Date_and_Time"
+
+#: inc/class-ovaem-coupon.php:96
+msgid "% )"
+msgstr ""
+
+#: templates/single-event-modern.php:190 templates/single-event.php:409
+msgid "+ Google Calendar"
+msgstr ""
+
+#: templates/single-event-modern.php:192 templates/single-event.php:411
+msgid "+ Ical Export"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3840
+#: admin/class-ovaem-admin-settings.php:3868
+#: admin/class-ovaem-admin-settings.php:3892
+msgid "- - - - - - -"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:138
+#: shortcode/ovaem-event-countdown.php:58 shortcode/ovaem-simple-event.php:79
+#: shortcode/ovaem-ticket-event.php:53 shortcode/ovaem-schedule-event.php:49
+msgid "-- Select Event --"
+msgstr ""
+
+#: shortcode/ovaem-categories.php:40 shortcode/ovaem-calendar.php:73
+#: shortcode/ovaem-cat-info.php:45
+msgid "--- Select Category ---"
+msgstr ""
+
+#: shortcode/ovaem-loc-info.php:56
+msgid "--- Select Location ---"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:121
+msgid "--------------"
+msgstr ""
+
+#: shortcode/ovaem-calendar.php:171
+msgid "0"
+msgstr ""
+
+#: shortcode/ovaem-calendar.php:165
+msgid "1"
+msgstr ""
+
+#: shortcode/ovaem-calendar.php:166
+msgid "2"
+msgstr ""
+
+#: shortcode/ovaem-calendar.php:167
+msgid "3"
+msgstr ""
+
+#: shortcode/ovaem-calendar.php:168
+msgid "4"
+msgstr ""
+
+#: shortcode/ovaem-calendar.php:169
+msgid "5"
+msgstr ""
+
+#: shortcode/ovaem-calendar.php:170
+msgid "6"
+msgstr ""
+
+#: inc/class-ovaem-custom-field-checkout.php:289
+#: inc/class-ovaem-custom-field-checkout.php:296
+#, php-format
+msgid "<strong>%s</strong> is a required field."
+msgstr ""
+
+#: inc/class-ovaem-ajax.php:407 admin/views/ovaem-metabox-ticket.php:163
+#: templates/cart/manage-booking.php:14
+msgid "Action"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event.php:44
+msgid "Add Date"
+msgstr "Ajouter une date"
+
+#: admin/views/ovaem-metabox-event.php:80
+msgid "Add Faq"
+msgstr "Ajouter une FAQ"
+
+#: templates/admin/custom-field-checkout.php:179
+msgid "Add field"
+msgstr "Ajouter un champ"
+
+#: admin/views/ovaem-metabox-event-sponsor-info.php:56
+#: admin/views/ovaem-metabox-event-sponsor-info.php:57
+#: admin/views/ovaem-metabox-event-sponsor-info.php:112
+#: admin/views/ovaem-metabox-event-sponsor-info.php:113
+msgid "Add image"
+msgstr "Ajouter une image"
+
+#: admin/views/ovaem-metabox-event-gallery.php:11
+msgid "Add image(s)"
+msgstr "Ajouter une (des) image(s)"
+
+#: admin/views/ovaem-metabox-event-gallery.php:11
+msgid "Add image(s) to gallery"
+msgstr "Ajouter une ou plusieurs images à la galerie"
+
+#: inc/class-ovaem-custom-post-types.php:132
+#: inc/class-ovaem-custom-post-types.php:215
+#: inc/class-ovaem-custom-post-types.php:305
+msgid "Add New "
+msgstr "Ajouter "
+
+#: inc/class-ovaem-custom-post-types.php:489
+msgid "Add New Coupon"
+msgstr "Ajouter un nouveau code promo"
+
+#: inc/class-ovaem-custom-post-types.php:79
+msgid "Add New Event"
+msgstr "Ajouter un nouvel événement"
+
+#: inc/class-ovaem-custom-post-types.php:536
+msgid "Add New Event Location"
+msgstr "Ajouter un nouveau lieu"
+
+#: inc/class-ovaem-custom-post-types.php:344
+msgid "Add New Event Tag"
+msgstr "Ajouter un nouveau Tag d'événement"
+
+#: inc/class-ovaem-custom-post-types.php:388
+msgid "Add New Order"
+msgstr "Ajouter une nouvelle commande"
+
+#: inc/class-ovaem-custom-post-types.php:166
+msgid "Add New Speaker"
+msgstr "Ajouter un nouvel intervenant"
+
+#: inc/class-ovaem-custom-post-types.php:439
+msgid "Add New Ticket"
+msgstr "Ajouter un nouveau billet"
+
+#: inc/class-ovaem-custom-post-types.php:255
+msgid "Add New Venue"
+msgstr "Ajouter un nouveau site"
+
+#: inc/class-ovaem-custom-post-types.php:541
+msgid "Add or remove Event Locations"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:349
+msgid "Add or remove Event Tags"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-schedule.php:81
+msgid "Add Plan"
+msgstr "Ajouter une Intervention"
+
+#: admin/views/ovaem-metabox-speaker.php:91
+msgid "Add Social"
+msgstr "Ajouter un réseau social"
+
+#: admin/views/ovaem-metabox-event-sponsor.php:61
+msgid "Add Sponsor"
+msgstr "Ajouter un sponsor"
+
+#: admin/views/ovaem-metabox-event.php:72
+msgid "Add Ticket"
+msgstr "Ajouter un billet"
+
+#: templates/cart/add-to-cart.php:2 templates/loop/ticket.php:227
+msgid "Add To Cart"
+msgstr ""
+
+#: templates/single-event-modern.php:182
+msgid "Add to My Calendar"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:85
+#: templates/register-free-event.php:64 admin/views/ovaem-metabox-order.php:161
+#: templates/checkout/checkout.php:115
+msgid "Additional Info"
+msgstr "Informations complémentaires"
+
+#: shortcode/ovaem-register-event-free.php:72 shortcode/ovaem-slideshow.php:204
+#: shortcode/ovaem-slideshow-two.php:222
+#: shortcode/ovaem-slider-event-two.php:222
+#: shortcode/ovaem-events-filter-ajax.php:493
+#: shortcode/ovaem-slider-event.php:194 shortcode/ovaem-events-filter.php:431
+#: shortcode/ovaem-slideshow-three.php:242
+#: admin/class-ovaem-export-page.php:188 templates/frontend-submit.php:41
+#: templates/check-ticket.php:41 templates/check-ticket.php:119
+#: templates/check-ticket.php:132 templates/register-free-event.php:53
+#: admin/views/ovaem-metabox-event-basic.php:146
+#: admin/views/ovaem-metabox-order.php:144
+#: admin/views/ovaem-metabox-venue.php:74
+#: admin/views/ovaem-metabox-ticket.php:81
+#: admin/views/ovaem-metabox-ticket.php:156
+#: admin/views/ovaem-metabox-speaker.php:70 templates/checkout/checkout.php:99
+msgid "Address"
+msgstr "Adresse"
+
+#: templates/single-venue.php:127 templates/single-event-modern.php:144
+#: templates/single-event.php:377 admin/views/ovaem-metabox-event-basic.php:179
+#: admin/views/ovaem-metabox-venue.php:140
+msgid "Address: "
+msgstr "Adresse:"
+
+#: admin/class-ovaem-admin-settings.php:3870
+#: admin/class-ovaem-admin-settings.php:3894
+msgid "Admin"
+msgstr "Administrateur"
+
+#: inc/class-ovaem-custom-post-types.php:486
+msgctxt "admin menu"
+msgid "Coupons"
+msgstr "Codes Promo"
+
+#: inc/class-ovaem-custom-post-types.php:76
+msgctxt "admin menu"
+msgid "Events"
+msgstr "Événements"
+
+#: inc/class-ovaem-custom-post-types.php:385
+msgctxt "admin menu"
+msgid "Orders"
+msgstr "Commandes"
+
+#: inc/class-ovaem-custom-post-types.php:163
+msgctxt "admin menu"
+msgid "Speakers"
+msgstr "Intervenants"
+
+#: inc/class-ovaem-custom-post-types.php:436
+msgctxt "admin menu"
+msgid "Tickets"
+msgstr "Billets"
+
+#: inc/class-ovaem-custom-post-types.php:252
+msgctxt "admin menu"
+msgid "Venues"
+msgstr "Sites"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1450
+msgid "Admin Review before Public Event"
+msgstr "Examen de l'administrateur avant de pouvoir créer un evenement"
+
+#: shortcode/ovaem-calendar.php:107 shortcode/ovaem-events-filter-ajax.php:89
+#: shortcode/ovaem-events-filter.php:64 admin/class-ovaem-export-page.php:79
+#: admin/class-ovaem-export-page.php:92
+msgid "All"
+msgstr "Tous"
+
+#: inc/class-ovaem-get-data.php:180 widgets/ovaem-categories.php:63
+#: widgets/ovaem_search_event.php:93
+msgid "All Categories"
+msgstr ""
+
+#: inc/class-ovaem-get-data.php:1331
+msgid "All Cities"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:498
+msgid "All Coupons"
+msgstr "Codes Promo"
+
+#: inc/class-ovaem-custom-post-types.php:532
+msgid "All Event Locations"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:340
+msgid "All Event Tags"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:88
+#: admin/class-ovaem-export-page.php:57
+msgid "All Events"
+msgstr "Tous les événements"
+
+#: shortcode/ovaem-search-banner.php:527
+msgid "All Events Icon"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:513
+msgid "All Events Link"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:520
+msgid "All Events Text"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:397
+msgid "All Orders"
+msgstr "Commandes"
+
+#: inc/class-ovaem-get-data.php:1242
+msgid "All States"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:448
+msgid "All Tickets"
+msgstr "Billets"
+
+#: shortcode/ovaem-search-banner.php:115 shortcode/ovaem-search-one.php:129
+#: widgets/ovaem_search_event.php:137
+msgid "All Time"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:97 shortcode/ovaem-search-one.php:92
+#: widgets/ovaem_search_event.php:107
+msgid "All Venue"
+msgstr ""
+
+#: shortcode/ovaem-venues-slider.php:101
+msgid "All Venues"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:185 shortcode/ovaem-search-one.php:181
+msgid "Allow show/hide field in search form"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1112
+msgid ""
+"Allow Verify Ticket after checkout so you can send pdf ticket to Attendees"
+msgstr ""
+"Autoriser la vérification du billet après le paiement afin de pouvoir "
+"envoyer un billet en format pdf aux participants."
+
+#: admin/views/ovaem-metabox-coupon.php:51
+msgid "Amount ($)"
+msgstr "Montant (€)"
+
+#: templates/cart/cart.php:95
+msgid "Apply coupon"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-speakers.php:37
+#: admin/views/ovaem-metabox-event-speakers.php:78
+msgid "Apply Speakers"
+msgstr "Valider les intervenants"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:744
+msgid "Archive Speaker Setting"
+msgstr "Réglage des archives Intervenant"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:880
+msgid "Archive Venue Style"
+msgstr "Style des archives de site"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1188
+msgid "Attachment File"
+msgstr "Fichier joint"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1202
+msgid "Attachment File Certificate in Mail "
+msgstr "Fichier joint Certificat par mail"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1195
+msgid "Attachment QR,PDF in Mail "
+msgstr "Attachement du code QR,PDF dans le mail"
+
+#: admin/class-ovaem-export-page.php:185
+msgid "Attendee"
+msgstr "Participant"
+
+#: admin/class-ovaem-export-page.php:47
+msgid "Attendee Address"
+msgstr "Adresse du participant"
+
+#: admin/class-ovaem-export-page.php:48
+msgid "Attendee Company"
+msgstr "Entreprise du participant"
+
+#: admin/class-ovaem-export-page.php:49
+msgid "Attendee Description"
+msgstr "Description du participant"
+
+#: admin/class-ovaem-export-page.php:45
+msgid "Attendee Email"
+msgstr "Email du participant"
+
+#: admin/class-ovaem-export-page.php:44
+msgid "Attendee Name"
+msgstr "Nom du participant"
+
+#: admin/class-ovaem-export-page.php:46
+msgid "Attendee Phone"
+msgstr "Tél. du participant"
+
+#: admin/class-ovaem-admin-settings.php:3872
+#: admin/class-ovaem-admin-settings.php:3896
+msgid "Attendees"
+msgstr "Participants"
+
+#: shortcode/ovaem-slideshow.php:266 shortcode/ovaem-slideshow-two.php:285
+#: shortcode/ovaem-slideshow-three.php:303
+msgid "Auto slider"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:204
+msgid "Available dates for tickets selling"
+msgstr "Dates disponibles pour la vente des billets"
+
+#: shortcode/ovaem-search-simple.php:88
+msgid "Background"
+msgstr ""
+
+#: shortcode/ovaem-categories.php:82
+msgid "Background color"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:385 shortcode/ovaem-slideshow-two.php:402
+#: shortcode/ovaem-search-simple.php:96 shortcode/ovaem-slideshow-three.php:422
+msgid "Background color cover"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event.php:18
+msgid "Basic"
+msgstr "Basique"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:137
+msgid "Basic Setting"
+msgstr "Réglage de base"
+
+#: admin/class-ovaem-admin-settings.php:2275
+msgid "Basic Settings"
+msgstr "Réglages de base"
+
+#: admin/class-ovaem-admin-settings.php:4218
+msgid "Both: QR Code & PDF Ticket"
+msgstr "Les deux : Code QR et billet PDF"
+
+#: shortcode/ovaem-events-filter-ajax.php:654
+#: shortcode/ovaem-events-filter.php:600
+msgid "Button Style"
+msgstr ""
+
+#: admin/class-ovaem-admin-orders.php:142
+msgid "by "
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:201
+msgid "Calendar Language"
+msgstr "Langue du calendrier"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1021
+msgid "Cancel Page while register"
+msgstr "Page d'annulation"
+
+#: inc/class-ovaem-ajax.php:442 admin/class-ovaem-admin-orders.php:55
+#: admin/views/ovaem-metabox-order.php:26 templates/cart/manage-booking.php:52
+msgid "Canceled Reversal"
+msgstr "Annulation annulée"
+
+#: inc/class-ovaem-ajax.php:491 admin/class-ovaem-admin-orders.php:93
+#: templates/cart/manage-booking.php:101
+msgid "Cancelled"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1486
+msgid "Captcha secrect key"
+msgstr "Clé secrète Captcha"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1463
+#: admin/class-ovaem-admin-settings.php:2289
+msgid "Captcha Settings"
+msgstr "Réglages captcha"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1478
+msgid "Captcha site key"
+msgstr "Clé de site Captcha"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1470
+msgid "Captcha type"
+msgstr "Type de Captcha"
+
+#: inc/class-ovaem-process-data.php:27 inc/class-ovaem-recapcha.php:89
+#: inc/class-ovaem-recapcha.php:95 inc/class-ovaem-recapcha.php:105
+#: inc/class-ovaem-recapcha.php:114 inc/class-ovaem-recapcha.php:124
+#: inc/class-ovaem-recapcha.php:142 inc/class-ovaem-recapcha.php:158
+#: inc/class-ovaem-recapcha.php:174 inc/class-ovaem-recapcha.php:176
+#: templates/checkout/checkout.php:66
+msgid "CAPTCHA verification failed."
+msgstr ""
+
+#: shortcode/ovaem-cart.php:32 admin/views/ovaem-metabox-order.php:182
+msgid "Cart"
+msgstr ""
+
+#: templates/cart/cart.php:144
+msgid "Cart is empty. "
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:997
+msgid "Cart Page"
+msgstr "Page du panier"
+
+#: templates/cart/cart.php:102
+msgid "Cart Total"
+msgstr ""
+
+#: shortcode/ovaem-categories.php:49 templates/frontend-submit.php:66
+msgid "Categories"
+msgstr "Catégories"
+
+#: shortcode/ovaem-calendar.php:119
+msgid "Category"
+msgstr ""
+
+#: shortcode/ovaem-events-filter.php:381
+msgid "Category Filter"
+msgstr ""
+
+#: shortcode/ovaem-events-filter-ajax.php:443
+msgid "Category Filter Ajax"
+msgstr ""
+
+#: shortcode/ovaem-cat-info.php:51
+msgid "Category Info"
+msgstr ""
+
+#: shortcode/ovaem-events-filter.php:383
+msgid "Category Navigation Filter"
+msgstr ""
+
+#: shortcode/ovaem-events-filter-ajax.php:445
+msgid "Category Navigation Filter Ajax"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-gallery.php:19
+msgid "Change image"
+msgstr "Changer l'image"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:50
+msgid "Change Slug"
+msgstr "Changer de slug"
+
+#: woomodern/src/Traits/SingletonTrait.php:41
+#: woomodern/src/Traits/SingletonTrait.php:50
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: shortcode/ovaem-check-ticket.php:15
+msgid "Check"
+msgstr ""
+
+#: templates/cart/cart.php:131
+msgid "Check Out"
+msgstr ""
+
+#: shortcode/ovaem-check-ticket.php:25
+msgid "Check Ticket"
+msgstr ""
+
+#: templates/admin/custom-field-checkout.php:239
+msgid "Checkbox"
+msgstr ""
+
+#: admin/class-ovaem-export-page.php:93
+msgid "Checked"
+msgstr "Enregistré"
+
+#: admin/class-ovaem-admin-tickets.php:20
+#: admin/views/ovaem-metabox-ticket.php:39
+#: admin/views/ovaem-metabox-ticket.php:197
+msgid "Checked In"
+msgstr "Enregistré"
+
+#: admin/class-ovaem-export-page.php:249
+msgid "Checked in"
+msgstr "Enregistré"
+
+#: admin/class-ovaem-export-page.php:43 admin/class-ovaem-export-page.php:184
+msgid "Checking Status"
+msgstr "Statut d'entrée"
+
+#: shortcode/ovaem-checkout.php:30
+msgid "Checkout"
+msgstr ""
+
+#: templates/checkout/checkout.php:229
+msgid "Checkout is empty. "
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1005
+msgid "Checkout Page"
+msgstr "Page de paiement"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:973
+msgid "Checkout Setting"
+msgstr "Réglage des paiements"
+
+#: admin/class-ovaem-admin-settings.php:2283
+msgid "Checkout Settings"
+msgstr "Réglages des paiements"
+
+#: shortcode/ovaem-slider-event-two.php:185
+#: shortcode/ovaem-slider-event.php:169 shortcode/ovaem-slideshow-three.php:216
+msgid "Choose an Event"
+msgstr ""
+
+#: inc/import-order-ticket-woo.php:347
+msgid "Choose an event"
+msgstr ""
+
+#: admin/class-ovaem-export-page.php:54
+msgid "Choose an Event to export or All"
+msgstr "Choisissez un événement à exporter ou tous les événements"
+
+#: shortcode/ovaem-loc-info.php:74 shortcode/ovaem-cat-info.php:62
+msgid "Choose Category"
+msgstr ""
+
+#: shortcode/ovaem-slider-event-two.php:207
+msgid "Choose category"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:178 shortcode/ovaem-slideshow-two.php:196
+msgid "Choose Event"
+msgstr ""
+
+#: shortcode/ovaem-schedule-event.php:76
+msgid "Choose event to display schedule in event"
+msgstr ""
+
+#: shortcode/ovaem-ticket-event.php:80
+msgid "Choose event to display ticket in event"
+msgstr ""
+
+#: admin/class-ovaem-export-page.php:38
+msgid "Choose fields to export"
+msgstr "Choisir les champs à exporter"
+
+#: inc/class-ovaem-custom-post-types.php:542
+msgid "Choose from the most used Event Locations"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:350
+msgid "Choose from the most used Event Tags"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:119
+msgid "Choose Product in Woo"
+msgstr "Choisir un produit dans Woocommerce"
+
+#: admin/views/ovaem-metabox-event-schedule-plan.php:64
+#: admin/views/ovaem-metabox-event-schedule-plan.php:125
+msgid "Choose Speakers"
+msgstr "Choisir les intervenants"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:417
+msgid "Choose the weekends"
+msgstr "Choisir les week-ends"
+
+#: shortcode/ovaem-register-event-free.php:279
+#: shortcode/ovaem-slideshow.php:394 shortcode/ovaem-venues-slider.php:274
+#: shortcode/ovaem-check-ticket.php:36 shortcode/ovaem-categories.php:92
+#: shortcode/ovaem-slideshow-two.php:424
+#: shortcode/ovaem-event-countdown.php:102
+#: shortcode/ovaem-search-banner.php:549 shortcode/ovaem-simple-event.php:130
+#: shortcode/ovaem-slider-event-two.php:297 shortcode/ovaem-checkout.php:40
+#: shortcode/ovaem-ticket-event.php:89 shortcode/ovaem-speaker-list.php:355
+#: shortcode/ovaem-search-simple.php:104 shortcode/ovaem-event-map.php:200
+#: shortcode/ovaem-cart-manage-booking.php:39 shortcode/ovaem-calendar.php:182
+#: shortcode/ovaem-events-filter-ajax.php:719 shortcode/ovaem-loc-info.php:100
+#: shortcode/ovaem-cat-info.php:80 shortcode/ovaem-slider-event.php:281
+#: shortcode/ovaem-events-filter.php:665 shortcode/ovaem-cart.php:42
+#: shortcode/ovaem-search-one.php:390 shortcode/ovaem-slideshow-three.php:504
+#: shortcode/ovaem-schedule-event.php:85
+#: templates/admin/custom-field-checkout.php:334
+msgid "Class"
+msgstr ""
+
+#: widgets/ovaem_search_event.php:248
+msgid "Class :"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3064
+msgid "Classic"
+msgstr "Classique"
+
+#: admin/class-ovaem-admin-tickets.php:78
+#: admin/class-ovaem-admin-settings.php:4373
+#: admin/class-ovaem-export-page.php:41 templates/check-ticket.php:84
+#: admin/views/ovaem-metabox-coupon.php:39
+#: admin/views/ovaem-metabox-ticket.php:13
+msgid "Code"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-label.php:60
+msgid "Comment"
+msgstr "Commentaire"
+
+#: templates/single-event-modern.php:326 templates/single-event.php:42
+msgid "Comments"
+msgstr "Commentaires"
+
+#: shortcode/ovaem-register-event-free.php:79
+#: admin/class-ovaem-export-page.php:189 templates/check-ticket.php:136
+#: templates/register-free-event.php:58 admin/views/ovaem-metabox-order.php:153
+#: admin/views/ovaem-metabox-ticket.php:89 templates/checkout/checkout.php:110
+msgid "Company"
+msgstr "Entreprise"
+
+#: admin/class-ovaem-admin-orders.php:34
+msgid "Company: "
+msgstr "Entreprise:"
+
+#: inc/class-ovaem-ajax.php:438 inc/class-ovaem-ajax.php:487
+#: admin/class-ovaem-admin-settings.php:3842
+#: admin/class-ovaem-admin-orders.php:51 admin/class-ovaem-admin-orders.php:90
+#: admin/views/ovaem-metabox-order.php:24 templates/cart/manage-booking.php:48
+#: templates/cart/manage-booking.php:97
+msgid "Completed"
+msgstr "Terminé"
+
+#: templates/single-event.php:40 admin/views/ovaem-metabox-event.php:25
+#: admin/views/ovaem-metabox-event-label.php:48
+msgid "Contact"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-sidebar.php:10
+msgid ""
+"Content display in Sidebar of Event. You can insert Shortcode, HTML Tag here "
+msgstr ""
+"Affichage du contenu dans la barre latérale de l'événement. Vous pouvez "
+"insérer un code court, une balise HTML ici"
+
+#: shortcode/ovaem-slideshow.php:216 shortcode/ovaem-venues-slider.php:155
+#: shortcode/ovaem-slideshow-two.php:233
+#: shortcode/ovaem-slider-event-two.php:274
+#: shortcode/ovaem-speaker-list.php:221 shortcode/ovaem-event-map.php:122
+#: shortcode/ovaem-slider-event.php:205 shortcode/ovaem-slideshow-three.php:253
+msgid "Count"
+msgstr ""
+
+#: shortcode/ovaem-events-filter-ajax.php:503
+#: shortcode/ovaem-events-filter.php:441
+msgid "Count item in each category"
+msgstr ""
+
+#: widgets/ovaem_list_events.php:119
+msgid "Count:"
+msgstr ""
+
+#: admin/views/ovaem-metabox-order.php:170
+msgid "Coupon"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:499
+msgid "Coupon Archives"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:500
+msgid "Coupon Attributes"
+msgstr ""
+
+#: templates/cart/cart.php:93
+msgid "Coupon Code"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:505
+msgid "Coupon Post Type"
+msgstr ""
+
+#: admin/class-ovaem-admin-metaboxes.php:116
+msgid "coupon Settings"
+msgstr "Paramètres du code promo"
+
+#: admin/views/ovaem-metabox-event.php:58
+msgid "Create Sponsor"
+msgstr "Créer un sponsor"
+
+#: shortcode/ovaem-slideshow.php:231 shortcode/ovaem-venues-slider.php:168
+#: shortcode/ovaem-slideshow-two.php:248
+#: shortcode/ovaem-slider-event-two.php:239
+#: shortcode/ovaem-speaker-list.php:234 shortcode/ovaem-event-map.php:137
+#: shortcode/ovaem-events-filter-ajax.php:518
+#: shortcode/ovaem-slider-event.php:220 shortcode/ovaem-events-filter.php:456
+#: shortcode/ovaem-slideshow-three.php:268
+#: admin/class-ovaem-admin-settings.php:3480
+#: admin/class-ovaem-admin-settings.php:3628
+#: admin/class-ovaem-admin-settings.php:3666
+#: admin/class-ovaem-admin-settings.php:3756
+#: admin/class-ovaem-admin-settings.php:4830
+#: admin/class-ovaem-admin-settings.php:4916
+msgid "Created Date"
+msgstr "Date de création"
+
+#: widgets/ovaem_list_events.php:129
+msgid "Created date"
+msgstr "Date de création"
+
+#: shortcode/ovaem-slideshow.php:169 shortcode/ovaem-slideshow-two.php:186
+#: shortcode/ovaem-slider-event-two.php:176 shortcode/ovaem-event-map.php:113
+#: shortcode/ovaem-events-filter-ajax.php:480
+#: shortcode/ovaem-slider-event.php:160 shortcode/ovaem-events-filter.php:418
+#: shortcode/ovaem-slideshow-three.php:206 widgets/ovaem_list_events.php:114
+msgid "Creation Date"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1087
+#: admin/class-ovaem-admin-settings.php:1161
+#: admin/views/ovaem-metabox-event-ticket.php:111
+msgid "Currency"
+msgstr "Monnaie"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:169
+msgid "Currency Position"
+msgstr "Position de la monnaie"
+
+#: admin/class-ovaem-cfc-settings.php:17 admin/class-ovaem-cfc-settings.php:18
+msgid "Custom Field Checkout"
+msgstr "Champ personnalisé Paiement"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1560
+#: admin/class-ovaem-admin-settings.php:2291
+msgid "Custom Field Checkout Settings"
+msgstr "Réglages des champs personnalisés de paiement"
+
+#: admin/class-ovaem-admin-orders.php:168
+#: admin/views/ovaem-metabox-event-schedule.php:64
+msgid "Date"
+msgstr ""
+
+#: inc/class-ovaem-ajax.php:405 inc/class-ovaem-ajax.php:421
+#: templates/cart/manage-booking.php:12 templates/cart/manage-booking.php:31
+msgid "Date Created"
+msgstr "Date de création"
+
+#: shortcode/ovaem-search-banner.php:308 shortcode/ovaem-search-one.php:284
+msgid "Date Format"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:283
+msgid "Day Format"
+msgstr "Format du jour"
+
+#: admin/class-ovaem-admin-settings.php:3245
+msgid "days countdown"
+msgstr "Jour de compte à rebours"
+
+#: shortcode/ovaem-slideshow.php:243 shortcode/ovaem-venues-slider.php:180
+#: shortcode/ovaem-slideshow-two.php:260
+#: shortcode/ovaem-slider-event-two.php:251
+#: shortcode/ovaem-speaker-list.php:246 shortcode/ovaem-event-map.php:150
+#: shortcode/ovaem-events-filter-ajax.php:530
+#: shortcode/ovaem-slider-event.php:233 shortcode/ovaem-events-filter.php:468
+#: shortcode/ovaem-slideshow-three.php:280
+#: admin/class-ovaem-admin-settings.php:3499
+#: admin/class-ovaem-admin-settings.php:3643
+#: admin/class-ovaem-admin-settings.php:3685
+#: admin/class-ovaem-admin-settings.php:3771
+#: admin/class-ovaem-admin-settings.php:4849
+#: admin/class-ovaem-admin-settings.php:4931 widgets/ovaem_list_events.php:137
+msgid "Decrease"
+msgstr "Décroissant"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1037
+msgid "Default Payment Gateway"
+msgstr "Passerelle de paiement par défaut"
+
+#: inc/class-ovaem-ajax.php:446 admin/class-ovaem-admin-orders.php:58
+#: admin/views/ovaem-metabox-order.php:28 templates/cart/manage-booking.php:56
+msgid "Denied"
+msgstr "Refusé"
+
+#: admin/class-ovaem-export-page.php:190 templates/frontend-submit.php:132
+#: templates/check-ticket.php:45 templates/check-ticket.php:140
+#: admin/views/ovaem-metabox-event-faq.php:59
+#: admin/views/ovaem-metabox-event-organizer.php:72
+#: admin/views/ovaem-metabox-ticket.php:97
+#: admin/views/ovaem-metabox-event-ticket.php:254
+#: admin/views/ovaem-metabox-event-schedule-plan.php:57
+#: admin/views/ovaem-metabox-event-schedule-plan.php:118
+#: templates/admin/custom-field-checkout.php:322
+msgid "Description"
+msgstr ""
+
+#: admin/class-ovaem-admin-orders.php:37 templates/loop/organizer.php:66
+msgid "Description: "
+msgstr ""
+
+#: shortcode/ovaem-loc-info.php:84
+msgid "Desktop Image"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:814
+msgid "Detail Speaker Setting"
+msgstr "Réglage des details de l'intervenant"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:914
+msgid "Detail Venue Setting"
+msgstr "Réglage des details du site"
+
+#: templates/admin/custom-field-checkout.php:188
+msgid "Disable"
+msgstr "Désactiver"
+
+#: admin/views/ovaem-metabox-coupon.php:47
+msgid "Discount"
+msgstr "Réduction"
+
+#: templates/cart/cart.php:88
+msgid "Discount code"
+msgstr "Code Promo"
+
+#: shortcode/ovaem-slideshow.php:200 shortcode/ovaem-slideshow-two.php:218
+#: shortcode/ovaem-slider-event-two.php:218
+#: shortcode/ovaem-events-filter-ajax.php:489
+#: shortcode/ovaem-slider-event.php:190 shortcode/ovaem-events-filter.php:427
+#: shortcode/ovaem-slideshow-three.php:238
+msgid "Display Address like"
+msgstr ""
+
+#: shortcode/ovaem-speaker-list.php:321
+msgid "Display all speaker"
+msgstr ""
+
+#: shortcode/ovaem-venues-slider.php:120 shortcode/ovaem-speaker-list.php:187
+msgid "Display by slugs or featured"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:371 shortcode/ovaem-slideshow-two.php:390
+#: shortcode/ovaem-slideshow-three.php:408
+msgid "Display cover background"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:251
+msgid "Display Description of Category"
+msgstr "Afficher la description de la catégorie"
+
+#: shortcode/ovaem-slider-event-two.php:161
+msgid "Display in menugamenu"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:243
+#: admin/class-ovaem-admin-settings.php:466
+msgid "Display Past Event"
+msgstr "Afficher les événements passés"
+
+#: shortcode/ovaem-ticket-event.php:71
+msgid "Display price table of an event"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:155
+msgid "Display Register Form"
+msgstr ""
+
+#: shortcode/ovaem-simple-event.php:92 shortcode/ovaem-schedule-event.php:68
+msgid "Display schedule of an event"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:259
+msgid "Display Status Event"
+msgstr "Afficher l'état de l'événement"
+
+#: shortcode/ovaem-categories.php:51
+msgid "Display thumbnail and category link"
+msgstr ""
+
+#: inc/class-ovaem-ajax.php:521 templates/cart/manage-booking.php:126
+msgid "Download"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:278 shortcode/ovaem-slideshow-two.php:297
+#: shortcode/ovaem-slideshow-three.php:315
+msgid "Duration of slider(ms). 1000ms = 1s"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:211
+msgid "During selected date range"
+msgstr "Pendant la période sélectionnée"
+
+#: inc/ovaem-core-functions.php:723
+#: templates/admin/custom-field-checkout.php:199
+msgid "Edit"
+msgstr "Editer"
+
+#: inc/class-ovaem-custom-post-types.php:130
+#: inc/class-ovaem-custom-post-types.php:213
+#: inc/class-ovaem-custom-post-types.php:303
+msgid "Edit "
+msgstr "Editer"
+
+#: inc/class-ovaem-custom-post-types.php:490
+msgid "Edit Coupon"
+msgstr "Modifier le code promo"
+
+#: inc/class-ovaem-custom-post-types.php:80
+msgid "Edit Event"
+msgstr "Modifier l'événement"
+
+#: inc/class-ovaem-custom-post-types.php:537
+msgid "Edit Event Location"
+msgstr "Modifier le lieu de l'événement"
+
+#: inc/class-ovaem-custom-post-types.php:345
+msgid "Edit Event Tag"
+msgstr "Modifier le tag de l'événement"
+
+#: inc/class-ovaem-custom-post-types.php:389
+msgid "Edit Order"
+msgstr "Modifier la commande"
+
+#: inc/class-ovaem-custom-post-types.php:167
+msgid "Edit Speaker"
+msgstr "Modifier l'intervenant"
+
+#: inc/class-ovaem-custom-post-types.php:440
+msgid "Edit Ticket"
+msgstr "Modifier le billet"
+
+#: inc/class-ovaem-custom-post-types.php:256
+msgid "Edit Venue"
+msgstr "Modifier le site"
+
+#: admin/class-ovaem-admin-tickets.php:81 admin/class-ovaem-export-page.php:186
+#: templates/check-ticket.php:37 templates/check-ticket.php:124
+#: admin/views/ovaem-metabox-order.php:126
+#: admin/views/ovaem-metabox-venue.php:56
+#: admin/views/ovaem-metabox-event-organizer.php:52
+#: admin/views/ovaem-metabox-ticket.php:66
+#: templates/admin/custom-field-checkout.php:234
+msgid "Email"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:52
+#: templates/register-free-event.php:37 templates/checkout/checkout.php:94
+msgid "Email *"
+msgstr ""
+
+#: templates/single-venue.php:106 templates/loop/organizer.php:45
+msgid "Email: "
+msgstr ""
+
+#: shortcode/ovaem-events-filter-ajax.php:466
+#: shortcode/ovaem-events-filter.php:404
+msgid "Empty to active All tab or insert slug category"
+msgstr ""
+
+#: templates/admin/custom-field-checkout.php:185
+#: templates/admin/custom-field-checkout.php:346
+msgid "Enable"
+msgstr "Activer"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1525
+msgid "Enable for Comment"
+msgstr "Activer pour les commentaires"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1549
+#: admin/class-ovaem-admin-settings.php:1575
+msgid "Enable for Event Checkout"
+msgstr "Activé pour le paiement"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1567
+msgid "Enable for Event Free"
+msgstr "Activer pour les événements gratuits"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1501
+msgid "Enable for Login"
+msgstr "Activer pour la connexion"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1517
+msgid "Enable for Lost Password"
+msgstr "Activation pour mot de passe perdu"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1509
+msgid "Enable for Register"
+msgstr "Activer pour l'inscription"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1533
+msgid "Enable for Register Event"
+msgstr "Activer pour l'achat de billet"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1541
+#: admin/class-ovaem-admin-settings.php:1583
+msgid "Enable for Woocommerce Checkout"
+msgstr "Activé pour le paiement woocommerce"
+
+#: templates/admin/custom-field-checkout.php:198
+msgid "Enabled"
+msgstr "Activé"
+
+#: admin/views/ovaem-metabox-coupon.php:93
+msgid "Enabled for Woo"
+msgstr "Activé pour Woocommerce"
+
+#: templates/frontend-submit.php:57
+msgid "End  Time"
+msgstr "Date de fin"
+
+#: admin/views/ovaem-metabox-coupon.php:76
+msgid "End date"
+msgstr "Date de fin"
+
+#: templates/single-event.php:355
+msgid "End Date: "
+msgstr "Date de fin:"
+
+#: shortcode/ovaem-slideshow.php:229 shortcode/ovaem-slideshow-two.php:246
+#: shortcode/ovaem-slider-event-two.php:237 shortcode/ovaem-event-map.php:135
+#: shortcode/ovaem-events-filter-ajax.php:516
+#: shortcode/ovaem-slider-event.php:218 shortcode/ovaem-events-filter.php:454
+#: shortcode/ovaem-slideshow-three.php:266
+#: admin/class-ovaem-admin-settings.php:3478
+#: admin/class-ovaem-admin-settings.php:3626
+#: admin/class-ovaem-admin-settings.php:3754
+#: admin/class-ovaem-admin-settings.php:4914 widgets/ovaem_list_events.php:127
+#: admin/views/ovaem-metabox-ticket.php:140
+msgid "End Time"
+msgstr "Date de fin"
+
+#: templates/check-ticket.php:109
+msgid "End time"
+msgstr "Date de fin"
+
+#: admin/views/ovaem-metabox-event-basic.php:167
+#: admin/views/ovaem-metabox-venue.php:132
+msgid "Enter a venue"
+msgstr ""
+
+#: shortcode/ovaem-search-one.php:67 widgets/ovaem_search_event.php:88
+msgid "Enter Name ..."
+msgstr ""
+
+#: shortcode/ovaem-check-ticket.php:14
+msgid "Enter QR Code: "
+msgstr ""
+
+#: inc/class-ovaem-process-data.php:27 inc/class-ovaem-recapcha.php:158
+msgid "Error"
+msgstr ""
+
+#: templates/register-send-mail.php:4
+msgid "Error Send Mail"
+msgstr ""
+
+#: inc/class-ovaem-ajax.php:503 admin/class-ovaem-admin-orders.php:103
+#: templates/cart/manage-booking.php:113
+msgid "Error send mail to attendee"
+msgstr ""
+
+#: inc/class-ovaem-cart.php:120 admin/class-ovaem-export-page.php:180
+#: templates/check-ticket.php:89 admin/views/ovaem-metabox-order.php:188
+#: admin/views/ovaem-metabox-ticket.php:106
+#: admin/views/ovaem-metabox-ticket.php:109 templates/pdf/template2.php:17
+#: templates/checkout/checkout.php:132
+msgid "Event"
+msgstr "Événement"
+
+#: inc/class-ovaem-custom-post-types.php:488
+msgctxt "event"
+msgid "Add New Coupon"
+msgstr "Ajouter un code promo"
+
+#: inc/class-ovaem-custom-post-types.php:78
+msgctxt "event"
+msgid "Add New Event"
+msgstr "Ajouter un nouvel événement"
+
+#: inc/class-ovaem-custom-post-types.php:387
+msgctxt "event"
+msgid "Add New Order"
+msgstr "Ajouter une nouvelle commande"
+
+#: inc/class-ovaem-custom-post-types.php:165
+msgctxt "event"
+msgid "Add New Speaker"
+msgstr "Ajouter un nouvel intervenant"
+
+#: inc/class-ovaem-custom-post-types.php:438
+msgctxt "event"
+msgid "Add New Ticket"
+msgstr "Ajouter un nouveau billet"
+
+#: inc/class-ovaem-custom-post-types.php:254
+msgctxt "event"
+msgid "Add New Venue"
+msgstr "Ajouter un nouveau site"
+
+#: shortcode/ovaem-calendar.php:93
+msgid "Event Calendar"
+msgstr ""
+
+#: shortcode/ovaem-event-countdown.php:69
+msgid "Event Countdown"
+msgstr ""
+
+#: templates/single-event.php:337
+msgid "Event Detail"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:509
+msgid "Event Detail Settings"
+msgstr "Paramètres détaillés de l'événement"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1413
+msgid "Event Font Size: "
+msgstr "Taille de police de l'événement:"
+
+#: shortcode/ovaem-register-event-free.php:166
+msgid "Event ID"
+msgstr ""
+
+#: shortcode/ovaem-frontend-submit-event.php:32
+#: shortcode/ovaem-register-event-free.php:157
+#: shortcode/ovaem-slideshow.php:154 shortcode/ovaem-venues-slider.php:122
+#: shortcode/ovaem-check-ticket.php:28 shortcode/ovaem-categories.php:53
+#: shortcode/ovaem-slideshow-two.php:170 shortcode/ovaem-event-countdown.php:72
+#: shortcode/ovaem-search-banner.php:187 shortcode/ovaem-simple-event.php:94
+#: shortcode/ovaem-slider-event-two.php:160 shortcode/ovaem-checkout.php:33
+#: shortcode/ovaem-ticket-event.php:70 shortcode/ovaem-speaker-list.php:189
+#: shortcode/ovaem-search-simple.php:55 shortcode/ovaem-event-map.php:98
+#: shortcode/ovaem-cart-manage-booking.php:32 shortcode/ovaem-calendar.php:96
+#: shortcode/ovaem-events-filter-ajax.php:447 shortcode/ovaem-loc-info.php:66
+#: shortcode/ovaem-cat-info.php:54 shortcode/ovaem-slider-event.php:145
+#: shortcode/ovaem-events-filter.php:385 shortcode/ovaem-cart.php:35
+#: shortcode/ovaem-search-one.php:183 shortcode/ovaem-slideshow-three.php:190
+#: shortcode/ovaem-schedule-event.php:66
+msgid "Event Manager"
+msgstr ""
+
+#: shortcode/ovaem-event-map.php:95
+msgid "Event Map"
+msgstr ""
+
+#: admin/class-ovaem-admin-tickets.php:76 admin/class-ovaem-export-page.php:39
+#: admin/views/ovaem-metabox-order.php:67 templates/cart/cart.php:18
+#: templates/cart/cart.php:47
+msgid "Event Name"
+msgstr "Événement"
+
+#: admin/class-ovaem-export-page.php:40
+msgid "Event Package"
+msgstr "Package de l'événement"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:59
+msgid "Event Post Type"
+msgstr "Poste de type Événement"
+
+#: admin/class-ovaem-admin-settings.php:2262
+#: admin/class-ovaem-admin-metaboxes.php:67
+msgid "Event Settings"
+msgstr "Paramètres de l'événement"
+
+#: inc/ovaem-core-functions.php:157
+msgid "Event Sidebar"
+msgstr ""
+
+#: shortcode/ovaem-slider-event.php:141
+msgid "Event Slider"
+msgstr ""
+
+#: shortcode/ovaem-slider-event-two.php:157
+msgid "Event Slider Two"
+msgstr ""
+
+#: shortcode/ovaem-event-countdown.php:80
+msgid "Event Slug"
+msgstr ""
+
+#: shortcode/ovaem-simple-event.php:104
+msgid "Event slug"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:337
+#: inc/class-ovaem-custom-post-types.php:338
+msgid "Event Tag"
+msgstr "Tag de l'événement"
+
+#: inc/class-ovaem-custom-post-types.php:339
+msgid "Event Tags"
+msgstr ""
+
+#: shortcode/ovaem-loc-info.php:39
+msgid "Events"
+msgstr ""
+
+#: templates/loop/related.php:35
+msgid "Events in this venue"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:929
+msgid "Events in this venue: Count"
+msgstr "Événements dans ce lieu : Compte"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:937
+msgid "Events in this venue: Show Past Event"
+msgstr "Événements dans ce lieu : Afficher les événements passé"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:921
+msgid "Events in this venue: Show section"
+msgstr "Événements dans ce lieu : Afficher la section"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:961
+msgid "Events in this venue:: Order"
+msgstr "Événements dans ce site:: Ordre"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:953
+msgid "Events in this venue:: Order By"
+msgstr "Événements dans ce site:: Classer par"
+
+#: templates/single-speaker.php:92
+msgid "Events Joined"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:821
+msgid "Events Joined show"
+msgstr ""
+
+#: ova-events-manager.php:180 admin/class-ovaem-admin-menu.php:26
+#: admin/class-ovaem-admin-menu.php:27
+msgid "Events Manager"
+msgstr "Gestionnaire d'événements"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:307
+msgid "Events Per Page"
+msgstr "Événements par page"
+
+#: admin/class-ovaem-admin-settings.php:4424
+#: admin/class-ovaem-admin-settings.php:4433
+msgid "Example: #333333"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3313
+msgid "Example: 9:00, 9:30, 10:00, 10:30"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:191 shortcode/ovaem-slideshow-two.php:209
+#: shortcode/ovaem-slider-event-two.php:197
+#: shortcode/ovaem-slider-event.php:181 shortcode/ovaem-slideshow-three.php:228
+msgid "Example: slug-event-1, slug-event-2"
+msgstr ""
+
+#: inc/class-ovaem-ajax.php:450 admin/class-ovaem-admin-orders.php:61
+#: admin/views/ovaem-metabox-order.php:30 templates/cart/manage-booking.php:60
+msgid "Expired"
+msgstr "Expiré"
+
+#: admin/class-ovaem-admin-menu.php:62 admin/class-ovaem-admin-menu.php:63
+#: admin/class-ovaem-export-page.php:105
+msgid "Export"
+msgstr "Exporter"
+
+#: admin/class-ovaem-export-page.php:33
+msgid "Export Attendees"
+msgstr "Exportations Participants"
+
+#: templates/frontend-submit.php:108
+msgid "extension: .jpg, .png, .jpeg"
+msgstr ""
+
+#: templates/loop/ticket.php:191 templates/loop/ticket.php:199
+msgid "External Link"
+msgstr ""
+
+#: templates/single-event.php:41
+msgid "Extra Info"
+msgstr ""
+
+#: inc/class-ovaem-ajax.php:454 inc/class-ovaem-ajax.php:499
+#: admin/class-ovaem-admin-orders.php:64 admin/class-ovaem-admin-orders.php:99
+#: admin/views/ovaem-metabox-order.php:32 templates/cart/manage-booking.php:64
+#: templates/cart/manage-booking.php:109
+msgid "Failed"
+msgstr "Échec"
+
+#: shortcode/ovaem-slideshow.php:270 shortcode/ovaem-slideshow.php:290
+#: shortcode/ovaem-slideshow.php:302 shortcode/ovaem-slideshow.php:375
+#: shortcode/ovaem-venues-slider.php:194 shortcode/ovaem-venues-slider.php:207
+#: shortcode/ovaem-venues-slider.php:220 shortcode/ovaem-venues-slider.php:233
+#: shortcode/ovaem-venues-slider.php:265 shortcode/ovaem-slideshow-two.php:289
+#: shortcode/ovaem-slideshow-two.php:309 shortcode/ovaem-slideshow-two.php:321
+#: shortcode/ovaem-slideshow-two.php:394 shortcode/ovaem-search-banner.php:240
+#: shortcode/ovaem-search-banner.php:252 shortcode/ovaem-search-banner.php:264
+#: shortcode/ovaem-search-banner.php:276 shortcode/ovaem-search-banner.php:288
+#: shortcode/ovaem-search-banner.php:300 shortcode/ovaem-search-banner.php:321
+#: shortcode/ovaem-search-banner.php:335 shortcode/ovaem-search-banner.php:370
+#: shortcode/ovaem-search-banner.php:404 shortcode/ovaem-search-banner.php:416
+#: shortcode/ovaem-search-banner.php:429 shortcode/ovaem-search-banner.php:442
+#: shortcode/ovaem-search-banner.php:454 shortcode/ovaem-search-banner.php:466
+#: shortcode/ovaem-search-banner.php:478 shortcode/ovaem-search-banner.php:490
+#: shortcode/ovaem-search-banner.php:505 shortcode/ovaem-speaker-list.php:260
+#: shortcode/ovaem-speaker-list.php:273 shortcode/ovaem-speaker-list.php:286
+#: shortcode/ovaem-speaker-list.php:299 shortcode/ovaem-speaker-list.php:325
+#: shortcode/ovaem-calendar.php:133 shortcode/ovaem-events-filter-ajax.php:558
+#: shortcode/ovaem-events-filter-ajax.php:571
+#: shortcode/ovaem-events-filter-ajax.php:584
+#: shortcode/ovaem-events-filter-ajax.php:598
+#: shortcode/ovaem-events-filter-ajax.php:611
+#: shortcode/ovaem-events-filter-ajax.php:624
+#: shortcode/ovaem-events-filter-ajax.php:645
+#: shortcode/ovaem-events-filter-ajax.php:708
+#: shortcode/ovaem-events-filter.php:496 shortcode/ovaem-events-filter.php:509
+#: shortcode/ovaem-events-filter.php:522 shortcode/ovaem-events-filter.php:536
+#: shortcode/ovaem-events-filter.php:549 shortcode/ovaem-events-filter.php:562
+#: shortcode/ovaem-events-filter.php:591 shortcode/ovaem-events-filter.php:654
+#: shortcode/ovaem-search-one.php:204 shortcode/ovaem-search-one.php:216
+#: shortcode/ovaem-search-one.php:228 shortcode/ovaem-search-one.php:240
+#: shortcode/ovaem-search-one.php:252 shortcode/ovaem-search-one.php:264
+#: shortcode/ovaem-search-one.php:276 shortcode/ovaem-search-one.php:296
+#: shortcode/ovaem-search-one.php:308 shortcode/ovaem-search-one.php:321
+#: shortcode/ovaem-search-one.php:334 shortcode/ovaem-search-one.php:346
+#: shortcode/ovaem-search-one.php:358 shortcode/ovaem-search-one.php:370
+#: shortcode/ovaem-search-one.php:382 shortcode/ovaem-slideshow-three.php:307
+#: shortcode/ovaem-slideshow-three.php:327
+#: shortcode/ovaem-slideshow-three.php:339
+#: shortcode/ovaem-slideshow-three.php:412
+#: admin/class-ovaem-admin-settings.php:4723
+#: admin/class-ovaem-admin-settings.php:4740
+#: admin/class-ovaem-admin-settings.php:4756
+msgid "False"
+msgstr "Faux"
+
+#: templates/single-event.php:43 admin/views/ovaem-metabox-event.php:24
+msgid "FAQ"
+msgstr ""
+
+#: admin/views/ovaem-metabox-venue.php:68
+msgid "Fax"
+msgstr ""
+
+#: templates/single-venue.php:120
+msgid "Fax: "
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:168 shortcode/ovaem-slideshow-two.php:185
+#: shortcode/ovaem-slider-event-two.php:172 shortcode/ovaem-event-map.php:112
+#: shortcode/ovaem-calendar.php:110 shortcode/ovaem-events-filter-ajax.php:479
+#: shortcode/ovaem-slider-event.php:156 shortcode/ovaem-events-filter.php:417
+#: shortcode/ovaem-slideshow-three.php:205 widgets/ovaem_list_events.php:112
+#: admin/views/ovaem-metabox-event-basic.php:55
+#: admin/views/ovaem-metabox-venue.php:46
+#: admin/views/ovaem-metabox-speaker.php:41
+#: admin/views/ovaem-metabox-event-ticket.php:152
+msgid "Featured"
+msgstr "En vedette"
+
+#: shortcode/ovaem-simple-event.php:113
+msgid "Featured event label"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:393
+msgid "Featured Icon"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:378
+msgid "Featured Link"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:385
+msgid "Featured Text"
+msgstr ""
+
+#: templates/admin/custom-field-checkout.php:240
+msgid "File"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:161
+msgid "File Certificate attachment Mail. ( Should use PDF or Image file )"
+msgstr ""
+"Fichier Certificat en pièce jointe Mail. ( Utiliser un fichier PDF ou un "
+"fichier image )"
+
+#: shortcode/ovaem-slideshow.php:162 shortcode/ovaem-slideshow-two.php:178
+#: shortcode/ovaem-slider-event-two.php:169 shortcode/ovaem-event-map.php:106
+#: shortcode/ovaem-calendar.php:104 shortcode/ovaem-slider-event.php:153
+#: shortcode/ovaem-slideshow-three.php:198
+msgid "Filter"
+msgstr ""
+
+#: widgets/ovaem_list_events.php:109
+msgid "Filter :"
+msgstr ""
+
+#: shortcode/ovaem-events-filter-ajax.php:473
+#: shortcode/ovaem-events-filter.php:411
+msgid "Filter in each category"
+msgstr ""
+
+#: shortcode/ovaem-search-one.php:166
+msgid "Find Event"
+msgstr ""
+
+#: shortcode/ovaem-calendar.php:161
+msgid "First day of week"
+msgstr ""
+
+#: templates/admin/custom-field-checkout.php:243
+msgid "Formats: .jpg, .jpeg, .png, .pdf, .doc"
+msgstr ""
+
+#: inc/class-ovaem-get-data.php:1073 inc/class-ovaem-get-data.php:1086
+#: inc/class-ovaem-get-data.php:1098 inc/class-ovaem-get-data.php:1109
+#: inc/class-ovaem-ticket.php:181 admin/views/ovaem-metabox-event-ticket.php:77
+msgid "Free"
+msgstr "Gratuit"
+
+#: inc/class-ovaem-ticket.php:383 admin/class-ovaem-admin-settings.php:2671
+#: admin/class-ovaem-admin-settings.php:3390
+msgid "Friday"
+msgstr "Vendredi"
+
+#: templates/single-event-modern.php:128
+#: admin/views/ovaem-metabox-event-basic.php:67
+#: admin/views/ovaem-metabox-event-ticket.php:219
+msgid "From"
+msgstr "De"
+
+#: shortcode/ovaem-search-banner.php:145 shortcode/ovaem-search-one.php:157
+#: widgets/ovaem_search_event.php:166
+msgid "From ..."
+msgstr ""
+
+#: admin/views/ovaem-metabox-event.php:27
+msgid "Frontend Label"
+msgstr "Label Frontend"
+
+#: shortcode/ovaem-simple-event.php:121
+msgid "Full event label"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:131 shortcode/ovaem-search-one.php:145
+#: widgets/ovaem_search_event.php:153
+msgid "Future Events"
+msgstr ""
+
+#: templates/frontend-submit.php:115 admin/views/ovaem-metabox-event.php:20
+msgid "Gallery"
+msgstr "Galerie"
+
+#: admin/class-ovaem-admin-settings.php:2273
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: templates/single-venue.php:167 templates/single-event-modern.php:398
+#: templates/single-event.php:393
+msgid "Get Direction"
+msgstr ""
+
+#: shortcode/ovaem-slider-event-two.php:109
+msgid "Get Ticket"
+msgstr ""
+
+#: templates/single-speaker.php:159 templates/archive-event.php:211
+#: templates/archive-event.php:265 templates/archive-event.php:333
+#: templates/archive-event.php:396 templates/archive-event.php:520
+#: templates/archive-event.php:598 templates/loop/related.php:109
+msgid "Get ticket"
+msgstr ""
+
+#: templates/register-send-mail.php:5 templates/register-error.php:7
+msgid "Go Back"
+msgstr ""
+
+#: templates/checkout/checkout.php:230 templates/cart/cart.php:145
+msgid "Go to home page"
+msgstr ""
+
+#: templates/checkout/checkout.php:14
+msgid "Go to Login Page"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:145
+msgid "Google Key Map"
+msgstr "Clé Google Map"
+
+#: templates/single-venue.php:152
+msgid "Google Maps"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:177
+msgid "Google Type Event"
+msgstr "Type d'événement Google"
+
+#: admin/class-ovaem-admin-settings.php:3332
+#: admin/class-ovaem-admin-settings.php:4804
+msgid "Grid"
+msgstr "Grille"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:235
+msgid "Grid Style"
+msgstr "Style de grille"
+
+#: admin/class-ovaem-admin-settings.php:3335
+msgid "Grid with Sidebar"
+msgstr "Grille avec Sidebar"
+
+#: admin/class-ovaem-admin-settings.php:4805
+msgid "Grid with sidebar"
+msgstr "Grille avec Sidebar"
+
+#: shortcode/ovaem-slideshow.php:311 shortcode/ovaem-slideshow-two.php:330
+#: shortcode/ovaem-slideshow-three.php:348
+msgid "Height desk"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:320 shortcode/ovaem-slideshow-two.php:339
+#: shortcode/ovaem-slideshow-three.php:357
+msgid "Height Ipad"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:329 shortcode/ovaem-slideshow-two.php:348
+#: shortcode/ovaem-slideshow-three.php:366
+msgid "Height Mobile"
+msgstr ""
+
+#: admin/class-ovaem-admin-tickets.php:79
+msgid "Holder Ticket"
+msgstr "Titulaire"
+
+#: shortcode/ovaem-slider-event.php:143
+msgid "horizontally with scroll"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themeforest.net/user/ovatheme"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/ovatheme/portfolio"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:97
+#: templates/register-free-event.php:76 templates/checkout/checkout.php:195
+msgid "I have read and agree to the website"
+msgstr ""
+
+#: inc/class-ovaem-ajax.php:404 inc/class-ovaem-ajax.php:419
+#: admin/class-ovaem-admin-settings.php:3483
+#: admin/class-ovaem-admin-settings.php:3669
+#: admin/class-ovaem-admin-settings.php:4833
+#: admin/class-ovaem-admin-orders.php:163
+#: admin/views/ovaem-metabox-event-speakers.php:44
+#: templates/cart/manage-booking.php:11 templates/cart/manage-booking.php:29
+msgid "ID"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3852
+msgid ""
+"If ticket isn't verify, the client can't receive PDF ticket in mail but the "
+"ticket still save in database"
+msgstr ""
+"Si le ticket n'est pas vérifié, le client ne peut pas recevoir le ticket PDF "
+"par mail, mais le ticket est toujours enregistré dans la base de données."
+
+#: shortcode/ovaem-categories.php:73
+#: admin/views/ovaem-metabox-event-speakers.php:46
+msgid "Image"
+msgstr ""
+
+#: inc/class-ovaem-settings.php:941 admin/class-ovaem-admin-settings.php:2101
+#: admin/class-ovaem-admin-settings.php:4602
+msgid ""
+"In Admin: You can config allow to send ticket after checkout successfully."
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-basic.php:132
+msgid "in Venue"
+msgstr "Site"
+
+#: shortcode/ovaem-slideshow.php:244 shortcode/ovaem-venues-slider.php:181
+#: shortcode/ovaem-slideshow-two.php:261
+#: shortcode/ovaem-slider-event-two.php:252
+#: shortcode/ovaem-speaker-list.php:247 shortcode/ovaem-event-map.php:151
+#: shortcode/ovaem-events-filter-ajax.php:531
+#: shortcode/ovaem-slider-event.php:234 shortcode/ovaem-events-filter.php:469
+#: shortcode/ovaem-slideshow-three.php:281
+#: admin/class-ovaem-admin-settings.php:3498
+#: admin/class-ovaem-admin-settings.php:3642
+#: admin/class-ovaem-admin-settings.php:3684
+#: admin/class-ovaem-admin-settings.php:3770
+#: admin/class-ovaem-admin-settings.php:4848
+#: admin/class-ovaem-admin-settings.php:4930 widgets/ovaem_list_events.php:136
+msgid "Increase"
+msgstr "Croissant"
+
+#: admin/class-ovaem-admin-orders.php:164
+msgid "Info"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3783
+#: admin/class-ovaem-admin-settings.php:4773
+#: admin/class-ovaem-admin-settings.php:4787
+#: admin/class-ovaem-admin-settings.php:4943
+msgid "Insert -1 to display all"
+msgstr "Insérer -1 pour afficher tout"
+
+#: shortcode/ovaem-slideshow.php:397 shortcode/ovaem-venues-slider.php:277
+#: shortcode/ovaem-check-ticket.php:39 shortcode/ovaem-categories.php:95
+#: shortcode/ovaem-slideshow-two.php:427
+#: shortcode/ovaem-event-countdown.php:105
+#: shortcode/ovaem-slider-event-two.php:300 shortcode/ovaem-ticket-event.php:92
+#: shortcode/ovaem-speaker-list.php:358 shortcode/ovaem-event-map.php:203
+#: shortcode/ovaem-events-filter-ajax.php:722
+#: shortcode/ovaem-slider-event.php:284 shortcode/ovaem-events-filter.php:668
+#: shortcode/ovaem-slideshow-three.php:507
+#: shortcode/ovaem-schedule-event.php:88
+msgid "Insert class to use for your style"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:4632
+msgid "Insert Currency"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:4949
+msgid "Insert email address"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:314 shortcode/ovaem-slideshow-two.php:333
+#: shortcode/ovaem-slideshow-three.php:351
+msgid "Insert full-height or height (750px)"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:323 shortcode/ovaem-slideshow-two.php:342
+#: shortcode/ovaem-slideshow-three.php:360
+msgid "Insert full-height or height (768px)"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:332 shortcode/ovaem-slideshow-two.php:351
+#: shortcode/ovaem-slideshow-three.php:369
+msgid "Insert full-height or height (800px)"
+msgstr ""
+
+#: shortcode/ovaem-cat-info.php:72
+msgid "Insert Icon Class"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:263
+msgid "Insert link, password used for virtual event"
+msgstr "Insérer le lien et le mot de passe utilisés pour l'événement virtuel"
+
+#: shortcode/ovaem-slideshow.php:190 shortcode/ovaem-slideshow-two.php:208
+#: shortcode/ovaem-slider-event-two.php:196
+#: shortcode/ovaem-slider-event.php:180 shortcode/ovaem-slideshow-three.php:227
+msgid "Insert Multiple Slug Events"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3242
+#: admin/class-ovaem-admin-settings.php:3252
+#: admin/class-ovaem-admin-settings.php:3780
+#: admin/class-ovaem-admin-settings.php:3804
+#: admin/class-ovaem-admin-settings.php:4770
+#: admin/class-ovaem-admin-settings.php:4784
+#: admin/class-ovaem-admin-settings.php:4940
+msgid "Insert Number"
+msgstr "Insérer un nombre"
+
+#: shortcode/ovaem-slideshow.php:219 shortcode/ovaem-slideshow-two.php:236
+#: shortcode/ovaem-slider-event-two.php:277 shortcode/ovaem-event-map.php:125
+#: shortcode/ovaem-slider-event.php:208 shortcode/ovaem-slideshow-three.php:256
+#: admin/views/ovaem-metabox-event-ticket.php:147
+msgid "Insert number"
+msgstr "Insérer un nombre"
+
+#: shortcode/ovaem-events-filter-ajax.php:506
+#: shortcode/ovaem-events-filter.php:444
+msgid "Insert number."
+msgstr "Insérer un nombre."
+
+#: admin/class-ovaem-admin-settings.php:3508
+#: admin/class-ovaem-admin-settings.php:3517
+#: admin/class-ovaem-admin-settings.php:3526
+msgid "Insert param"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-contact.php:10
+msgid "Insert shortcode of contact form 7 "
+msgstr "Insérer le shortcode du formulaire de contact form 7"
+
+#: shortcode/ovaem-venues-slider.php:131
+msgid "Insert slugs or Empty Field. For example: venue1, venue2, venue3"
+msgstr ""
+
+#: shortcode/ovaem-speaker-list.php:198
+msgid "Insert SLUGS or EMPTY. For example: speaker1, speaker2, speaker3"
+msgstr ""
+
+#: templates/frontend-submit.php:123
+msgid "Intro"
+msgstr ""
+
+#: shortcode/ovaem-search-one.php:192
+msgid "Intro Text"
+msgstr ""
+
+#: widgets/ovaem_search_event.php:243
+msgid "Intro Text:"
+msgstr ""
+
+#: inc/class-ovaem-coupon.php:78 templates/check-ticket.php:146
+msgid "InValid"
+msgstr ""
+
+#: admin/views/ovaem-metabox-speaker.php:52
+msgid "Job"
+msgstr "Métier"
+
+#: templates/admin/custom-field-checkout.php:195
+#: templates/admin/custom-field-checkout.php:316
+msgid "Label"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1397
+msgid "Label Color: "
+msgstr "Couleur du Label:"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1421
+msgid "Label Font Size: "
+msgstr "Taille de police du Label:"
+
+#: admin/views/ovaem-metabox-event-basic.php:188
+#: admin/views/ovaem-metabox-venue.php:145
+msgid "Latitude: "
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3268
+msgid "Left ($99.99)"
+msgstr "Gauche (€99.99)"
+
+#: admin/class-ovaem-admin-settings.php:3270
+msgid "Left with space ($ 99.99)"
+msgstr "Gauche avec espace (€ 99.99)"
+
+#: admin/class-ovaem-admin-settings.php:4635
+msgid "Like USD"
+msgstr "Ex: EUR"
+
+#: templates/frontend-submit.php:117
+#, php-format
+msgid "limit %s images with extension .jpg, .jpeg, .png"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-sponsor-info.php:44
+#: admin/views/ovaem-metabox-event-sponsor-info.php:97
+#: admin/views/ovaem-metabox-event-ticket.php:267
+msgid "Link"
+msgstr "Lien"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:777
+msgid "Link Title"
+msgstr "Titre du lien"
+
+#: inc/import-order-ticket-woo.php:229 inc/import-order-ticket-woo.php:438
+#: inc/class-ovaem-order.php:189 inc/class-ovaem-order.php:265
+#: inc/class-ovaem-order.php:541 inc/class-ovaem-order.php:612
+#: inc/class-ovaem-process-data.php:155 admin/class-ovaem-admin-ajax.php:134
+#: woomodern/src/Hooks/FilterHooks.php:273
+msgid "Link:"
+msgstr "Lien:"
+
+#: admin/class-ovaem-admin-settings.php:3333
+msgid "List"
+msgstr "Liste"
+
+#: widgets/ovaem_list_events.php:94
+msgid "List Events"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:220
+msgid "List Events Setting"
+msgstr "Réglage de la liste des événements"
+
+#: admin/class-ovaem-admin-settings.php:3334
+msgid "List with Sidebar"
+msgstr "Liste avec Sidebar"
+
+#: admin/class-ovaem-admin-settings.php:4069
+msgid "Live"
+msgstr ""
+
+#: shortcode/ovaem-calendar.php:142
+msgid "Local"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:529
+#: inc/class-ovaem-custom-post-types.php:530
+#: inc/class-ovaem-custom-post-types.php:531
+#: admin/class-ovaem-admin-menu.php:36 admin/class-ovaem-admin-menu.php:37
+msgid "Location"
+msgstr "Lieux"
+
+#: shortcode/ovaem-loc-info.php:31 shortcode/ovaem-loc-info.php:32
+msgid "location"
+msgstr ""
+
+#: shortcode/ovaem-loc-info.php:63
+msgid "Location Info"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:980
+msgid "Login before booking"
+msgstr "Se connecter avant de réserver"
+
+#: admin/views/ovaem-metabox-event-organizer.php:17
+msgid "Logo (.png)"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-basic.php:92
+msgid "Logo in PDF Ticket (.png)"
+msgstr "Logo dans le billet PDF (.png)"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1287
+msgid "Logo: "
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-basic.php:197
+#: admin/views/ovaem-metabox-venue.php:150
+msgid "Longitude: "
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:298 shortcode/ovaem-slideshow-two.php:317
+#: shortcode/ovaem-slideshow-three.php:335
+msgid "Loop"
+msgstr ""
+
+#: admin/views/ovaem-metabox-speaker.php:64
+msgid "Mail"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1225
+msgid "Mail Template of Free Ticket"
+msgstr "Template de mail pour les billets gratuits"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1248
+msgid "Mail Template of Paid Ticket"
+msgstr "Template de mail pour les billets payants"
+
+#: admin/class-ovaem-admin-settings.php:2285
+msgid "Mail Template Settings"
+msgstr "Réglages des templates mails"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1240
+#: admin/class-ovaem-admin-settings.php:1263
+msgid "Mail template: "
+msgstr "Template de mail:"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1255
+msgid "Mail to after booking successfully: "
+msgstr "Personnes recevant le mail après une réservation réussie:"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1232
+msgid "Mail to after registing free event success: "
+msgstr "Personnes recevant le mail après une réservation d'événement gratuit:"
+
+#: shortcode/ovaem-speaker-list.php:269
+msgid "Make Link in title"
+msgstr ""
+
+#: inc/class-ovaem-cart.php:210 inc/class-ovaem-cart.php:219
+#: shortcode/ovaem-cart-manage-booking.php:29
+msgid "Manage Booking"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-basic.php:160
+#: admin/views/ovaem-metabox-venue.php:131
+msgid "Map"
+msgstr "Carte"
+
+#: shortcode/ovaem-event-map.php:182
+msgid "Map Height"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:709
+#: admin/class-ovaem-admin-settings.php:945
+msgid "Map Zoom"
+msgstr "Zoom de la carte"
+
+#: templates/single-event.php:388
+msgid "Map: "
+msgstr "Carte:"
+
+#: templates/admin/custom-field-checkout.php:302
+msgid "Maximum file size"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:988
+msgid "Maximum number of tickets per event in cart"
+msgstr "Nombre maximum de billets par événement dans le panier"
+
+#: templates/loop/related.php:39
+msgid "May You like"
+msgstr ""
+
+#: shortcode/ovaem-loc-info.php:92
+msgid "Mobile Image"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3065
+msgid "Modern"
+msgstr "Moderne"
+
+#: inc/class-ovaem-ticket.php:371 admin/class-ovaem-admin-settings.php:2667
+#: admin/class-ovaem-admin-settings.php:3386
+msgid "Monday"
+msgstr "Lundi"
+
+#: shortcode/ovaem-calendar.php:162
+msgid ""
+"Monday: 1, Tuesday: 2, Wednesday:3 , Thursday: 4, Friday: 5, Saturday: 6, "
+"Sunday: 0"
+msgstr ""
+"Lundi : 1, mardi : 2, mercredi:3 , jeudi : 4, vendredi : 5, samedi : 6, "
+"dimanche : 0"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:291
+msgid "Month Format"
+msgstr "Format du mois"
+
+#: templates/frontend-submit.php:31 templates/frontend-submit.php:32
+#: templates/check-ticket.php:26 templates/check-ticket.php:79
+#: admin/views/ovaem-metabox-order.php:118
+#: admin/views/ovaem-metabox-event-organizer.php:46
+#: admin/views/ovaem-metabox-event-schedule.php:55
+#: admin/views/ovaem-metabox-ticket.php:59
+msgid "Name"
+msgstr "Nom"
+
+#: shortcode/ovaem-register-event-free.php:41
+#: templates/register-free-event.php:25 templates/checkout/checkout.php:84
+msgid "Name *"
+msgstr ""
+
+#: templates/loop/organizer.php:38
+msgid "Name: "
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:286 shortcode/ovaem-slideshow-two.php:305
+#: shortcode/ovaem-slideshow-three.php:323
+msgid "Navigation"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:133
+#: inc/class-ovaem-custom-post-types.php:216
+#: inc/class-ovaem-custom-post-types.php:306
+msgid "New Category Name"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:491
+msgid "New Coupon"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:81
+msgid "New Event"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:535
+msgid "New Event Location"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:343
+msgid "New Event Tag"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:390
+msgid "New Order"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:168
+msgid "New Speaker"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:441
+msgid "New Ticket"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:257
+msgid "New Venue"
+msgstr ""
+
+#: admin/views/ovaem-metabox-venue.php:25
+msgid "New York"
+msgstr ""
+
+#: admin/views/ovaem-metabox-venue.php:26
+msgid "New York, NY, USA"
+msgstr ""
+
+#: inc/ovaem-core-functions.php:495 templates/loop/gallery.php:37
+msgid "Next"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:127 shortcode/ovaem-search-one.php:141
+#: widgets/ovaem_search_event.php:149
+msgid "Next Month"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:125 shortcode/ovaem-search-one.php:139
+#: widgets/ovaem_search_event.php:147
+msgid "Next Week"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:257 shortcode/ovaem-venues-slider.php:145
+#: shortcode/ovaem-slideshow-two.php:274
+#: shortcode/ovaem-slider-event-two.php:265
+#: shortcode/ovaem-speaker-list.php:211 shortcode/ovaem-event-map.php:164
+#: shortcode/ovaem-events-filter-ajax.php:544
+#: shortcode/ovaem-events-filter-ajax.php:696
+#: shortcode/ovaem-slider-event.php:247 shortcode/ovaem-slider-event.php:260
+#: shortcode/ovaem-events-filter.php:482 shortcode/ovaem-events-filter.php:642
+#: shortcode/ovaem-slideshow-three.php:294
+#: admin/class-ovaem-admin-settings.php:2530
+#: admin/class-ovaem-admin-settings.php:2547
+#: admin/class-ovaem-admin-settings.php:2564
+#: admin/class-ovaem-admin-settings.php:2580
+#: admin/class-ovaem-admin-settings.php:2596
+#: admin/class-ovaem-admin-settings.php:2612
+#: admin/class-ovaem-admin-settings.php:2629
+#: admin/class-ovaem-admin-settings.php:2646
+#: admin/class-ovaem-admin-settings.php:2691
+#: admin/class-ovaem-admin-settings.php:2708
+#: admin/class-ovaem-admin-settings.php:2725
+#: admin/class-ovaem-admin-settings.php:2742
+#: admin/class-ovaem-admin-settings.php:2759
+#: admin/class-ovaem-admin-settings.php:2776
+#: admin/class-ovaem-admin-settings.php:2793
+#: admin/class-ovaem-admin-settings.php:2810
+#: admin/class-ovaem-admin-settings.php:2827
+#: admin/class-ovaem-admin-settings.php:2844
+#: admin/class-ovaem-admin-settings.php:2861
+#: admin/class-ovaem-admin-settings.php:2878
+#: admin/class-ovaem-admin-settings.php:2894
+#: admin/class-ovaem-admin-settings.php:2913
+#: admin/class-ovaem-admin-settings.php:2930
+#: admin/class-ovaem-admin-settings.php:2947
+#: admin/class-ovaem-admin-settings.php:2964
+#: admin/class-ovaem-admin-settings.php:2981
+#: admin/class-ovaem-admin-settings.php:2998
+#: admin/class-ovaem-admin-settings.php:3015
+#: admin/class-ovaem-admin-settings.php:3032
+#: admin/class-ovaem-admin-settings.php:3048
+#: admin/class-ovaem-admin-settings.php:3082
+#: admin/class-ovaem-admin-settings.php:3101
+#: admin/class-ovaem-admin-settings.php:3118
+#: admin/class-ovaem-admin-settings.php:3135
+#: admin/class-ovaem-admin-settings.php:3152
+#: admin/class-ovaem-admin-settings.php:3169
+#: admin/class-ovaem-admin-settings.php:3186
+#: admin/class-ovaem-admin-settings.php:3203
+#: admin/class-ovaem-admin-settings.php:3220
+#: admin/class-ovaem-admin-settings.php:3288
+#: admin/class-ovaem-admin-settings.php:3417
+#: admin/class-ovaem-admin-settings.php:3432
+#: admin/class-ovaem-admin-settings.php:3448
+#: admin/class-ovaem-admin-settings.php:3573
+#: admin/class-ovaem-admin-settings.php:3588
+#: admin/class-ovaem-admin-settings.php:3602
+#: admin/class-ovaem-admin-settings.php:3700
+#: admin/class-ovaem-admin-settings.php:3715
+#: admin/class-ovaem-admin-settings.php:3730
+#: admin/class-ovaem-admin-settings.php:3794
+#: admin/class-ovaem-admin-settings.php:4085
+#: admin/class-ovaem-admin-settings.php:4103
+#: admin/class-ovaem-admin-settings.php:4119
+#: admin/class-ovaem-admin-settings.php:4181
+#: admin/class-ovaem-admin-settings.php:4198
+#: admin/class-ovaem-admin-settings.php:4236
+#: admin/class-ovaem-admin-settings.php:4257
+#: admin/class-ovaem-admin-settings.php:4274
+#: admin/class-ovaem-admin-settings.php:4291
+#: admin/class-ovaem-admin-settings.php:4307
+#: admin/class-ovaem-admin-settings.php:4323
+#: admin/class-ovaem-admin-settings.php:4339
+#: admin/class-ovaem-admin-settings.php:4355
+#: admin/class-ovaem-admin-settings.php:4390
+#: admin/class-ovaem-admin-settings.php:4454
+#: admin/class-ovaem-admin-settings.php:4685
+#: admin/class-ovaem-admin-settings.php:4864
+#: admin/class-ovaem-admin-settings.php:4879 widgets/ovaem_search_event.php:263
+#: widgets/ovaem_search_event.php:279 widgets/ovaem_search_event.php:294
+#: widgets/ovaem_search_event.php:309 widgets/ovaem_search_event.php:323
+#: widgets/ovaem_search_event.php:338 widgets/ovaem_search_event.php:352
+#: widgets/ovaem_search_event.php:366 widgets/ovaem_search_event.php:380
+#: widgets/ovaem_search_event.php:394 widgets/ovaem_search_event.php:408
+#: widgets/ovaem_search_event.php:423 widgets/ovaem_search_event.php:437
+#: widgets/ovaem_search_event.php:451 widgets/ovaem_search_event.php:465
+#: widgets/ovaem_list_events.php:145 admin/views/ovaem-metabox-venue.php:48
+#: admin/views/ovaem-metabox-venue.php:120
+#: admin/views/ovaem-metabox-ticket.php:211
+#: admin/views/ovaem-metabox-speaker.php:43
+#: admin/views/ovaem-metabox-event-ticket.php:154
+msgid "No"
+msgstr "Non"
+
+#: inc/class-ovaem-custom-post-types.php:85
+#: inc/class-ovaem-custom-post-types.php:172
+#: inc/class-ovaem-custom-post-types.php:261
+#: inc/class-ovaem-custom-post-types.php:394
+#: inc/class-ovaem-custom-post-types.php:445
+#: inc/class-ovaem-custom-post-types.php:495
+msgid "No items found"
+msgstr "Aucun élément trouvé"
+
+#: inc/class-ovaem-custom-post-types.php:86
+#: inc/class-ovaem-custom-post-types.php:173
+#: inc/class-ovaem-custom-post-types.php:262
+#: inc/class-ovaem-custom-post-types.php:395
+#: inc/class-ovaem-custom-post-types.php:446
+#: inc/class-ovaem-custom-post-types.php:496
+msgid "No items found in trash"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:136
+msgid "No products found"
+msgstr ""
+
+#: shortcode/ovaem-speaker-list.php:346
+msgid "No Radius and arrow"
+msgstr ""
+
+#: templates/archive-event.php:209 templates/archive-event.php:263
+#: templates/archive-event.php:331 templates/archive-event.php:394
+msgid "No ticket"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:4219
+msgid "None"
+msgstr "Aucun"
+
+#: admin/class-ovaem-export-page.php:94 admin/class-ovaem-export-page.php:251
+msgid "Not Checked"
+msgstr "Non enregistré"
+
+#: admin/class-ovaem-admin-tickets.php:22
+#: admin/views/ovaem-metabox-ticket.php:44
+#: admin/views/ovaem-metabox-ticket.php:195
+msgid "Not Checked In"
+msgstr "Non enregistré"
+
+#: inc/class-ovaem-custom-post-types.php:351
+#: inc/class-ovaem-custom-post-types.php:543
+msgid "Not Found"
+msgstr ""
+
+#: inc/class-ovaem-ajax.php:527 templates/cart/manage-booking.php:132
+msgid "Not Found Bookings"
+msgstr ""
+
+#: templates/archive-event.php:434 templates/archive-event.php:532
+#: templates/archive-event.php:609
+msgid "Not Found Events"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:184
+msgid "Not found file"
+msgstr ""
+
+#: shortcode/ovaem-ticket-event.php:30
+msgid "Not Found Price"
+msgstr ""
+
+#: templates/archive-speaker.php:179
+msgid "Not Found Speaker"
+msgstr ""
+
+#: admin/class-ovaem-admin-tickets.php:54 admin/class-ovaem-export-page.php:81
+#: admin/class-ovaem-export-page.php:240
+msgid "Not Verify"
+msgstr "Non vérifié"
+
+#: admin/views/ovaem-metabox-ticket.php:26
+msgid "Not Verify ( Customer has not paid ) "
+msgstr "Non vérifié ( Le client n'a pas payé )"
+
+#: templates/register-free-event.php:42
+msgid "Number"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:161
+msgid "Number Event Related"
+msgstr "Nombre d'événements liés"
+
+#: shortcode/ovaem-slider-event.php:271
+msgid "Number item slide"
+msgstr ""
+
+#: shortcode/ovaem-slider-event.php:274
+msgid "Number items in each slide"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:323
+msgid "Number Of Character Excerpt"
+msgstr "Nombre de caractères Extrait"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:315
+msgid "Number Of Character Title Event"
+msgstr "Nombre de caractères Titre Événement"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:331
+msgid "Number Of Character Venue"
+msgstr "Nombre de caractères Site"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:803
+msgid "Number Speaker per page"
+msgstr "Nombre d'intervenants par page"
+
+#: templates/check-ticket.php:29
+msgid "Number Ticket"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:144
+msgid "Number Tickets"
+msgstr "Nombre de billets"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:905
+msgid "Number Venue per page"
+msgstr "Nombre de sites par page"
+
+#: admin/class-ovaem-admin-settings.php:3099
+msgid "of Event"
+msgstr "De l'événement"
+
+#: admin/class-ovaem-admin-settings.php:3100
+msgid "of Venue"
+msgstr "Du site"
+
+#: inc/class-ovaem-order.php:300 admin/class-ovaem-admin-settings.php:4051
+msgid "Offline Payment"
+msgstr "Paiement hors ligne"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1120
+msgid "Offline Payment Info when client checkout"
+msgstr "Informations sur le paiement hors ligne lors du paiement par le client"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1096
+msgid "Offline Payment Setting"
+msgstr "Paramètres de paiement hors ligne"
+
+#: inc/class-ovaem-ajax.php:483 admin/class-ovaem-admin-orders.php:87
+#: templates/cart/manage-booking.php:93
+msgid "On Hold"
+msgstr "En attente"
+
+#: admin/class-ovaem-admin-settings.php:3844
+msgid "On hold"
+msgstr "En attente"
+
+#: shortcode/ovaem-search-simple.php:53
+msgid "Only display name field in search form"
+msgstr ""
+
+#: shortcode/ovaem-venues-slider.php:141 shortcode/ovaem-speaker-list.php:207
+msgid "Only Show Featured"
+msgstr ""
+
+#: templates/admin/custom-field-checkout.php:248
+#: templates/admin/custom-field-checkout.php:266
+#: templates/admin/custom-field-checkout.php:284
+msgid "Options"
+msgstr ""
+
+#. ID
+#: shortcode/ovaem-slideshow.php:240 shortcode/ovaem-venues-slider.php:177
+#: shortcode/ovaem-slideshow-two.php:257
+#: shortcode/ovaem-slider-event-two.php:248
+#: shortcode/ovaem-speaker-list.php:243 shortcode/ovaem-event-map.php:147
+#: shortcode/ovaem-slider-event.php:230 shortcode/ovaem-slideshow-three.php:277
+#: admin/class-ovaem-admin-settings.php:275
+#: admin/class-ovaem-admin-settings.php:498
+#: admin/class-ovaem-admin-settings.php:768
+#: admin/class-ovaem-admin-settings.php:897
+#: admin/views/ovaem-metabox-event-basic.php:44
+#: admin/views/ovaem-metabox-venue.php:40
+#: admin/views/ovaem-metabox-speaker.php:35
+msgid "Order"
+msgstr "Ordre"
+
+#: widgets/ovaem_list_events.php:134
+msgid "Order :"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:398
+msgid "Order Archives"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:399
+msgid "Order Attributes"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:267
+#: admin/class-ovaem-admin-settings.php:490
+#: admin/class-ovaem-admin-settings.php:760
+#: admin/class-ovaem-admin-settings.php:888
+msgid "Order By"
+msgstr "Classer Par"
+
+#: shortcode/ovaem-slideshow.php:225 shortcode/ovaem-venues-slider.php:164
+#: shortcode/ovaem-slideshow-two.php:242 shortcode/ovaem-speaker-list.php:230
+#: shortcode/ovaem-slideshow-three.php:262
+msgid "Order by"
+msgstr "Classer par"
+
+#: widgets/ovaem_list_events.php:124
+msgid "Order by :"
+msgstr "Classer par :"
+
+#: admin/views/ovaem-metabox-order.php:239
+msgid "Order Detail in Woocommerce"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3479
+#: admin/class-ovaem-admin-settings.php:3627
+#: admin/class-ovaem-admin-settings.php:3665
+#: admin/class-ovaem-admin-settings.php:3755
+#: admin/class-ovaem-admin-settings.php:4829
+#: admin/class-ovaem-admin-settings.php:4915
+msgid "Order Field in event attribute"
+msgstr "Champ de commande dans l'attribut d'événement"
+
+#: shortcode/ovaem-slideshow.php:230 shortcode/ovaem-venues-slider.php:167
+#: shortcode/ovaem-slideshow-two.php:247
+#: shortcode/ovaem-slider-event-two.php:238
+#: shortcode/ovaem-speaker-list.php:233 shortcode/ovaem-event-map.php:136
+#: shortcode/ovaem-events-filter-ajax.php:517
+#: shortcode/ovaem-slider-event.php:219 shortcode/ovaem-events-filter.php:455
+#: shortcode/ovaem-slideshow-three.php:267 widgets/ovaem_list_events.php:128
+msgid "Order field in event attribute"
+msgstr "Champ de commande dans l'attribut d'événement"
+
+#: admin/class-ovaem-admin-tickets.php:84 templates/check-ticket.php:94
+#: admin/views/ovaem-metabox-order.php:13
+msgid "Order ID"
+msgstr "N° Commande"
+
+#: shortcode/ovaem-events-filter-ajax.php:527
+#: shortcode/ovaem-events-filter.php:465
+msgid "Order in each category"
+msgstr ""
+
+#: templates/pdf/template2.php:53 templates/pdf/template1.php:54
+msgid "Order Info"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:404
+msgid "Order Post Type"
+msgstr ""
+
+#: admin/class-ovaem-admin-metaboxes.php:87
+msgid "Order Settings"
+msgstr "Paramètres de la commande"
+
+#: shortcode/ovaem-event-map.php:131 shortcode/ovaem-slider-event.php:214
+msgid "Orderby"
+msgstr ""
+
+#: shortcode/ovaem-slider-event-two.php:233
+#: shortcode/ovaem-events-filter-ajax.php:512
+#: shortcode/ovaem-events-filter.php:450
+msgid "Orderby in each category"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3874
+#: admin/class-ovaem-admin-settings.php:3898
+#: admin/views/ovaem-metabox-event.php:22
+#: admin/views/ovaem-metabox-event-label.php:36
+msgid "Organizer"
+msgstr "Organisateur"
+
+#: templates/loop/organizer.php:6
+msgid "Organizers"
+msgstr "Organisateurs"
+
+#: admin/views/ovaem-metabox-event-ticket.php:79
+msgid "Other Pay Gateway"
+msgstr "Autres passerelles de paiement"
+
+#: admin/views/ovaem-metabox-event-ticket.php:78
+#: admin/views/ovaem-metabox-event-ticket.php:94
+msgid "Outside"
+msgstr "A l'extérieur"
+
+#. Base ID
+#: widgets/ovaem-categories.php:15
+msgid "OVAEM All Categories"
+msgstr ""
+
+#. Base ID
+#: widgets/ovaem_list_events.php:15
+msgid "OVAEM List Events"
+msgstr ""
+
+#. Base ID
+#: widgets/ovaem_search_event.php:14
+msgid "OVAEM Search Event"
+msgstr ""
+
+#. Base ID
+#: widgets/ovaem_special_event.php:15
+msgid "OVAEM Special Event"
+msgstr ""
+
+#. Base ID
+#: widgets/ovaem_tags.php:15
+msgid "OVAEM Tags Event"
+msgstr ""
+
+#: shortcode/ovaem-frontend-submit-event.php:29
+msgid "ovaem_frontend_submit_event"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ovatheme"
+msgstr ""
+
+#. Description of the plugin
+msgid "OvaTheme Events Manager"
+msgstr ""
+
+#. Name of the plugin
+msgid "Ovatheme Events Manager"
+msgstr ""
+
+#: templates/single-event-modern.php:225
+msgid "Overview"
+msgstr ""
+
+#: admin/class-ovaem-admin-tickets.php:77 admin/class-ovaem-export-page.php:181
+#: templates/check-ticket.php:99 admin/views/ovaem-metabox-ticket.php:116
+#: admin/views/ovaem-metabox-event-ticket.php:63 templates/pdf/template2.php:69
+#: templates/pdf/template1.php:66
+msgid "Package"
+msgstr ""
+
+#: admin/views/ovaem-metabox-ticket.php:124
+#: admin/views/ovaem-metabox-event-ticket.php:54
+msgid "Package ID"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:175
+msgid "Package ID of ticket"
+msgstr ""
+
+#: inc/import-order-ticket-woo.php:369
+msgid "Package ID."
+msgstr ""
+
+#: inc/import-order-ticket-woo.php:367
+msgid "Package Name"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:339 shortcode/ovaem-slideshow-two.php:358
+#: shortcode/ovaem-slideshow-three.php:376
+msgid "Padding Top Desktop"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:347 shortcode/ovaem-slideshow-two.php:366
+#: shortcode/ovaem-slideshow-three.php:384
+msgid "Padding Top Ipad"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:355 shortcode/ovaem-slideshow-two.php:374
+#: shortcode/ovaem-slideshow-three.php:392
+msgid "Padding Top Mobile"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:76
+msgid "Paid Woo"
+msgstr "Paiement Woocomerce"
+
+#: inc/class-ovaem-custom-post-types.php:128
+#: inc/class-ovaem-custom-post-types.php:211
+#: inc/class-ovaem-custom-post-types.php:301
+msgid "Parent "
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:129
+#: inc/class-ovaem-custom-post-types.php:212
+#: inc/class-ovaem-custom-post-types.php:302
+msgid "Parent :"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:87
+msgid "Parent : Events"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:174
+msgid "Parent : Speakers"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:263
+msgid "Parent : Venue"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:497
+msgid "Parent Coupons"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:533
+msgid "Parent Event Location"
+msgstr "Lieu parent"
+
+#: inc/class-ovaem-custom-post-types.php:534
+msgid "Parent Event Location:"
+msgstr "Lieu parent"
+
+#: inc/class-ovaem-custom-post-types.php:341
+msgid "Parent Event Tag"
+msgstr "Tag Parent"
+
+#: inc/class-ovaem-custom-post-types.php:342
+msgid "Parent Event Tag:"
+msgstr "Tag Parent:"
+
+#: inc/class-ovaem-custom-post-types.php:396
+msgid "Parent Orders"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:447
+msgid "Parent Tickets"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:279
+#: templates/admin/custom-field-checkout.php:233
+msgid "Password"
+msgstr "Mot de passe"
+
+#: inc/import-order-ticket-woo.php:231 inc/import-order-ticket-woo.php:440
+#: inc/class-ovaem-order.php:191 inc/class-ovaem-order.php:267
+#: inc/class-ovaem-order.php:543 inc/class-ovaem-order.php:614
+#: inc/class-ovaem-process-data.php:156 admin/class-ovaem-admin-ajax.php:137
+#: woomodern/src/Hooks/FilterHooks.php:275
+msgid "Password:"
+msgstr "Mot de passe:"
+
+#: inc/class-ovaem-get-data.php:1231 shortcode/ovaem-slideshow.php:167
+#: shortcode/ovaem-slideshow-two.php:184
+#: shortcode/ovaem-slider-event-two.php:175 shortcode/ovaem-event-map.php:111
+#: shortcode/ovaem-calendar.php:111 shortcode/ovaem-events-filter-ajax.php:478
+#: shortcode/ovaem-slider-event.php:159 shortcode/ovaem-events-filter.php:416
+#: shortcode/ovaem-slideshow-three.php:204 widgets/ovaem_list_events.php:113
+msgid "Past"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:129 shortcode/ovaem-search-one.php:143
+#: widgets/ovaem_search_event.php:151
+msgid "Past Events"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:73
+msgid "Pay Method"
+msgstr "Mode de paiement"
+
+#: admin/class-ovaem-admin-settings.php:4572
+msgid ""
+"Pay via PayPal: you can pay with your credit card if you don’t have a PayPal "
+"account."
+msgstr ""
+
+#: inc/class-ovaem-settings.php:628 admin/class-ovaem-admin-settings.php:2085
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don’t have a PayPal "
+"account."
+msgstr ""
+
+#: admin/views/ovaem-metabox-order.php:98 templates/checkout/checkout.php:183
+msgid "Payment Gateway"
+msgstr ""
+
+#: inc/class-ovaem-order.php:307
+msgid "PayPal"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:4052
+msgid "Paypal"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1063
+msgid "Paypal Business Email"
+msgstr "Business Email Paypal "
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1055
+msgid "Paypal Environment"
+msgstr "Environnement Paypal"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1079
+msgid "Paypal info when client checkout"
+msgstr "Informations sur Paypal lors du paiement par le client"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1047
+msgid "Paypal Setting"
+msgstr "Paramètres de Paypal"
+
+#: admin/class-ovaem-admin-settings.php:4217
+msgid "PDF Ticket File"
+msgstr "Fichier de billet PDF"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1271
+msgid "PDF Ticket Settings"
+msgstr "Paramètres billet PDF"
+
+#: inc/class-ovaem-ajax.php:434 inc/class-ovaem-ajax.php:475
+#: admin/class-ovaem-admin-settings.php:3846
+#: admin/class-ovaem-admin-orders.php:47 admin/class-ovaem-admin-orders.php:81
+#: admin/views/ovaem-metabox-order.php:22
+#: admin/views/ovaem-metabox-order.php:43 templates/cart/manage-booking.php:44
+#: templates/cart/manage-booking.php:85
+msgid "Pending"
+msgstr "En attente"
+
+#: admin/class-ovaem-admin-tickets.php:80 admin/class-ovaem-export-page.php:187
+#: templates/check-ticket.php:33 templates/check-ticket.php:128
+#: admin/views/ovaem-metabox-order.php:136
+#: admin/views/ovaem-metabox-venue.php:62
+#: admin/views/ovaem-metabox-event-organizer.php:59
+#: admin/views/ovaem-metabox-ticket.php:73
+#: admin/views/ovaem-metabox-speaker.php:58
+#: templates/admin/custom-field-checkout.php:235
+msgid "Phone"
+msgstr "Téléphone"
+
+#: shortcode/ovaem-register-event-free.php:47
+#: templates/register-free-event.php:30 templates/checkout/checkout.php:89
+msgid "Phone *"
+msgstr ""
+
+#: templates/single-venue.php:113 templates/loop/organizer.php:52
+msgid "Phone: "
+msgstr ""
+
+#: templates/admin/custom-field-checkout.php:196
+#: templates/admin/custom-field-checkout.php:328
+msgid "Placeholder"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:228
+msgid "Placeholder Category"
+msgstr ""
+
+#: shortcode/ovaem-search-simple.php:80
+msgid "Placeholder label"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:220
+msgid "Placeholder Location"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:212
+msgid "Placeholder Name"
+msgstr ""
+
+#: inc/import-order-ticket-woo.php:348
+msgid "Please choose event"
+msgstr ""
+
+#: shortcode/ovaem-simple-event.php:66
+msgid "Please choose event in backend"
+msgstr ""
+
+#: shortcode/ovaem-ticket-event.php:38 shortcode/ovaem-schedule-event.php:33
+msgid "Please choose event to display ticket"
+msgstr ""
+
+#: templates/register-error.php:6
+msgid "Please fill full require field in form or Tickets are sold out"
+msgstr ""
+
+#: shortcode/ovaem-frontend-submit-event.php:9
+msgid "Please login to submit event"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:2314
+msgid "Please note: save Permalink again after change slug: "
+msgstr ""
+"Attention : sauvegarder à nouveau le Permalien après avoir modifié le slug :"
+
+#: inc/class-ovaem-custom-post-types.php:484
+msgctxt "post type general name"
+msgid "Coupons"
+msgstr "Codes Promo"
+
+#: inc/class-ovaem-custom-post-types.php:74
+msgctxt "post type general name"
+msgid "Events"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:383
+msgctxt "post type general name"
+msgid "Orders"
+msgstr "Commandes"
+
+#: inc/class-ovaem-custom-post-types.php:161
+msgctxt "post type general name"
+msgid "Speakers"
+msgstr "Intervenants"
+
+#: inc/class-ovaem-custom-post-types.php:434
+msgctxt "post type general name"
+msgid "Tickets"
+msgstr "Billets"
+
+#: inc/class-ovaem-custom-post-types.php:485
+msgctxt "post type singular name"
+msgid "Coupon"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:75
+msgctxt "post type singular name"
+msgid "Event"
+msgstr "Événement"
+
+#: inc/class-ovaem-custom-post-types.php:384
+msgctxt "post type singular name"
+msgid "Order"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:162
+msgctxt "post type singular name"
+msgid "Speaker"
+msgstr "Intervenant"
+
+#: inc/class-ovaem-custom-post-types.php:435
+msgctxt "post type singular name"
+msgid "Ticket"
+msgstr "Billet"
+
+#: inc/class-ovaem-custom-post-types.php:251
+msgctxt "post type singular name"
+msgid "Venue"
+msgstr "Site"
+
+#: inc/ovaem-core-functions.php:487 templates/loop/gallery.php:33
+msgid "Previous"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:103 templates/cart/cart.php:19
+#: templates/cart/cart.php:51
+msgid "Price"
+msgstr "Prix"
+
+#: inc/class-ovaem-ajax.php:466 admin/class-ovaem-admin-orders.php:73
+#: admin/views/ovaem-metabox-order.php:39 templates/cart/manage-booking.php:76
+msgid "Processed"
+msgstr "Traitée"
+
+#: inc/class-ovaem-ajax.php:479 admin/class-ovaem-admin-settings.php:3848
+#: admin/class-ovaem-admin-orders.php:84 templates/cart/manage-booking.php:89
+msgid "Processing"
+msgstr "Traitement"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1145
+#: admin/class-ovaem-admin-settings.php:4612
+msgid "Public Key"
+msgstr "Clé Publique"
+
+#: admin/views/ovaem-metabox-ticket.php:55
+msgid "Purchaser"
+msgstr "Acheteur"
+
+#: admin/class-ovaem-export-page.php:182
+msgid "QR Code"
+msgstr "QR Code"
+
+#: admin/class-ovaem-admin-settings.php:4216
+msgid "QR Code File"
+msgstr "Fichier du QR code"
+
+#: templates/cart/cart.php:20 templates/cart/cart.php:55
+msgid "Quantity"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:88
+msgid "Quatity"
+msgstr ""
+
+#: templates/admin/custom-field-checkout.php:238
+msgid "Radio"
+msgstr ""
+
+#: shortcode/ovaem-speaker-list.php:345
+msgid "Radius button and arrow"
+msgstr ""
+
+#: admin/views/ovaem-metabox-coupon.php:50
+msgid "Rate (%)"
+msgstr "Taux (%)"
+
+#: shortcode/ovaem-slideshow.php:363 shortcode/ovaem-slideshow-two.php:382
+#: shortcode/ovaem-event-map.php:173 shortcode/ovaem-slideshow-three.php:400
+msgid "Read More Text"
+msgstr ""
+
+#: shortcode/ovaem-venues-slider.php:241 shortcode/ovaem-speaker-list.php:333
+msgid "Read more text"
+msgstr ""
+
+#: inc/class-ovaem-ajax.php:458 inc/class-ovaem-ajax.php:495
+#: admin/class-ovaem-admin-orders.php:67 admin/class-ovaem-admin-orders.php:96
+#: admin/views/ovaem-metabox-order.php:35 templates/cart/manage-booking.php:68
+#: templates/cart/manage-booking.php:105
+msgid "Refunded"
+msgstr "Remboursé"
+
+#: shortcode/ovaem-register-event-free.php:112
+#: templates/register-free-event.php:91 templates/checkout/checkout.php:203
+#: templates/loop/ticket.php:135 templates/loop/ticket.php:142
+#: templates/loop/ticket.php:165 templates/loop/ticket.php:173
+#: templates/loop/ticket.php:217 templates/loop/ticket.php:257
+#: templates/loop/ticket.php:266
+msgid "Register Event"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:34
+msgid "Register Event Free"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:153
+msgid "Register Event Free Form"
+msgstr ""
+
+#: templates/single-event.php:317 templates/single-event.php:324
+msgid "Register Event Now"
+msgstr ""
+
+#: inc/import-order-ticket-woo.php:200 inc/class-ovaem-order.php:139
+#: inc/class-ovaem-order.php:160 inc/class-ovaem-order.php:491
+#: inc/class-ovaem-order.php:511 inc/class-ovaem-process-data.php:142
+#: woomodern/src/Hooks/FilterHooks.php:357
+msgid "Register Event Success"
+msgstr ""
+
+#: templates/register-free-event.php:21
+msgid "Register Event: "
+msgstr ""
+
+#: templates/loop/related.php:31
+msgid "related events"
+msgstr ""
+
+#: inc/import-order-ticket-woo.php:325
+msgid "Related to Event"
+msgstr ""
+
+#: templates/admin/custom-field-checkout.php:182 templates/cart/cart.php:17
+msgid "Remove"
+msgstr "Retirer"
+
+#: admin/views/ovaem-metabox-event-faq.php:42
+msgid "Remove faq"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-gallery.php:20
+msgid "Remove image"
+msgstr "Supprimer l'image"
+
+#: admin/views/ovaem-metabox-event-sponsor-info.php:86
+#: admin/views/ovaem-metabox-event-schedule-plan.php:30
+#: admin/views/ovaem-metabox-event-schedule-plan.php:90
+msgid "Remove Plan"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-schedule.php:44
+msgid "Remove Schedule"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-sponsor.php:39
+msgid "Remove Sponsor"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-sponsor-info.php:34
+msgid "Remove Sponsor Item"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:42
+msgid "Remove Ticket"
+msgstr ""
+
+#: templates/checkout/checkout.php:42
+msgid "Renaming ticket: "
+msgstr ""
+
+#: shortcode/ovaem-events-filter-ajax.php:668
+#: shortcode/ovaem-events-filter.php:614
+msgid "Replace All Events Button Text"
+msgstr ""
+
+#: shortcode/ovaem-events-filter-ajax.php:633
+#: shortcode/ovaem-events-filter.php:571
+msgid "Replace Get ticket"
+msgstr ""
+
+#: shortcode/ovaem-events-filter.php:579
+msgid "Replace No ticket"
+msgstr ""
+
+#: templates/admin/custom-field-checkout.php:197
+#: templates/admin/custom-field-checkout.php:343
+msgid "Required"
+msgstr "Requis"
+
+#: admin/views/ovaem-metabox-ticket.php:179
+msgid "Resend"
+msgstr "Renvoyer"
+
+#: admin/class-ovaem-admin-ajax.php:130
+#: admin/views/ovaem-metabox-ticket.php:166
+msgid "Resend Ticket"
+msgstr "Renvoyer le billet"
+
+#: admin/class-ovaem-admin-ajax.php:131
+msgid "Resend Ticket of event: "
+msgstr "Renvoyer le billet:"
+
+#: admin/class-ovaem-admin-settings.php:3290
+msgid "Result search in google will display type event"
+msgstr "Le résultat de la recherche dans Google affichera le type d'événement"
+
+#: inc/class-ovaem-ajax.php:462 admin/class-ovaem-admin-orders.php:70
+#: admin/views/ovaem-metabox-order.php:37 templates/cart/manage-booking.php:72
+msgid "Reversed"
+msgstr "Annulé"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:75
+#: admin/class-ovaem-admin-settings.php:100
+msgid "Rewrite Slug at frontend"
+msgstr "Réécriture du Slug au niveau du frontend"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:124
+msgid "Rewrite slug at frontend"
+msgstr "Réécriture du Slug au niveau du frontend"
+
+#: admin/class-ovaem-admin-settings.php:3269
+msgid "Right (99.99$)"
+msgstr "Droite (99.99€)"
+
+#: admin/class-ovaem-admin-settings.php:3271
+msgid "Right with space (99.99 $)"
+msgstr "Droite avec espace (99.99 €)"
+
+#: shortcode/ovaem-slideshow.php:205 shortcode/ovaem-slideshow-two.php:223
+#: shortcode/ovaem-slider-event-two.php:223
+#: shortcode/ovaem-events-filter-ajax.php:494
+#: shortcode/ovaem-slider-event.php:195 shortcode/ovaem-events-filter.php:432
+#: shortcode/ovaem-slideshow-three.php:243
+#: admin/views/ovaem-metabox-event-basic.php:122
+msgid "Room"
+msgstr "Salle"
+
+#: templates/single-event-modern.php:152 templates/single-event.php:362
+msgid "Room: "
+msgstr "Salle:"
+
+#: admin/class-ovaem-admin-settings.php:4070
+msgid "Sandbox"
+msgstr ""
+
+#: inc/class-ovaem-ticket.php:386 admin/class-ovaem-admin-settings.php:2672
+#: admin/class-ovaem-admin-settings.php:3391
+#: admin/views/ovaem-metabox-venue.php:93
+msgid "Saturday"
+msgstr "Samedi"
+
+#: templates/single-venue.php:198
+msgid "Saturday "
+msgstr "Samedi"
+
+#: templates/admin/custom-field-checkout.php:352
+msgid "Save"
+msgstr "Sauvegarder"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1071
+msgid "Save Log transactions"
+msgstr "Sauvegarder les transactions du journal"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1362
+msgid "Scan QR Code Image displays: "
+msgstr "Scanner l'image du QR code affiche:"
+
+#: templates/single-event.php:37 admin/views/ovaem-metabox-event.php:19
+#: admin/views/ovaem-metabox-event-label.php:18
+msgid "Schedule"
+msgstr "Programme"
+
+#: shortcode/ovaem-schedule-event.php:63
+msgid "Schedule Event"
+msgstr ""
+
+#: widgets/ovaem_search_event.php:285
+msgid "Seach Categories :"
+msgstr "Recherche de catégories :"
+
+#: widgets/ovaem_search_event.php:314
+msgid "Seach date :"
+msgstr ""
+
+#: widgets/ovaem_search_event.php:254
+msgid "Seach Name :"
+msgstr ""
+
+#: widgets/ovaem_search_event.php:300
+msgid "Seach Time :"
+msgstr ""
+
+#: widgets/ovaem_search_event.php:270
+msgid "Seach Venue :"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:46 widgets/ovaem_search_event.php:196
+msgid "Search"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:126
+msgid "Search "
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:183
+msgid "Search Banner"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:542
+msgid "Search button text"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:359
+msgid "Search Cat"
+msgstr "Recherche par catégorie"
+
+#: inc/class-ovaem-custom-post-types.php:494
+msgid "Search Coupons"
+msgstr "Rechercher un code promo"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:458
+msgid "Search Date"
+msgstr "Date de recherche"
+
+#: widgets/ovaem_search_event.php:211
+msgid "Search Event"
+msgstr ""
+
+#: shortcode/ovaem-search-one.php:179
+msgid "Search Event Full"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:540
+msgid "Search Event Locations"
+msgstr "Rechercher un lieu"
+
+#: inc/class-ovaem-custom-post-types.php:348
+msgid "Search Event Tags"
+msgstr "Rechercher un tag d'événement"
+
+#: inc/class-ovaem-custom-post-types.php:84
+msgid "Search Events"
+msgstr "Rechercher un événement"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:350
+msgid "Search Name"
+msgstr "Recherche par nom"
+
+#: inc/class-ovaem-custom-post-types.php:393
+msgid "Search Orders"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:342
+msgid "Search Setting"
+msgstr "Paramètres de recherche"
+
+#: shortcode/ovaem-search-simple.php:51
+msgid "Search Simple"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:209
+msgid "Search Speaker Category"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:171
+msgid "Search Speakers"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:444
+msgid "Search Tickets"
+msgstr "Rechercher un billet"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:377
+msgid "Search Time"
+msgstr "Recherche par date"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:368
+msgid "Search Venue"
+msgstr "Recherche par site"
+
+#: inc/class-ovaem-custom-post-types.php:299
+msgid "Search Venue Category"
+msgstr "Recherche par catégorie de site"
+
+#: inc/class-ovaem-custom-post-types.php:260
+msgid "Search Venues"
+msgstr "Recherche de sites"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:185
+msgid "Secret Key QR Code"
+msgstr "Clé secrète pour les QR Code"
+
+#: templates/admin/custom-field-checkout.php:237
+msgid "Select"
+msgstr ""
+
+#: widgets/ovaem_special_event.php:83
+msgid "Select an event :"
+msgstr ""
+
+#: shortcode/ovaem-events-filter-ajax.php:84
+#: shortcode/ovaem-events-filter.php:61
+msgid "Select Category"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-basic.php:135
+msgid "Select Venue"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1216
+msgid "Send Email From"
+msgstr "Envoyer mail à partir de"
+
+#: admin/class-ovaem-admin-ajax.php:151
+msgid "Send Error"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1210
+msgid "Send From"
+msgstr "Envoyer depuis"
+
+#: admin/class-ovaem-admin-ajax.php:148
+msgid "Sent"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:539
+msgid "Separate Event Locations with commas"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:347
+msgid "Separate Event Tags with commas"
+msgstr ""
+
+#: templates/frontend-submit.php:147
+#, php-format
+msgid "separated by comma. Limit %s words"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1153
+#: admin/class-ovaem-admin-settings.php:4622
+msgid "Serect Key"
+msgstr "Clé Secrète"
+
+#: admin/class-ovaem-admin-menu.php:71 admin/class-ovaem-admin-menu.php:72
+msgid "Settings"
+msgstr "Réglages"
+
+#: admin/class-ovaem-admin-settings.php:2315
+msgid ""
+"Settings >> Permalinks >> Choose Plain then Settings >> Permalinks >> Choose "
+"Post name  "
+msgstr ""
+"Réglages >> Permaliens >> Choisir Simple puis Paramètres >> Permaliens >> "
+"Choisir Nom du message"
+
+#: templates/single-venue.php:73 templates/single-event-modern.php:173
+#: templates/single-event.php:155
+msgid "Share"
+msgstr ""
+
+#. ID
+#: shortcode/ovaem-venues-slider.php:216
+#: admin/class-ovaem-admin-settings.php:669
+msgid "Show Address"
+msgstr "Afficher l'adresse"
+
+#: shortcode/ovaem-register-event-free.php:243
+msgid "Show address"
+msgstr "Afficher l'adresse"
+
+#: shortcode/ovaem-slideshow-three.php:468
+msgid "Show Address in register form"
+msgstr "Afficher l'adresse dans le formulaire d'inscription"
+
+#: shortcode/ovaem-search-banner.php:501
+msgid "Show All Events Button"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:284
+msgid "Show All Time"
+msgstr ""
+
+#: shortcode/ovaem-venues-slider.php:262
+msgid "Show all venues button"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:557
+msgid "Show Book Now Button"
+msgstr "Afficher le bouton Réserver maintenant"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:565
+msgid "Show Book Now Button when event expired"
+msgstr "Afficher le bouton Réserver maintenant lorsque l'événement a expiré"
+
+#: shortcode/ovaem-search-banner.php:317 shortcode/ovaem-search-one.php:224
+msgid "Show Category"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:482
+msgid "Show Cities"
+msgstr "Afficher les villes"
+
+#: widgets/ovaem_search_event.php:343
+msgid "Show Cities :"
+msgstr "Afficher les villes :"
+
+#: shortcode/ovaem-search-banner.php:260 shortcode/ovaem-search-one.php:248
+msgid "Show City"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1379
+msgid "Show Code: "
+msgstr "Afficher le code du billet:"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:613
+msgid "Show Comemnts Event"
+msgstr "Afficher  les commentaires"
+
+#: shortcode/ovaem-register-event-free.php:255
+msgid "Show company"
+msgstr ""
+
+#: shortcode/ovaem-slideshow-three.php:480
+msgid "Show Company in register form"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:621
+msgid "Show Contact Form"
+msgstr "Afficher le formulaire de contact"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:524
+msgid "Show Content"
+msgstr "Afficher le contenu"
+
+#: shortcode/ovaem-search-banner.php:296 shortcode/ovaem-search-one.php:272
+msgid "Show Date"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:267
+#: shortcode/ovaem-venues-slider.php:203
+#: shortcode/ovaem-events-filter-ajax.php:580
+#: shortcode/ovaem-events-filter.php:518
+msgid "Show Description"
+msgstr ""
+
+#: shortcode/ovaem-slideshow-three.php:492
+msgid "Show Description in register form"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:645
+msgid "Show End Date"
+msgstr "Afficher la date de fin"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:725
+msgid "Show Extra Info"
+msgstr "Afficher les info. supplémentaires"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:733
+msgid "Show FAQ"
+msgstr "Afficher la FAQ"
+
+#: widgets/ovaem_search_event.php:371
+msgid "Show Feature in All Time :"
+msgstr "Afficher \"Événements futurs\" dans le sélecteur de Date "
+
+#: shortcode/ovaem-search-banner.php:366
+msgid "Show Featured Button"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:486 shortcode/ovaem-search-one.php:378
+msgid "Show Future in All Time"
+msgstr "Afficher \"Événements futurs\" dans le sélecteur de Date "
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:449
+msgid "Show future in All Time"
+msgstr "Afficher \"Événements futurs\" dans le sélecteur de Date "
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:532
+msgid "Show Gallery"
+msgstr "Afficher la Galerie"
+
+#: shortcode/ovaem-events-filter-ajax.php:620
+#: shortcode/ovaem-events-filter.php:558
+msgid "Show Get Ticket"
+msgstr "Afficher \"Obtenir un billet\""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:701
+msgid "Show Google Calendar"
+msgstr "Afficher le calendrier Google"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1325
+msgid "Show Holder Ticket: "
+msgstr "Afficher nom du participant:"
+
+#. ID
+#: shortcode/ovaem-speaker-list.php:295
+#: admin/class-ovaem-admin-settings.php:786
+msgid "Show Job"
+msgstr "Afficher le métier"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1296
+msgid "Show Logo: "
+msgstr "Afficher le logo:"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:685
+#: admin/views/ovaem-metabox-venue.php:108
+msgid "Show Map"
+msgstr "Afficher la carte"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:693
+msgid "Show Map Button"
+msgstr "Bouton \"Afficher la carte\""
+
+#: shortcode/ovaem-register-event-free.php:207
+#: shortcode/ovaem-search-banner.php:236
+#: shortcode/ovaem-events-filter-ajax.php:554
+#: shortcode/ovaem-events-filter.php:492 shortcode/ovaem-search-one.php:200
+msgid "Show name"
+msgstr ""
+
+#: shortcode/ovaem-slideshow-three.php:432
+msgid "Show Name in register form"
+msgstr ""
+
+#: shortcode/ovaem-events-filter-ajax.php:692
+#: shortcode/ovaem-events-filter.php:638
+msgid "Show Navigation"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:462 shortcode/ovaem-search-one.php:354
+msgid "Show Next Month in All Time"
+msgstr "Afficher \"Mois Prochain\" dans le sélecteur de Date "
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:433
+msgid "Show next month in All Time"
+msgstr "Afficher \"Mois Prochain\" dans le sélecteur de Date "
+
+#: widgets/ovaem_search_event.php:456
+msgid "Show Next Month in All Time :"
+msgstr "Afficher \"Mois Prochain\" dans le sélecteur de Date "
+
+#: shortcode/ovaem-search-banner.php:450 shortcode/ovaem-search-one.php:342
+msgid "Show Next Week in All Time"
+msgstr "Afficher \"Semaine prochaine\" dans le sélecteur de Date "
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:425
+msgid "Show next week in All Time"
+msgstr "Afficher \"Semaine prochaine\" dans le sélecteur de Date "
+
+#: widgets/ovaem_search_event.php:442
+msgid "Show Next Week in All Time :"
+msgstr "Afficher \"Semaine prochaine\" dans le sélecteur de Date "
+
+#: shortcode/ovaem-slider-event.php:256
+msgid "Show Next, Prev Button"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:629
+msgid "Show notify: in time or expired"
+msgstr "Afficher les notifications : à temps ou expiré"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1316
+msgid "Show Order ID: "
+msgstr "Afficher n° de commande:"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1334
+msgid "Show Order Time: "
+msgstr "Afficher la date de commande:"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:677
+msgid "Show Organizer"
+msgstr "Afficher l'organisateur"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1388
+msgid "Show Package: "
+msgstr "Afficher le Package:"
+
+#: shortcode/ovaem-calendar.php:129
+msgid "Show past"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:253 shortcode/ovaem-slideshow-two.php:270
+#: shortcode/ovaem-slider-event-two.php:261 shortcode/ovaem-event-map.php:160
+#: shortcode/ovaem-events-filter-ajax.php:540
+#: shortcode/ovaem-slider-event.php:243 shortcode/ovaem-events-filter.php:478
+#: shortcode/ovaem-slideshow-three.php:290
+msgid "Show Past Event"
+msgstr ""
+
+#: widgets/ovaem_list_events.php:142
+msgid "Show Past Event :"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:474 shortcode/ovaem-search-one.php:366
+msgid "Show Past in All Time"
+msgstr "Afficher \"Événements passés\" dans le sélecteur de Date "
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:441
+msgid "Show past in All Time"
+msgstr "Afficher \"Événements passés\" dans le sélecteur de Date "
+
+#: widgets/ovaem_search_event.php:357
+msgid "Show Past in All Time :"
+msgstr "Afficher \"Événements passés\" dans le sélecteur de Date "
+
+#: shortcode/ovaem-register-event-free.php:219
+msgid "Show phone"
+msgstr ""
+
+#: shortcode/ovaem-slideshow-three.php:444
+msgid "Show Phone in register form"
+msgstr ""
+
+#: shortcode/ovaem-events-filter-ajax.php:594
+#: shortcode/ovaem-events-filter.php:532
+msgid "Show Price"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1371
+msgid "Show QR Code Image: "
+msgstr "Afficher l'image du QR code:"
+
+#: shortcode/ovaem-events-filter-ajax.php:641
+#: shortcode/ovaem-events-filter.php:587
+msgid "Show Read More"
+msgstr ""
+
+#: shortcode/ovaem-venues-slider.php:229
+msgid "Show Readmore"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:605
+msgid "Show Related Event"
+msgstr "Afficher les événements liés"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:653
+msgid "Show Room"
+msgstr "Afficher la salle"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:573
+msgid "Show Schedule Tab"
+msgstr "Afficher l'onglet Programme"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:549
+msgid "Show Share Social"
+msgstr "Afficher partage Social"
+
+#. ID
+#: shortcode/ovaem-speaker-list.php:282
+#: admin/class-ovaem-admin-settings.php:795
+msgid "Show Social"
+msgstr "Afficher les réseaux"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:581
+msgid "Show Speaker Tab"
+msgstr "Afficher l'onglet Intervenant"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:717
+msgid "Show Sponsors"
+msgstr "Afficher les Sponsors"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:637
+msgid "Show Start Date"
+msgstr "Afficher la date de début"
+
+#: shortcode/ovaem-search-banner.php:248 shortcode/ovaem-search-one.php:236
+msgid "Show State"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:474
+msgid "Show States"
+msgstr "Afficher les pays"
+
+#: widgets/ovaem_search_event.php:329
+msgid "Show States :"
+msgstr "Afficher les pays :"
+
+#: shortcode/ovaem-events-filter-ajax.php:705
+#: shortcode/ovaem-events-filter.php:651
+msgid "Show Status"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:541
+msgid "Show Tag"
+msgstr "Afficher les tags"
+
+#: shortcode/ovaem-search-banner.php:425 shortcode/ovaem-search-one.php:317
+msgid "Show This Week in All Time"
+msgstr "Afficher \"Cette Semaine\" dans le sélecteur de Date "
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:401
+msgid "Show this week in All Time"
+msgstr "Afficher \"Cette Semaine\" dans le sélecteur de Date "
+
+#: widgets/ovaem_search_event.php:414
+msgid "Show This Week in All Time :"
+msgstr "Afficher \"Cette Semaine\" dans le sélecteur de Date "
+
+#: shortcode/ovaem-search-banner.php:438 shortcode/ovaem-search-one.php:330
+msgid "Show This Weekend in All Time"
+msgstr "Afficher \"Ce Week-end\" dans le sélecteur de Date "
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:409
+msgid "Show this weekend in All Time"
+msgstr "Afficher \"Ce Week-end\" dans le sélecteur de Date "
+
+#: widgets/ovaem_search_event.php:428
+msgid "Show This Weekend in All Time :"
+msgstr "Afficher \"Ce Week-end\" dans le sélecteur de Date "
+
+#: shortcode/ovaem-register-event-free.php:231
+msgid "Show ticket"
+msgstr ""
+
+#: shortcode/ovaem-slideshow-three.php:456
+msgid "Show Ticket in register form"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:589
+msgid "Show Ticket Tab"
+msgstr "Afficher l'onglet Billet"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:597
+msgid "Show Ticket Tab When event expired"
+msgstr "Afficher l'onglet Billet lorsque l'événement a expiré"
+
+#: shortcode/ovaem-events-filter-ajax.php:567
+#: shortcode/ovaem-events-filter.php:505 shortcode/ovaem-search-one.php:260
+msgid "Show Time"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1305
+msgid "Show Time: "
+msgstr "Afficher la Date:"
+
+#: shortcode/ovaem-venues-slider.php:190 shortcode/ovaem-speaker-list.php:256
+msgid "Show Title"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:195
+msgid "Show title form"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:400 shortcode/ovaem-search-one.php:292
+msgid "Show Today in All Time"
+msgstr "Afficher \"Aujourd'hui\" dans le sélecteur de Date "
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:385
+msgid "Show today in All Time"
+msgstr "Afficher \"Aujourd'hui\" dans le sélecteur de Date "
+
+#: widgets/ovaem_search_event.php:385
+msgid "Show Today in All Time :"
+msgstr "Afficher \"Aujourd'hui\" dans le sélecteur de Date "
+
+#: shortcode/ovaem-search-banner.php:412 shortcode/ovaem-search-one.php:304
+msgid "Show Tomorrow in All Time"
+msgstr "Afficher \"Demain\" dans le sélecteur de Date "
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:393
+msgid "Show tomorrow in All Time"
+msgstr "Afficher \"Demain\" dans le sélecteur de Date "
+
+#: widgets/ovaem_search_event.php:399
+msgid "Show Tomorrow in All Time :"
+msgstr "Afficher \"Demain\" dans le sélecteur de Date "
+
+#: shortcode/ovaem-search-banner.php:331
+msgid "Show Upcoming Button"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:272
+#: shortcode/ovaem-events-filter-ajax.php:607
+#: shortcode/ovaem-events-filter.php:545
+msgid "Show Venue"
+msgstr "Afficher le site"
+
+#. ID
+#: shortcode/ovaem-search-one.php:212 admin/class-ovaem-admin-settings.php:661
+msgid "Show venue"
+msgstr "Afficher le site"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1345
+msgid "Show Venue Line 1: "
+msgstr "Afficher la ligne de site 1:"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1353
+msgid "Show Venue Line 2: "
+msgstr "Afficher la ligne de site 2:"
+
+#: inc/class-ovaem-get-data.php:1229
+msgid "Showing"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event.php:26
+#: admin/views/ovaem-metabox-event-label.php:54
+msgid "Sidebar Content"
+msgstr "Contenu de la Sidebar"
+
+#: shortcode/ovaem-simple-event.php:90
+msgid "Simple Event"
+msgstr ""
+
+#: shortcode/ovaem-frontend-submit-event.php:10
+msgid "Sing In"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:151
+msgid "Slideshow Event Basic"
+msgstr ""
+
+#: shortcode/ovaem-slideshow-two.php:167
+msgid "Slideshow Event Countdown"
+msgstr ""
+
+#: shortcode/ovaem-slideshow-three.php:187
+msgid "Slideshow Event Register"
+msgstr ""
+
+#: shortcode/ovaem-categories.php:63
+#: templates/admin/custom-field-checkout.php:193
+#: templates/admin/custom-field-checkout.php:309
+msgid "Slug"
+msgstr ""
+
+#: shortcode/ovaem-events-filter-ajax.php:455
+#: shortcode/ovaem-events-filter.php:393
+msgid "Slug Categories list"
+msgstr ""
+
+#: shortcode/ovaem-speaker-list.php:197
+msgid "Slug of Speaker"
+msgstr ""
+
+#: shortcode/ovaem-venues-slider.php:130
+msgid "Slug of venue"
+msgstr ""
+
+#: admin/views/ovaem-metabox-speaker.php:83
+msgid "Social Network"
+msgstr "Réseaux sociaux"
+
+#: templates/loop/ticket.php:138 templates/loop/ticket.php:139
+#: templates/loop/ticket.php:168 templates/loop/ticket.php:169
+#: templates/loop/ticket.php:194 templates/loop/ticket.php:195
+#: templates/loop/ticket.php:221 templates/loop/ticket.php:222
+#: templates/loop/ticket.php:260 templates/loop/ticket.php:261
+msgid "Sold out"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:228
+msgctxt "Speaeker Category"
+msgid "cat_speaker"
+msgstr ""
+
+#: templates/single-event.php:38 admin/views/ovaem-metabox-event-label.php:24
+msgid "Speaker"
+msgstr "Intervenant"
+
+#: inc/class-ovaem-custom-post-types.php:176
+msgid "Speaker Archives"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:177
+msgid "Speaker Attributes"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:210
+msgid "Speaker Category"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:217
+msgid "Speaker Category New"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:861
+msgid "Speaker joined event: Order"
+msgstr "L'intervenant a rejoint l'événement:: Ordre"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:853
+msgid "Speaker joined event: Order By"
+msgstr "L'intervenant a rejoint l'événement: Classer par"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:845
+msgid "Speaker joined event: Show Current Event"
+msgstr "L'intervenant a rejoint l'événement:: Afficher l'événement en cours"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:837
+msgid "Speaker joined event: Show Past Event"
+msgstr ""
+"L'intervenant a rejoint l'événement: Afficher les événements précèdents"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:829
+msgid "Speaker joined event:: Count"
+msgstr "L'intervenant a rejoint l'événement:: Nombre"
+
+#: shortcode/ovaem-speaker-list.php:185
+msgid "Speaker List"
+msgstr ""
+
+#. ID
+#: inc/class-ovaem-custom-post-types.php:182
+#: admin/class-ovaem-admin-settings.php:84
+msgid "Speaker Post Type"
+msgstr "Poste de type Intervenant"
+
+#: admin/class-ovaem-admin-metaboxes.php:77
+msgid "Speaker Settings"
+msgstr "Réglages de l'intervenant"
+
+#: inc/class-ovaem-custom-post-types.php:175
+#: admin/views/ovaem-metabox-event-schedule-plan.php:63
+#: admin/views/ovaem-metabox-event-schedule-plan.php:124
+msgid "Speakers"
+msgstr "Intervenants"
+
+#: admin/class-ovaem-admin-settings.php:2277
+msgid "Speakers Settings"
+msgstr "Réglages des intervenants"
+
+#: widgets/ovaem_special_event.php:73
+msgid "Special Event"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event.php:21
+#: admin/views/ovaem-metabox-event-label.php:30
+msgid "Sponsor"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-sponsor.php:50
+msgid "Sponsor Level"
+msgstr "Niveau du sponsor"
+
+#: admin/views/ovaem-metabox-coupon.php:59
+msgid "Start date"
+msgstr "Date de début"
+
+#: templates/single-event.php:348
+msgid "Start Date: "
+msgstr "Date de début:"
+
+#: admin/class-ovaem-admin-settings.php:3477
+#: admin/class-ovaem-admin-settings.php:3625
+#: admin/class-ovaem-admin-settings.php:3753
+#: admin/class-ovaem-admin-settings.php:4913 templates/frontend-submit.php:49
+#: widgets/ovaem_list_events.php:126 admin/views/ovaem-metabox-ticket.php:132
+msgid "Start Time"
+msgstr "Date de début"
+
+#: shortcode/ovaem-slideshow.php:228 shortcode/ovaem-slideshow-two.php:245
+#: shortcode/ovaem-slider-event-two.php:236 shortcode/ovaem-event-map.php:134
+#: shortcode/ovaem-events-filter-ajax.php:515
+#: shortcode/ovaem-slider-event.php:217 shortcode/ovaem-events-filter.php:453
+#: shortcode/ovaem-slideshow-three.php:265 templates/check-ticket.php:104
+msgid "Start time"
+msgstr "Date de début"
+
+#: inc/class-ovaem-ajax.php:406 inc/class-ovaem-ajax.php:429
+#: admin/class-ovaem-admin-tickets.php:83
+#: admin/class-ovaem-admin-orders.php:166
+#: admin/views/ovaem-metabox-order.php:19
+#: admin/views/ovaem-metabox-ticket.php:36 templates/cart/manage-booking.php:13
+#: templates/cart/manage-booking.php:39
+msgid "Status"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1494
+msgid "Status Settings"
+msgstr "Réglages d'état"
+
+#: admin/views/ovaem-metabox-ticket.php:192
+msgid "Status: "
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:193
+msgid "Step time when choose date"
+msgstr "Écart de temps lors du choix d'une date"
+
+#: inc/class-ovaem-order.php:315 admin/class-ovaem-admin-settings.php:4053
+msgid "Stripe"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1136
+msgid "Stripe info when client checkout"
+msgstr "Informations sur Stripe lors du paiement par le client"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1129
+msgid "Stripe Payment Setting"
+msgstr "Paramètres de paiement Stripe"
+
+#. ID
+#: shortcode/ovaem-register-event-free.php:183
+#: shortcode/ovaem-venues-slider.php:250 shortcode/ovaem-speaker-list.php:307
+#: shortcode/ovaem-events-filter-ajax.php:677
+#: shortcode/ovaem-events-filter.php:623
+#: admin/class-ovaem-admin-settings.php:752
+msgid "Style"
+msgstr ""
+
+#: shortcode/ovaem-venues-slider.php:253 shortcode/ovaem-speaker-list.php:310
+#: shortcode/ovaem-events-filter-ajax.php:657
+#: shortcode/ovaem-events-filter-ajax.php:680
+#: shortcode/ovaem-events-filter.php:603 shortcode/ovaem-events-filter.php:626
+#: admin/class-ovaem-admin-settings.php:3351
+#: admin/class-ovaem-admin-settings.php:4703
+msgid "Style 1"
+msgstr ""
+
+#: shortcode/ovaem-venues-slider.php:254 shortcode/ovaem-speaker-list.php:311
+#: shortcode/ovaem-events-filter-ajax.php:658
+#: shortcode/ovaem-events-filter-ajax.php:681
+#: shortcode/ovaem-events-filter.php:604 shortcode/ovaem-events-filter.php:627
+#: admin/class-ovaem-admin-settings.php:3352
+#: admin/class-ovaem-admin-settings.php:4704
+msgid "Style 2"
+msgstr ""
+
+#: shortcode/ovaem-speaker-list.php:312
+#: shortcode/ovaem-events-filter-ajax.php:682
+#: shortcode/ovaem-events-filter.php:628
+#: admin/class-ovaem-admin-settings.php:3353
+#: admin/class-ovaem-admin-settings.php:4705
+msgid "Style 3"
+msgstr ""
+
+#: shortcode/ovaem-speaker-list.php:313
+#: shortcode/ovaem-events-filter-ajax.php:683
+#: shortcode/ovaem-events-filter.php:629
+#: admin/class-ovaem-admin-settings.php:3354
+#: admin/class-ovaem-admin-settings.php:4706
+msgid "Style 4"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:227
+msgid "Style Archives/Category Event"
+msgstr "Style des Archives/Catégorie Événement"
+
+#: shortcode/ovaem-speaker-list.php:342
+msgid "Style button read more"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:204
+msgid "Sub Title"
+msgstr ""
+
+#: shortcode/ovaem-search-simple.php:72
+msgid "Sub title"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:535
+msgid "Sub Title 2"
+msgstr ""
+
+#: templates/frontend-submit.php:160
+msgid "Submit"
+msgstr ""
+
+#: inc/class-ovaem-cart.php:160 admin/views/ovaem-metabox-order.php:217
+#: templates/checkout/checkout.php:161 templates/cart/cart.php:108
+msgid "Subtotal"
+msgstr ""
+
+#: inc/class-ovaem-ticket.php:368 admin/class-ovaem-admin-settings.php:2673
+#: admin/class-ovaem-admin-settings.php:3392
+#: admin/views/ovaem-metabox-venue.php:98
+msgid "Sunday"
+msgstr "Dimanche"
+
+#: templates/single-venue.php:205
+msgid "Sunday "
+msgstr "Dimanche"
+
+#: shortcode/ovaem-events-filter-ajax.php:464
+#: shortcode/ovaem-events-filter.php:402
+msgid "Tab active"
+msgstr ""
+
+#: widgets/ovaem_tags.php:85
+msgid "Tag Number:"
+msgstr ""
+
+#: admin/class-ovaem-admin-menu.php:54 admin/class-ovaem-admin-menu.php:55
+#: templates/frontend-submit.php:145
+msgid "Tags"
+msgstr ""
+
+#: widgets/ovaem_tags.php:74
+msgid "Tags Events"
+msgstr ""
+
+#: templates/loop/tag.php:8
+msgid "Tags: "
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:42
+msgid "Taxonomy Setting"
+msgstr "Paramètres de la taxonomie"
+
+#: inc/class-ovaem-custom-post-types.php:125
+msgctxt "taxonomy singular name"
+msgid "Event "
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:208
+msgctxt "taxonomy singular name"
+msgid "Speaker Category"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:298
+msgctxt "taxonomy singular name"
+msgid "Venue Category"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:516
+msgid "Template"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:98
+#: templates/register-free-event.php:77 templates/checkout/checkout.php:196
+msgid "terms and conditions"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1029
+msgid "Terms and Conditions Page"
+msgstr "Page des conditions générales"
+
+#: templates/admin/custom-field-checkout.php:232
+msgid "Text"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1405
+msgid "Text Color: "
+msgstr "Couleur du Texte:"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1430
+msgid "Text Font Size: "
+msgstr "Taille de police du texte :"
+
+#: templates/admin/custom-field-checkout.php:236
+msgid "Textarea"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1013
+msgid "Thanks Page after register"
+msgstr "Page de remerciement"
+
+#: templates/single-event-modern.php:362 templates/single-event.php:100
+#: templates/loop/ticket.php:134 templates/loop/ticket.php:164
+#: templates/loop/ticket.php:190 templates/loop/ticket.php:216
+#: templates/loop/ticket.php:256
+msgid "The event is expired"
+msgstr ""
+
+#: templates/single-event-modern.php:367 templates/single-event.php:105
+msgid "The event is in time"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:209
+msgid "The first day of week"
+msgstr "Premier jour de la semaine"
+
+#: templates/check-ticket.php:147
+msgid "The Ticket isn't verify OR checked in ago "
+msgstr "Le billet n'est pas vérifié ou déjà enregistré"
+
+#: templates/loop/ticket.php:35
+msgid "The Ticket sale has expired"
+msgstr ""
+
+#: shortcode/ovaem-slideshow-two.php:412 shortcode/ovaem-event-countdown.php:90
+msgid ""
+"The timezone for the target times. <br/>\n"
+"\t\t\t\t\tFor example:<br/>\n"
+"\t\t\t\t\tIf Timezone is UTC-9:00 you have to insert -9 <br/>\n"
+"\t\t\t\t\tIf Timezone is UTC-9:30, you have to insert -9*60+30=-570. <br/>\n"
+"\t\t\t\t\tRead about UTC Time: http://en.wikipedia."
+"org/wiki/List_of_UTC_time_offsets"
+msgstr ""
+
+#: shortcode/ovaem-slider-event-two.php:284
+msgid ""
+"The timezone for the target times. <br/>\n"
+"\t\tFor example:<br/>\n"
+"\t\tIf Timezone is UTC-9:00 you have to insert -9 <br/>\n"
+"\t\tIf Timezone is UTC-9:30, you have to insert -9*60+30=-570. <br/>\n"
+"\t\tRead about UTC Time: http://en.wikipedia."
+"org/wiki/List_of_UTC_time_offsets"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:264
+msgid ""
+"These info will send to email when the customer booking ticket successfully"
+msgstr ""
+"Ces informations seront envoyées par email lorsque le client aura réservé "
+"son billet avec succès."
+
+#: shortcode/ovaem-search-banner.php:121 shortcode/ovaem-search-one.php:135
+#: widgets/ovaem_search_event.php:143
+msgid "This Week"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:123 shortcode/ovaem-search-one.php:137
+#: widgets/ovaem_search_event.php:145
+msgid "This Weekend"
+msgstr ""
+
+#: templates/frontend-submit.php:106
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/class-ovaem-ticket.php:380 admin/class-ovaem-admin-settings.php:2670
+#: admin/class-ovaem-admin-settings.php:3389
+msgid "Thursday"
+msgstr "Jeudi"
+
+#: admin/views/ovaem-metabox-event.php:23
+#: admin/views/ovaem-metabox-event-label.php:42
+msgid "Ticket"
+msgstr "Billet"
+
+#: templates/single-event.php:39
+msgid "Ticket & Price"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:449
+msgid "Ticket Archives"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:450
+msgid "Ticket Attributes"
+msgstr ""
+
+#: admin/class-ovaem-admin-metaboxes.php:96
+msgid "Ticket Details"
+msgstr "Détails du billet"
+
+#: shortcode/ovaem-ticket-event.php:67
+msgid "Ticket Event"
+msgstr ""
+
+#: admin/views/ovaem-metabox-ticket.php:220
+msgid "Ticket exported from Order ID: "
+msgstr "Ticket exporté à partir de l'ID de commande :"
+
+#: templates/check-ticket.php:22
+msgid "Ticket ID"
+msgstr ""
+
+#: templates/check-ticket.php:52
+msgid "Ticket is invalid"
+msgstr ""
+
+#: templates/check-ticket.php:17
+msgid "Ticket is valid"
+msgstr ""
+
+#: admin/views/ovaem-metabox-order.php:77
+msgid "Ticket Number"
+msgstr ""
+
+#: shortcode/ovaem-register-event-free.php:59
+msgid "Ticket Number *"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:455
+msgid "Ticket Post Type"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1278
+msgid "Ticket Template: "
+msgstr "Template du billet:"
+
+#: admin/class-ovaem-admin-orders.php:167
+#: admin/views/ovaem-metabox-order.php:89
+msgid "Ticket Type"
+msgstr "Type de billet"
+
+#: admin/views/ovaem-metabox-ticket.php:22
+msgid "Ticket Verify"
+msgstr "Vérification du billet"
+
+#: admin/class-ovaem-admin-orders.php:30
+msgid "Ticket: "
+msgstr ""
+
+#: admin/class-ovaem-export-page.php:89
+msgid "Ticket: Checking Status"
+msgstr "Ticket : Status d'entrée"
+
+#: admin/class-ovaem-export-page.php:76
+msgid "Ticket: Verify Status"
+msgstr "Billet : Statut de vérification"
+
+#: templates/loop/ticket.php:112 templates/loop/ticket.php:116
+msgid "Tickets"
+msgstr "Billets"
+
+#: admin/views/ovaem-metabox-event-basic.php:65
+#: admin/views/ovaem-metabox-event-schedule-plan.php:48
+#: admin/views/ovaem-metabox-event-schedule-plan.php:109
+#: templates/pdf/template2.php:30 templates/pdf/template1.php:12
+msgid "Time"
+msgstr "Date"
+
+#: shortcode/ovaem-calendar.php:151
+msgid "Time Zone"
+msgstr ""
+
+#: shortcode/ovaem-slideshow-two.php:411 shortcode/ovaem-event-countdown.php:89
+#: shortcode/ovaem-slider-event-two.php:283
+msgid "Timezone"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:196 shortcode/ovaem-search-simple.php:64
+#: admin/class-ovaem-admin-settings.php:3482
+#: admin/class-ovaem-admin-settings.php:3668
+#: admin/class-ovaem-admin-settings.php:4832
+#: admin/views/ovaem-metabox-event-faq.php:54
+#: admin/views/ovaem-metabox-event-speakers.php:45
+#: admin/views/ovaem-metabox-event-schedule-plan.php:39
+#: admin/views/ovaem-metabox-event-schedule-plan.php:100
+msgid "Title"
+msgstr "Nom"
+
+#: widgets/ovaem-categories.php:68 widgets/ovaem_search_event.php:238
+#: widgets/ovaem_special_event.php:78 widgets/ovaem_tags.php:80
+#: widgets/ovaem_list_events.php:104
+msgid "Title:"
+msgstr ""
+
+#: templates/single-event-modern.php:135
+msgid "To"
+msgstr "À"
+
+#: admin/views/ovaem-metabox-event-basic.php:79
+#: admin/views/ovaem-metabox-event-ticket.php:232
+msgid "to"
+msgstr "à"
+
+#: shortcode/ovaem-search-banner.php:147 shortcode/ovaem-search-one.php:159
+#: widgets/ovaem_search_event.php:168
+msgid "To ..."
+msgstr "À ..."
+
+#: shortcode/ovaem-slideshow-two.php:179
+#: shortcode/ovaem-slideshow-three.php:199
+msgid "To use this option, you have to make field: Choose Event is Empty"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:179 shortcode/ovaem-slideshow-two.php:197
+#: shortcode/ovaem-slider-event-two.php:186
+#: shortcode/ovaem-slider-event.php:170 shortcode/ovaem-slideshow-three.php:217
+msgid "To use this option, you have to make field: Slug Events is Empty"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:117 shortcode/ovaem-search-one.php:131
+#: widgets/ovaem_search_event.php:139
+msgid "Today"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:119 shortcode/ovaem-search-one.php:133
+#: widgets/ovaem_search_event.php:141
+msgid "Tomorrow"
+msgstr ""
+
+#: inc/class-ovaem-cart.php:121 inc/class-ovaem-cart.php:165
+#: admin/class-ovaem-admin-orders.php:165
+#: admin/views/ovaem-metabox-order.php:189
+#: admin/views/ovaem-metabox-order.php:222 templates/checkout/checkout.php:133
+#: templates/checkout/checkout.php:166 templates/cart/cart.php:21
+#: templates/cart/cart.php:59 templates/cart/cart.php:113
+msgid "Total"
+msgstr ""
+
+#: admin/class-ovaem-admin-orders.php:148
+#, php-format
+msgid "Total: %1$s%2$s"
+msgstr ""
+
+#: admin/class-ovaem-admin-orders.php:150
+msgid "Total: 0"
+msgstr ""
+
+#: admin/views/ovaem-metabox-order.php:109
+msgid "Transaction ID"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:269 shortcode/ovaem-slideshow.php:289
+#: shortcode/ovaem-slideshow.php:301 shortcode/ovaem-slideshow.php:374
+#: shortcode/ovaem-venues-slider.php:193 shortcode/ovaem-venues-slider.php:206
+#: shortcode/ovaem-venues-slider.php:219 shortcode/ovaem-venues-slider.php:232
+#: shortcode/ovaem-venues-slider.php:266 shortcode/ovaem-slideshow-two.php:288
+#: shortcode/ovaem-slideshow-two.php:308 shortcode/ovaem-slideshow-two.php:320
+#: shortcode/ovaem-slideshow-two.php:393 shortcode/ovaem-search-banner.php:239
+#: shortcode/ovaem-search-banner.php:251 shortcode/ovaem-search-banner.php:263
+#: shortcode/ovaem-search-banner.php:275 shortcode/ovaem-search-banner.php:287
+#: shortcode/ovaem-search-banner.php:299 shortcode/ovaem-search-banner.php:320
+#: shortcode/ovaem-search-banner.php:334 shortcode/ovaem-search-banner.php:369
+#: shortcode/ovaem-search-banner.php:403 shortcode/ovaem-search-banner.php:415
+#: shortcode/ovaem-search-banner.php:428 shortcode/ovaem-search-banner.php:441
+#: shortcode/ovaem-search-banner.php:453 shortcode/ovaem-search-banner.php:465
+#: shortcode/ovaem-search-banner.php:477 shortcode/ovaem-search-banner.php:489
+#: shortcode/ovaem-search-banner.php:504 shortcode/ovaem-speaker-list.php:259
+#: shortcode/ovaem-speaker-list.php:272 shortcode/ovaem-speaker-list.php:285
+#: shortcode/ovaem-speaker-list.php:298 shortcode/ovaem-speaker-list.php:324
+#: shortcode/ovaem-calendar.php:132 shortcode/ovaem-events-filter-ajax.php:557
+#: shortcode/ovaem-events-filter-ajax.php:570
+#: shortcode/ovaem-events-filter-ajax.php:583
+#: shortcode/ovaem-events-filter-ajax.php:597
+#: shortcode/ovaem-events-filter-ajax.php:610
+#: shortcode/ovaem-events-filter-ajax.php:623
+#: shortcode/ovaem-events-filter-ajax.php:644
+#: shortcode/ovaem-events-filter-ajax.php:709
+#: shortcode/ovaem-events-filter.php:495 shortcode/ovaem-events-filter.php:508
+#: shortcode/ovaem-events-filter.php:521 shortcode/ovaem-events-filter.php:535
+#: shortcode/ovaem-events-filter.php:548 shortcode/ovaem-events-filter.php:561
+#: shortcode/ovaem-events-filter.php:590 shortcode/ovaem-events-filter.php:655
+#: shortcode/ovaem-search-one.php:203 shortcode/ovaem-search-one.php:215
+#: shortcode/ovaem-search-one.php:227 shortcode/ovaem-search-one.php:239
+#: shortcode/ovaem-search-one.php:251 shortcode/ovaem-search-one.php:263
+#: shortcode/ovaem-search-one.php:275 shortcode/ovaem-search-one.php:295
+#: shortcode/ovaem-search-one.php:307 shortcode/ovaem-search-one.php:320
+#: shortcode/ovaem-search-one.php:333 shortcode/ovaem-search-one.php:345
+#: shortcode/ovaem-search-one.php:357 shortcode/ovaem-search-one.php:369
+#: shortcode/ovaem-search-one.php:381 shortcode/ovaem-slideshow-three.php:306
+#: shortcode/ovaem-slideshow-three.php:326
+#: shortcode/ovaem-slideshow-three.php:338
+#: shortcode/ovaem-slideshow-three.php:411
+#: admin/class-ovaem-admin-settings.php:4722
+#: admin/class-ovaem-admin-settings.php:4739
+#: admin/class-ovaem-admin-settings.php:4755
+msgid "True"
+msgstr "Vrai"
+
+#: inc/class-ovaem-ticket.php:374 admin/class-ovaem-admin-settings.php:2668
+#: admin/class-ovaem-admin-settings.php:3387
+msgid "Tuesday"
+msgstr "Mardi"
+
+#: templates/admin/custom-field-checkout.php:194
+#: templates/admin/custom-field-checkout.php:229
+msgid "Type"
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:58
+msgid "Unique ID, Not Space _. Example: package01"
+msgstr "ID unique, pas d'espace _. Exemple : package01"
+
+#: widgets/ovaem_list_events.php:111
+msgid "UpComing"
+msgstr ""
+
+#: inc/class-ovaem-get-data.php:1227 shortcode/ovaem-slideshow.php:165
+#: shortcode/ovaem-slideshow-two.php:182
+#: shortcode/ovaem-slider-event-two.php:173 shortcode/ovaem-event-map.php:109
+#: shortcode/ovaem-calendar.php:108 shortcode/ovaem-events-filter-ajax.php:476
+#: shortcode/ovaem-slider-event.php:157 shortcode/ovaem-events-filter.php:414
+#: shortcode/ovaem-slideshow-three.php:202
+msgid "Upcoming"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:153
+msgid "Upcoming Day"
+msgstr "Compte à rebours"
+
+#: shortcode/ovaem-search-banner.php:358
+msgid "Upcoming Icon"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:343
+msgid "Upcoming Link"
+msgstr ""
+
+#: shortcode/ovaem-slideshow.php:166
+msgid "Upcoming Showing"
+msgstr ""
+
+#: shortcode/ovaem-search-banner.php:350
+msgid "Upcoming Text"
+msgstr ""
+
+#: shortcode/ovaem-slideshow-two.php:183
+#: shortcode/ovaem-slider-event-two.php:174 shortcode/ovaem-event-map.php:110
+#: shortcode/ovaem-calendar.php:109 shortcode/ovaem-events-filter-ajax.php:477
+#: shortcode/ovaem-slider-event.php:158 shortcode/ovaem-events-filter.php:415
+#: shortcode/ovaem-slideshow-three.php:203
+msgid "Upcoming/Showing"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:131
+#: inc/class-ovaem-custom-post-types.php:214
+#: inc/class-ovaem-custom-post-types.php:304
+msgid "Update "
+msgstr ""
+
+#: templates/cart/cart.php:69
+msgid "Update Cart"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:538
+msgid "Update Event Location"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:346
+msgid "Update Event Tag"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:4139
+#: admin/views/ovaem-metabox-event-basic.php:112
+#: admin/views/ovaem-metabox-event-organizer.php:37
+#: admin/views/ovaem-metabox-event-ticket.php:195
+msgid "Upload"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:4371
+msgid "Url"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1104
+msgid "Use Offline Payment"
+msgstr "Utiliser le paiement hors ligne"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1443
+#: admin/class-ovaem-admin-settings.php:2287
+msgid "User Submit Settings"
+msgstr "Réglages utilisateurs"
+
+#: inc/class-ovaem-coupon.php:74 templates/check-ticket.php:74
+msgid "Valid"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:264 shortcode/ovaem-slideshow.php:203
+#: shortcode/ovaem-slideshow-two.php:221
+#: shortcode/ovaem-slider-event-two.php:221
+#: shortcode/ovaem-events-filter-ajax.php:492
+#: shortcode/ovaem-slider-event.php:193 shortcode/ovaem-events-filter.php:430
+#: shortcode/ovaem-slideshow-three.php:241 templates/frontend-submit.php:85
+#: templates/check-ticket.php:114 admin/views/ovaem-metabox-ticket.php:148
+#: templates/pdf/template2.php:40 templates/pdf/template1.php:23
+msgid "Venue"
+msgstr "Sites"
+
+#: inc/class-ovaem-custom-post-types.php:265
+msgid "Venue Archives"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:266
+msgid "Venue Attributes"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:300
+msgid "Venue Category"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:318
+msgctxt "Venue Category"
+msgid "cat_venue"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:307
+msgid "Venue Category New"
+msgstr ""
+
+#: templates/single-venue.php:92
+msgid "Venue Detail"
+msgstr ""
+
+#: shortcode/ovaem-venues-slider.php:118
+msgid "Venue List Slider"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:108
+msgid "Venue Post Type"
+msgstr "Poste de type Site"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:872
+msgid "Venue Setting"
+msgstr "Réglage des sites"
+
+#: admin/class-ovaem-admin-settings.php:2279
+#: admin/class-ovaem-admin-metaboxes.php:106
+msgid "Venue Settings"
+msgstr "Réglages des sites"
+
+#: templates/single-event-modern.php:160 templates/single-event.php:369
+msgid "Venue: "
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:271
+msgid "Venues Post Type"
+msgstr "Poste de type Sites"
+
+#: inc/class-ovaem-custom-post-types.php:250
+msgctxt "Venues post type general name"
+msgid "Venues"
+msgstr "Sites"
+
+#: admin/class-ovaem-admin-tickets.php:52
+#: admin/class-ovaem-admin-tickets.php:82 admin/class-ovaem-export-page.php:80
+#: admin/class-ovaem-export-page.php:238
+msgid "Verify"
+msgstr "Vérifier"
+
+#: admin/views/ovaem-metabox-ticket.php:24
+msgid "Verify ( Customer has paid )"
+msgstr "Vérifier (le client a payé)"
+
+#: admin/class-ovaem-export-page.php:42 admin/class-ovaem-export-page.php:183
+msgid "Verify Status"
+msgstr "Vérification du statut"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1177
+msgid "Verify ticket when order status is:"
+msgstr "Vérifier le ticket lorsque le statut de la commande est :"
+
+#: admin/views/ovaem-metabox-ticket.php:205
+msgid "Verify Ticket: "
+msgstr "Vérification du billet:"
+
+#: admin/class-ovaem-admin-settings.php:4164
+msgid "Version 1"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:4166
+msgid "Version 2"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:492
+msgid "View Coupon"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:493
+msgid "View Coupons"
+msgstr ""
+
+#: admin/views/ovaem-metabox-order.php:241
+msgid "View Detail Order in Woocommerce"
+msgstr ""
+
+#: woomodern/src/Hooks/FilterHooks.php:416
+msgid "View details"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:82
+msgid "View Event"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:83
+msgid "View Events"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:391
+msgid "View Order"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:392
+msgid "View Orders"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:169
+msgid "View Speaker"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:170
+msgid "View Speakers"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:442
+msgid "View Ticket"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:443
+msgid "View Tickets"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:258
+msgid "View Venue"
+msgstr ""
+
+#: inc/class-ovaem-custom-post-types.php:259
+msgid "View Venues"
+msgstr ""
+
+#: inc/class-ovaem-ajax.php:470 admin/class-ovaem-admin-orders.php:76
+#: admin/views/ovaem-metabox-order.php:41 templates/cart/manage-booking.php:80
+msgid "Voided"
+msgstr "Rendu Nul"
+
+#: admin/views/ovaem-metabox-venue.php:80
+msgid "Web link"
+msgstr "Lien web"
+
+#: templates/single-venue.php:134
+msgid "Web link: "
+msgstr "Lien web:"
+
+#: admin/views/ovaem-metabox-event-organizer.php:66
+#: admin/views/ovaem-metabox-speaker.php:76
+msgid "Website"
+msgstr "Site web"
+
+#: templates/loop/organizer.php:59
+msgid "website: "
+msgstr "Site web:"
+
+#: inc/class-ovaem-ticket.php:377 admin/class-ovaem-admin-settings.php:2669
+#: admin/class-ovaem-admin-settings.php:3388
+msgid "Wednesday"
+msgstr "Mercredi"
+
+#: templates/single-venue.php:191
+msgid "Weekdays "
+msgstr ""
+
+#: admin/views/ovaem-metabox-event-ticket.php:208
+msgid "When public event"
+msgstr "Lorsque l'événement est public"
+
+#: admin/views/ovaem-metabox-order.php:51
+msgid "Woo Cancelled"
+msgstr "Woocommerce Annulé"
+
+#: admin/views/ovaem-metabox-order.php:49
+msgid "Woo Completed"
+msgstr "Woocommerce Complété"
+
+#: admin/views/ovaem-metabox-order.php:55
+msgid "Woo Failed"
+msgstr "Woocommerce Échoué"
+
+#: admin/views/ovaem-metabox-event-ticket.php:81
+msgid "Woo Modern"
+msgstr "Woocommerce Modern"
+
+#: admin/views/ovaem-metabox-order.php:47
+msgid "Woo On Hold"
+msgstr "Woocommerce En attente"
+
+#: admin/views/ovaem-metabox-ticket.php:230
+msgid "Woo Order Ticket if have: "
+msgstr ""
+
+#: admin/views/ovaem-metabox-order.php:45
+msgid "Woo Processing"
+msgstr "Woocommerce Traitée "
+
+#: admin/views/ovaem-metabox-order.php:53
+msgid "Woo Refunded"
+msgstr "Woocommerce Remboursé"
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:1170
+msgid "Woocommerce Booking"
+msgstr "Booking Woocommerce"
+
+#: admin/views/ovaem-metabox-venue.php:88
+msgid "Working days"
+msgstr "Jours ouvrables"
+
+#: templates/single-venue.php:182
+msgid "Working Hours"
+msgstr ""
+
+#. ID
+#: admin/class-ovaem-admin-settings.php:299
+msgid "Year Format"
+msgstr "Format de l'année"
+
+#: shortcode/ovaem-slideshow.php:256 shortcode/ovaem-venues-slider.php:144
+#: shortcode/ovaem-slideshow-two.php:273
+#: shortcode/ovaem-slider-event-two.php:264
+#: shortcode/ovaem-speaker-list.php:210 shortcode/ovaem-event-map.php:163
+#: shortcode/ovaem-events-filter-ajax.php:543
+#: shortcode/ovaem-events-filter-ajax.php:695
+#: shortcode/ovaem-slider-event.php:246 shortcode/ovaem-slider-event.php:259
+#: shortcode/ovaem-events-filter.php:481 shortcode/ovaem-events-filter.php:641
+#: shortcode/ovaem-slideshow-three.php:293
+#: admin/class-ovaem-admin-settings.php:2529
+#: admin/class-ovaem-admin-settings.php:2546
+#: admin/class-ovaem-admin-settings.php:2563
+#: admin/class-ovaem-admin-settings.php:2579
+#: admin/class-ovaem-admin-settings.php:2595
+#: admin/class-ovaem-admin-settings.php:2611
+#: admin/class-ovaem-admin-settings.php:2628
+#: admin/class-ovaem-admin-settings.php:2645
+#: admin/class-ovaem-admin-settings.php:2690
+#: admin/class-ovaem-admin-settings.php:2707
+#: admin/class-ovaem-admin-settings.php:2724
+#: admin/class-ovaem-admin-settings.php:2741
+#: admin/class-ovaem-admin-settings.php:2758
+#: admin/class-ovaem-admin-settings.php:2775
+#: admin/class-ovaem-admin-settings.php:2792
+#: admin/class-ovaem-admin-settings.php:2809
+#: admin/class-ovaem-admin-settings.php:2826
+#: admin/class-ovaem-admin-settings.php:2843
+#: admin/class-ovaem-admin-settings.php:2860
+#: admin/class-ovaem-admin-settings.php:2877
+#: admin/class-ovaem-admin-settings.php:2895
+#: admin/class-ovaem-admin-settings.php:2912
+#: admin/class-ovaem-admin-settings.php:2929
+#: admin/class-ovaem-admin-settings.php:2946
+#: admin/class-ovaem-admin-settings.php:2963
+#: admin/class-ovaem-admin-settings.php:2980
+#: admin/class-ovaem-admin-settings.php:2997
+#: admin/class-ovaem-admin-settings.php:3014
+#: admin/class-ovaem-admin-settings.php:3031
+#: admin/class-ovaem-admin-settings.php:3047
+#: admin/class-ovaem-admin-settings.php:3081
+#: admin/class-ovaem-admin-settings.php:3117
+#: admin/class-ovaem-admin-settings.php:3134
+#: admin/class-ovaem-admin-settings.php:3151
+#: admin/class-ovaem-admin-settings.php:3168
+#: admin/class-ovaem-admin-settings.php:3185
+#: admin/class-ovaem-admin-settings.php:3202
+#: admin/class-ovaem-admin-settings.php:3219
+#: admin/class-ovaem-admin-settings.php:3287
+#: admin/class-ovaem-admin-settings.php:3416
+#: admin/class-ovaem-admin-settings.php:3431
+#: admin/class-ovaem-admin-settings.php:3449
+#: admin/class-ovaem-admin-settings.php:3572
+#: admin/class-ovaem-admin-settings.php:3587
+#: admin/class-ovaem-admin-settings.php:3601
+#: admin/class-ovaem-admin-settings.php:3699
+#: admin/class-ovaem-admin-settings.php:3714
+#: admin/class-ovaem-admin-settings.php:3729
+#: admin/class-ovaem-admin-settings.php:3795
+#: admin/class-ovaem-admin-settings.php:4086
+#: admin/class-ovaem-admin-settings.php:4102
+#: admin/class-ovaem-admin-settings.php:4118
+#: admin/class-ovaem-admin-settings.php:4180
+#: admin/class-ovaem-admin-settings.php:4197
+#: admin/class-ovaem-admin-settings.php:4235
+#: admin/class-ovaem-admin-settings.php:4256
+#: admin/class-ovaem-admin-settings.php:4273
+#: admin/class-ovaem-admin-settings.php:4290
+#: admin/class-ovaem-admin-settings.php:4306
+#: admin/class-ovaem-admin-settings.php:4322
+#: admin/class-ovaem-admin-settings.php:4338
+#: admin/class-ovaem-admin-settings.php:4354
+#: admin/class-ovaem-admin-settings.php:4389
+#: admin/class-ovaem-admin-settings.php:4453
+#: admin/class-ovaem-admin-settings.php:4684
+#: admin/class-ovaem-admin-settings.php:4863
+#: admin/class-ovaem-admin-settings.php:4878 widgets/ovaem_search_event.php:262
+#: widgets/ovaem_search_event.php:278 widgets/ovaem_search_event.php:293
+#: widgets/ovaem_search_event.php:308 widgets/ovaem_search_event.php:322
+#: widgets/ovaem_search_event.php:337 widgets/ovaem_search_event.php:351
+#: widgets/ovaem_search_event.php:365 widgets/ovaem_search_event.php:379
+#: widgets/ovaem_search_event.php:393 widgets/ovaem_search_event.php:407
+#: widgets/ovaem_search_event.php:422 widgets/ovaem_search_event.php:436
+#: widgets/ovaem_search_event.php:450 widgets/ovaem_search_event.php:464
+#: widgets/ovaem_list_events.php:144 admin/views/ovaem-metabox-venue.php:49
+#: admin/views/ovaem-metabox-venue.php:116
+#: admin/views/ovaem-metabox-ticket.php:209
+#: admin/views/ovaem-metabox-speaker.php:44
+#: admin/views/ovaem-metabox-event-ticket.php:155
+msgid "Yes"
+msgstr "Oui"
+
+#: admin/views/ovaem-metabox-event-contact.php:14
+msgid ""
+"You can find in menu: Contact >> Contact Forms. Example: [contact-form-7 "
+"id=\"1275\" title=\"Contact Event\"]"
+msgstr ""
+"Vous pouvez le trouver dans le menu : Contact >> Formulaires de contact. "
+"Exemple : [contact-form-7 id=\"1275\" title=\"Contact Event\"]"
+
+#: shortcode/ovaem-events-filter-ajax.php:457
+#: shortcode/ovaem-events-filter.php:395
+msgid ""
+"You can find slug in: Events Manager >> Event Categories >> Copy value in "
+"Slug column. Example: conference, art, travel, business, concert, education"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:2516
+msgid ""
+"You can get here: https://developers.google."
+"com/maps/documentation/javascript/get-api-key "
+msgstr ""
+"Vous pouvez l'obtenir ici : https://developers.google."
+"com/maps/documentation/javascript/get-api-key"
+
+#: admin/views/ovaem-metabox-event-ticket.php:257
+msgid "You can insert with syntax: {{ Feature 1 }} {{ Feature 2 }} "
+msgstr ""
+"Vous pouvez insérer à l'aide de la syntaxe : {{ Caractéristique 1 }} {{ "
+"Caractéristique 2 }}"
+
+#: admin/class-ovaem-admin-settings.php:4147
+msgid "You can override this logo by upload logo per event"
+msgstr "Vous pouvez remplacer ce logo en téléchargeant un logo par événement"
+
+#: admin/class-ovaem-admin-settings.php:4592
+msgid "You can pay with your credit card"
+msgstr ""
+
+#: inc/class-ovaem-settings.php:650 admin/class-ovaem-admin-settings.php:2113
+msgid "You can pay with your credit card."
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:3357
+msgid ""
+"You have to choose \"Style Archives/Category Event: Grid or Grid with "
+"Sidebar\" above"
+msgstr ""
+"Vous devez choisir Grille ou Grille avec Sidebar ci-dessus pour pouvoir "
+"affecter le style"
+
+#: inc/import-order-ticket-woo.php:369
+msgid "You have to insert package id in above event"
+msgstr ""
+
+#: templates/checkout/checkout.php:13
+msgid "You have to login to checkout"
+msgstr ""
+
+#: admin/class-ovaem-admin-ajax.php:119
+msgid "You have to verify ticket before sent"
+msgstr ""
+
+#: templates/checkout/checkout.php:76
+msgid "Your Information"
+msgstr ""
+
+#: templates/checkout/checkout.php:127
+msgid "Your Order"
+msgstr ""
+
+#: admin/class-ovaem-admin-settings.php:4562
+msgid "your_email@mail.com"
+msgstr ""
+
+#: shortcode/ovaem-event-map.php:190
+msgid "Zoom Map. Example 14"
+msgstr ""

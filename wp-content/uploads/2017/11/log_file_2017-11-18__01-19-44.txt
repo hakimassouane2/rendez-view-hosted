@@ -1,0 +1,110 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost/wordpress/em4u/site
+Data file = /Applications/XAMPP/xamppfiles/htdocs/wordpress/em4u/site/wp-content/themes/adventpro/demo_import/demo-content.xml
+Widget file = /Applications/XAMPP/xamppfiles/htdocs/wordpress/em4u/site/wp-content/themes/adventpro/demo_import/widgets.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+orphaned_widgets_1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+OVAEM Tags Event - Tags Events - Imported to Inactive
+
+Main Sidebar : 
+
+Search - No Title - Widget already exists
+Categories - No Title - Widget already exists
+Recent Posts With Thumbnails - Recen Posts - Imported
+Archives - Archives - Imported
+Tag Cloud - Tag Cloud - Imported
+
+Woocommerce Sidebar : 
+
+Product Search - No Title - Imported
+Product Categories - Product categories - Imported
+Filter Products by Price - Filter by price - Imported
+Product Tag Cloud - Product tags - Imported
+
+Subcribe Footer : 
+
+Text - No Title - Imported
+
+Logo White Footer : 
+
+Image - No Title - Imported
+
+Logo Dark Footer : 
+
+Image - No Title - Imported
+
+Social Footer : 
+
+Custom HTML - No Title - Imported
+
+Copyright Footer : 
+
+Text - No Title - Imported
+
+Category Footer : 
+
+OVAEM All Categories - All Categories - Imported
+
+Gallery Footer : 
+
+Text - Our Gallery - Imported
+
+Info 1 Footer : 
+
+Image - No Title - Imported
+Text - No Title - Imported
+
+Info 2 Footer : 
+
+Text - No Title - Imported
+
+Info 3 Footer : 
+
+Image - No Title - Imported
+Text - No Title - Imported
+
+Info 4 Footer : 
+
+Text - No Title - Imported
+
+Tags Footer : 
+
+OVAEM Tags Event - Tag Event - Imported
+
+Header Version 3: Top Info : 
+
+Custom HTML - No Title - Imported
+
+Event Sidebar : 
+
+OVAEM Search Event - Search Events - Imported
+OVAEM All Categories - All Categories - Imported
+OVAEM List Events - Upcoming Events - Imported
+OVAEM Special Event - Special Event - Imported
+OVAEM Tags Event - Tags Events - Imported
+
+
+
+---pt-ocdi/after_import---
+

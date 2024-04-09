@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {
+            "WooModern/OvaemCptWoo\\": "src/"
+        },
+        "classmap": ["src/"]
+    }
+}

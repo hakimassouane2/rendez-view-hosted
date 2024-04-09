@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email</title>
+  </head>
+  <body style="font-family: Poppins, sans-serif">
+    <div
+      style="
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      "
+    >
+      <!-- Logo -->
+      <div
+        style="
+          padding: 0.7rem 0;
+          border-bottom: 1px dashed #bfbfbf;
+          width: 100%;
+          text-align: center;
+        "
+      >
+        <h2>Rendez View</h2>
+      </div>
+      <!-- Top part of email -->
+      <div style="padding: 2rem 0; text-align: center">
+        <h2>Here is your receipt, [client_name]!</h2>
+        <p
+          style="
+            text-align: left;
+            color: #808080;
+            font-size: 17px;
+            margin: 2rem 0;
+            line-height: 1.6;
+          "
+        >
+          [top_text]
+        </p>
+        <img
+          src="https://rendez-view.com/wp-content/uploads/2024/03/banner_img.jpeg"
+          alt="banner-img"
+          style="width: 100%"
+        />
+      </div>
+      <!-- Order info -->
+      <div>
+        <h2 style="margin-bottom: 10px">Your order from [order_date]</h2>
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr)">
+          <div>
+            <h3 style="font-size: 17px">Order number</h3>
+            <p style="color: #808080; font-size: 17px">[orderid]</p>
+          </div>
+          <div>
+            <h3 style="font-size: 17px">Payment option</h3>
+            <p style="color: #808080; font-size: 17px">[payment_method]</p>
+          </div>
+          <div>
+            <h3 style="font-size: 17px">Delivery address</h3>
+            <p style="color: #808080; font-size: 17px">[address]</p>
+          </div>
+          <div>
+            <h3 style="font-size: 17px">Billing address</h3>
+            <p style="color: #808080; font-size: 17px">[address]</p>
+          </div>
+        </div>
+      </div>
+      [cart]
+      <!-- Footer of email -->
+      <div>
+        <p
+          style="
+            color: #808080;
+            font-size: 15px;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+          "
+        >
+          [bottom_text]
+          <a href="mailto:someone@example.com">edsp.contact@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

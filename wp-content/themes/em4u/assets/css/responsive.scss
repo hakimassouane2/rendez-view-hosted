@@ -1,0 +1,1447 @@
+.ova_content_shop .large_row{
+	float: left;
+	width: 100%;
+	clear: both;
+}
+.large_row{
+	float: left;
+	width: 100%;
+	clear: both;	
+}
+
+.pd_l_0{
+	padding-left: 0;
+}
+.pd_r_0{
+	padding-right: 0;
+}
+
+
+
+/* Responsive ****************************************************/
+@media( max-width: 1200px ){
+	/* Account Heading */
+	
+
+	
+
+	/* Service */
+	.ova_service{
+		padding: 40px 0px;
+		.desc{
+			padding: 0 5%;
+		}
+	}
+
+	footer.footer_v1 .wrap_widget .gallery ul.gallery{
+		width: 100%;
+	}
+	.widget.widget_search label input.search-field{
+		width: 192px;
+	}
+
+	.ovaem_blog_grid_page .post-wrap .content .post-meta .post-meta-content .post-date {
+	    margin-right: 0px;
+	    width: 100%;
+	    float: left;
+	}
+	.home3_mailchimp .ova_mailchimp .email{
+		width: 660px;
+	}
+	
+	.ova_blog .content{
+		h2.title{
+			padding-left: 20px;
+			padding-right: 20px;	
+		}
+		.desc{
+			padding-left: 20px;
+			padding-right: 20px;		
+		}
+		.post-meta{
+			padding-left: 20px;
+			padding-right: 20px;			
+		}
+		
+	}
+	.about_info.padding-top{
+		padding-top: 0;
+	}
+
+	.woocommerce .ovaem_general_sidebar .widget.widget_product_search form input.search-field{
+		width: 120px;
+	}
+
+}
+
+
+@media( max-width: 992px ){
+	
+	/* Hide Menu and display button nav */
+	 .wrap_menu_logo{
+	 	/*background-color: #000!important;*/
+	 }
+
+	.ova-menu{
+		.navbar-collapse.collapse{
+			display: none!important;
+			&.in{
+				display: block!important;
+			}
+		}
+		nav{
+			
+
+			ul.nav.navbar-nav{
+				    height: 300px;
+				    overflow-y: scroll;
+				    position: relative;
+				    float: left;
+				    width: 100%;
+				    margin-top: 30px;
+    				margin-bottom: 30px;
+				li{
+					display: block;
+				    width: 100%;
+				    clear: both;
+				    a{
+				    	color: #fff!important;
+				    	padding: 10px 0px!important;
+				    	&:hover{
+				    		color: #ccc!important;
+				    	}
+				    }
+				    &.dropdown > a > span{
+				    	display: none;
+				    }
+				    button.dropdown-toggle{
+						display: block;
+					    position: absolute;
+					    right: 0px;
+					    top: 8px;
+					    background: transparent;
+					    color: #fff;
+					    border: 1px solid #5a5a5a;
+					    box-shadow: none;
+					    padding: 3px 10px;
+					    text-align: center;
+					    margin: 0 auto;
+					    &:hover{
+					    	background-color: #343434;
+					    	border-color: #343434;
+					    }
+					    i{
+					    	text-align: center;
+					    	margin: 0 auto;
+					    	display: inline-block;
+					    	position: relative;
+					    }
+					}
+					ul, ul ul{
+						display: none;
+					}
+					&.ova-megamenu{
+						position: relative;
+					}
+					
+				    &.active_sub{
+
+				    	> ul{
+				    		animation: slide-down 0.3s;
+				    		display: block;
+				    		position: relative;
+				    		background-color: transparent;
+				    		border: none;
+				    		box-shadow: none;
+				    		padding-left: 15px;
+				    		width: 100%;
+				    		top: 0;
+				    		ul{
+				    			left: 0;
+				    			background: transparent;
+				    		}
+				    	}
+				    	.ova-mega-menu{
+				    		width: 100%!important;
+				    		margin-left: 0!important;
+				    		li{
+				    			height: auto!important;
+							    margin-top: 0;
+							    padding-bottom: 0;
+							    width: 100%!important;
+							    padding-left: 0;
+							    .ovaem_slider_events_two{
+							    	.event_content{
+							    		width: 100%;
+							    	}
+							    	img{
+							    		margin-bottom: 0;
+							    	}
+							    	h2.title{
+							    		margin-top: 10px;
+							    		a{
+							    			padding-left: 0!important;
+							    			margin-top: 0px;	
+							    			font-size: 14px;
+							    			font-weight: normal;
+							    		}
+							    		
+							    	}
+							    	.countdown{
+							    		display: none;
+							    	}
+							    	.desc,
+							    	.wrap_date_venue,
+							    	a.ova-btn{
+							    		display: none;
+							    	}
+							    }
+
+							    &::before{
+							    	border-right: none;
+							    }
+				    			h5{
+				    				margin-top: 5px;
+								    padding-top: 0;
+								    margin-bottom: 15px;
+								    padding-bottom: 0;
+								    color: #fff;
+				    			}
+				    		}
+				    		
+				    	}
+				    }
+
+				   
+
+				    &.li_account{
+				    	.ova-account{
+				    		a{
+								padding: 0!important;
+								
+								&:hover{
+									i{
+										color: #fff!important;
+									}
+								}
+							}
+				    	}
+					}
+					
+				}
+			}
+			
+		}
+	
+
+
+
+		
+	}
+
+
+	.ovatheme_header_v1{
+
+		.wrap_menu_logo{
+			display: block;
+			background-color: #000!important;
+		}
+
+		
+		.ova-menu{
+			button.navbar-toggle{
+				right: 100px;
+				top: 0px;
+				display: block;
+			}
+			nav{
+				ul.nav.navbar-nav{
+					>li{
+						float: left;
+						>a{
+							text-align: left;
+							padding-left: 0!important;		
+						}
+					}
+				}	
+			}
+			
+			.ova-logo{
+				background-color: #fff;
+				width: 100%;
+			}
+		}
+
+		.ova-account{
+			right: 70px;
+			margin-top: 15px;
+			position: absolute;
+    		a{
+				padding: 0!important;
+				&:hover{
+					i{
+						color: #fff!important;
+					}
+				}
+			}
+    	}
+
+		
+	}
+
+	.ova_header.ovatheme_header_v2{
+		background-color: #fff!important;
+		.ova-menu nav.navbar > .container-fluid{
+			display: block;
+			width: 100%;
+		}
+
+		.ova-logo{
+			width: 100%;
+			.navbar-toggle{
+				margin-right: 0;
+				margin-top: 21px;
+				display: block;
+			}
+		}
+		/*.ova-account{
+			left: 0px;
+			a{
+				margin-left: 0;
+			}
+		}*/
+
+		.ova-account{
+			right: 70px;
+			margin-top: 15px;
+			position: absolute;
+    		a{
+				padding: 0!important;
+				&:hover{
+					i{
+						color: #fff!important;
+					}
+				}
+			}
+    	}
+
+    	.li_account{
+    		display: none!important;
+    	}
+
+		#ovatheme_header_v2{
+			background-color: #fff;
+			margin: 0;
+			padding: 0;
+    		clear: both;
+    		ul.nav.navbar-nav  {
+    			margin-right: 0;
+
+    			li{
+    				a{
+	    				color: #343434!important;
+	    			}
+	    			button.dropdown-toggle{
+	    				color: #343434;
+	    				&:hover{
+	    					color: #fff;
+	    				}
+	    			}
+    			}
+    			
+    			
+    		}
+
+		}
+	}
+
+	.ovatheme_header_v3{
+		background-color: #fff!important;
+		&.bg_heading{
+			.ova-menu{
+				padding-top: 0;
+				padding-bottom: 0;
+				border-bottom: none;
+				ul.nav.navbar-nav{
+					background-color: #fff;
+					margin: 0;
+					li{
+						a{
+							color: #343434!important;
+						}
+						button.dropdown-toggle{
+							i{
+								color: #343434!important;
+							}
+							
+							&:hover{
+								i{
+									color: #fff!important;
+								}
+								
+							}			
+						}
+					}
+				}
+				.ova-logo{
+					margin-right: 0;
+					margin-left: 0;
+					width: 100%;
+					background-color: #fff;
+					.logo_mobile{
+						padding-left: 0;
+						margin-left: 0;
+					}
+				}
+				.ova-account{
+					display: block;
+				}
+				button.navbar-toggle{
+					margin-right: 0;
+					margin-top: 21px;
+					display: block;
+				}
+			}
+			.ova-top{
+				.item_top{
+					display: block;
+					.ova-login{
+						display: none;
+					}
+				}
+			}
+
+		}
+		&.shrink{
+			.ova-top{
+				display: none;
+			}
+		}
+		#ovatheme_header_v3{
+			background-color: #fff;
+			margin-right: 0;
+    		margin-left: 0;
+    		padding: 0;
+		}
+		.scroll_fixed{
+			top: 105px;
+		}
+		.ova-menu nav ul.nav.navbar-nav li.li_account .ova-account a{
+			margin-left: 0px;
+		}
+		nav.navbar > .container-fluid{
+			display: inline-block;
+			width: 100%;
+			padding: 0;
+		}
+		
+	}
+
+	.logged-in.admin-bar .ovatheme_header_v3.bg_heading .ova-top{
+		top: 32px;
+	}
+	.logged-in.admin-bar  .ovatheme_header_v3 .scroll_fixed{
+		top: 137px;
+	}
+	
+
+	.ovatheme_header_v4{
+		background-color: #fff!important;
+		.ova-menu{
+			.ova-logo{
+			    text-align: left;
+			    float: left;
+			    margin: 0;
+			    width: 100%;
+			    background: #fff;
+			}
+			button.navbar-toggle{
+				top: 0;
+			    margin-top: 21px;
+			    display: block;
+			    margin-right: 0;
+			}
+			#ovatheme_header_v4{
+				padding-left: 0;
+				padding-right: 0;
+				background-color: #fff!important;
+				ul.nav{
+					float: left!important;
+				    margin: 0 auto;
+				    text-align: left;
+				    
+				    >li{
+				    	float: left;
+				    	display: inline-block;
+				    	>a{
+							color: #fff;
+							padding-left: 0!important;
+						}
+						.dropdown-menu{
+							li{
+								a{
+									color: #7e7e7e;
+									text-transform:inherit;
+									font-weight: normal; 
+								}
+								
+							}
+			    			
+			    		}
+				    }
+				    button.dropdown-toggle{
+				    	color: #343434;
+				    	&:hover{
+				    		color: #fff;
+				    	}
+				    }
+				    a{
+				    	color: #343434!important;
+				    }
+				    li.li_account .ova-account a{
+				    	margin-left: 0;
+				    }
+				}
+			}
+		}
+		&.fixed.shrink{
+			.ova-menu .ova-logo{
+				margin: 0!important;	
+			}
+			.ova-menu{
+				
+				nav.navbar > .container-fluid{
+					display: block;
+				    
+				    padding-left: 0;
+	    			padding-right: 0;
+				}
+			}
+			
+		}
+
+		.ova-menu{
+			nav.navbar > .container-fluid{
+				display: block;
+			    padding-left: 0;
+    			padding-right: 0;
+			}
+		}
+
+
+
+			
+		
+
+		
+	}
+
+	
+
+	.scroll_fixed{
+		background-color: #fff!important;
+	}
+
+
+	/*Fix logo mobile*/
+	header.ova_header{
+		&.has_logo_mobile{
+			a.logo,
+			a.logo_scroll{
+				display: none!important;
+			}
+			a.logo_mobile{
+				display: block;
+			}
+		}	
+	}
+	
+
+	/* Heading */
+	.bg_heading{
+		.ova-bg-heading{
+			margin-top: 0!important;
+			padding-top: 75px!important;
+			padding-bottom: 15px;
+		}
+	} 
+
+
+	
+
+	/* Service */
+	/*.wrap_service{
+		display: inline-block;
+	}*/
+	.ova_service{
+		padding: 40px 0px;
+		.title{
+			margin-top: 30px;
+    		padding-bottom: 1px;
+		}
+	}
+
+	footer.footer_v2 .subcribe .ova_mailchimp input.email{
+		width: 90%;
+	}
+
+	.ovaem_general_sidebar{
+		padding-left: 15px;
+	}
+
+	.ovaem_blog_grid_page .post-wrap .content .post-meta .post-meta-content .post-date {
+	    margin-right: 30px;
+	    width: auto;
+	    float: left;
+	}
+
+	.ovaem_blog_grid_page {
+		.mobile_row{
+			float: left;
+			width: 100%;
+			display: block;	
+		}
+		
+		.desk_row{
+			display: none;
+		}
+	}
+
+	.ovaem_detail_post{
+		.tags_share {
+			.share{
+				text-align: left;
+				margin-top: 15px;		
+			}
+		}
+	}
+	
+	.make_top{
+		&.ovaem_events_filter {
+			margin-top: 45px;
+			.ovaem_events_filter_nav{
+				text-align: left;
+			    margin-top: 0px;	
+			}
+		    
+		}
+	}
+	.ovaem_simple_event{
+		.title{
+			margin-bottom: 30px;
+			&:after{
+				display:none;
+			}
+		}
+	}
+	.home3_mailchimp .ova_mailchimp .email{
+		width: 460px;
+	}
+
+
+	.ova_content_shop .mobile_row{
+		float: left;
+		clear: both;
+		width: 100%;
+	}
+	.ova_content_shop .large_row{
+		display: none;
+	}
+	.large_row{
+		display: none;
+	}
+	.mobile_row{
+		float: left;
+		clear: both;
+		width: 100%;
+	}
+
+	.ova-woo-shop .shop_archives{
+		width: 100%;
+		margin-bottom: 60px;
+	}
+	.ovaem_general_sidebar.left_sidebar {
+	    padding-right: 15px;
+	    padding-left: 15px;
+	}
+	.sidebar div.widget{
+		margin-bottom: 30px;
+	}
+
+	.contact_v2_map,
+	.ova_map_top{
+		margin-top: 0;
+	}
+
+
+
+
+
+	/* Map 1 */
+	.ova_map1{
+		margin-top: 0;
+		background-color: #f2f2f2;
+		width: 100%;
+		height: auto;
+		.content{
+			position: relative;
+			top: 0;
+			left: 0;
+			margin-top: 0;
+			padding: 50px;
+			color: #000;
+			
+		}
+	}
+	.wpb_gmaps_widget.wpb_content_element{
+		margin-bottom: 0;
+	}
+	footer.footer_v1 .wrap_widget ul li span{
+		padding-right: 0;
+	}
+	footer.footer_v1 .wrap_widget .category,
+	footer.footer_v1 .wrap_widget .tags,
+	footer.footer_v1 .wrap_widget .gallery{
+		float: left;
+		width: 100%;
+	}
+	footer.footer_v1 .wrap_bellow .logo_white {
+	    text-align: left;
+	    margin: 30px 0px 20px 0px;
+	    width: 100%;
+	    display: inline-block;
+	}
+	footer.footer_v1 .wrap_bellow .copyright{
+		text-align: left;
+		padding-top: 0;
+		width: 100%;
+	}
+
+	.ovaem_detail_post{
+		.tags_share {
+			.share{
+				text-align: left;
+				margin-top: 15px;		
+			}
+		}
+	}
+
+	footer.footer_v3  {
+		.wrap_bellow > .container{
+			.social{
+				text-align: left;
+				ul{
+					li{
+						&:first-child{
+							a{
+								padding-left: 0;	
+							}
+							
+							
+						}
+					}
+				}	
+			}
+		}
+		
+		
+	}
+	.ova-menu .navbar-brand span.blogname{
+	 color: #000;
+	}
+	.ovaem_detail_post .post-media{
+		margin-top: 0;
+	}
+
+	.ovatheme_header_v3.bg_heading .ova-top .wrap_right.pull-right{
+		display: none;
+	}
+	.ova_header.ovatheme_header_v1{
+		min-height: 75px;
+	    display: inline-block;
+	    width: 100%;
+	    clear: both;
+	}
+
+
+	/* upcoming slider event */
+	.ovaem_slider_events_two .owl-controls{
+		top: 0;
+		right: 0;
+		background-color: #fff!important;
+		 .owl-next,
+		 .owl-prev{
+		 	color: #343434!important;
+		 	width: 30px;
+		    height: 30px;
+		    padding-top: 4px;
+		 }
+		 
+	}
+
+
+	.style2 .ova_map1 .content{
+		left: 0;
+		top: 25px;
+	}
+
+	.pd_0{
+		padding: 0;
+	}
+
+}
+
+@media( min-width: 768px ) and (max-width: 992px){
+	.ova_box{
+		padding: 25px 25px 25px 50px;
+		.num{
+			left: 7px;
+    		top: 25px;
+		}
+		.wrap_content a{
+			bottom: 0px;
+    		left: 50px;
+    		h3{
+    			margin-bottom: 15px;
+    		}
+		}
+
+	}
+	/* Breadcrumbs */
+	.ova-bg-heading .ova-breadcrumbs .ova_title {
+	    font-size: 25px;
+	    line-height: 20px;
+	    margin-top: 50px;
+	}
+	.ovaem_detail_post{
+		.tags_share {
+			.share{
+				text-align: left;
+				margin-top: 15px;		
+			}
+		}
+	}
+	
+
+
+}
+
+
+
+@media( max-width: 768px ){
+	
+	.pd_l_0{
+		padding-left: 15px;
+	}
+	.pd_r_0{
+		padding-right: 15px;
+	}
+	.pd_0{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.ova-menu{
+		nav{
+			ul.nav.navbar-nav{
+				margin-left: 0px;
+			}
+		}
+	}
+
+	.padding_col_mobile{
+	 	padding-left: 15px!important;
+	 	padding-right: 15px!important;
+	 }
+
+	.ovatheme_header_v1{
+		.ova-menu{
+			nav{
+				ul.nav.navbar-nav {
+					>li{
+						>a{
+							padding-left: 0px!important;
+						}
+					}
+				}
+			}
+		} 
+	}
+
+	.ovatheme_header_v2,
+	.ovatheme_header_v3{
+		.ova-menu{
+				ul.nav.navbar-nav{
+				    >li{
+				    	>a{
+							padding-left: 15px!important;
+						}
+					}
+				}
+			
+		}
+	}
+	.ovatheme_header_v3.bg_heading .ova-menu .ova-logo{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.ova-menu nav ul.nav.navbar-nav li button.dropdown-toggle{
+		right: 15px;
+	}
+	.ovatheme_header_v3 .ova-menu nav ul.nav.navbar-nav li.li_account .ova-account a{
+		margin-left: 10px!important;
+	}
+	.ovatheme_header_v3 .ova-menu nav ul.nav.navbar-nav li {
+		>a{
+			padding-left: 15px!important;
+		}
+		clear: both;
+		ul.dropdown-menu{
+			paddding-left: 15px;
+		}
+		
+	}
+	.ovatheme_header_v4{
+		.ova-menu{
+			
+			#ovatheme_header_v4{
+			
+				ul.nav{
+			
+				    >li{
+			
+				    	>a{
+			
+							padding-left: 15px!important;
+						}
+					}
+				}
+			}
+					
+			nav.navbar > .container-fluid{
+    			padding-right: 15px;
+			}
+			
+		}
+		&.fixed.shrink .ova-menu nav.navbar > .container-fluid{
+			padding-right: 15px;
+		}
+	}
+	.ovatheme_header_v4 .ova-menu #ovatheme_header_v4{
+		margin: 0;
+		padding-right: 0;
+		clear: both;
+		ul.nav.navbar-nav  {
+			li{
+				button.dropdown-toggle{
+					right: 0;	
+				}	
+				ul.dropdown-menu{
+					li{
+						a{
+							margin-left: 15px;
+						}
+					}
+				}
+			}
+			
+			
+			
+		}
+	}
+
+	
+
+
+	.ova_header.ovatheme_header_v2 .ova-logo {
+	    
+	    margin-left: 0;
+	    margin-right: 0;
+	    a.navbar-brand{
+	    	margin-left: 0;
+	    	margin-right: 0;
+	    	padding-left: 0;
+	    	padding-right: 0;
+	    }
+	}
+
+	.ova_header.ovatheme_header_v2 #ovatheme_header_v2 ul.nav.navbar-nav{
+		margin-left: 0;
+		li{
+			a{
+				padding-left: 0!important;
+			}
+			ul.dropdown-menu{
+				padding-left: 15px;
+			}
+		}
+	}
+
+	/* Slideshow */
+	.main_slider_v1{
+		.item{
+			.caption{
+				h2.title{
+					font-size: 30px;
+				}
+				h3.sub_title{
+					font-size: 16px;
+				}
+			}
+		}
+	} 
+
+	
+	
+	/* Service */
+	.wrap_service{
+		display: inline-block;
+	}
+	.ova_service{
+		padding: 30px 0px;
+	}
+
+	/* Heading v2 */
+	.ova_heading_v2{
+		.wrap_title{
+			.title{
+				font-size: 24px;
+				font-weight: 600;
+				display: block;
+			}
+			img{
+				display: block;
+				margin-top: 10px;
+				margin-left: auto;
+    			margin-right: auto;
+			}
+		}
+	}
+
+	footer.footer_v3 .wrap_bellow > .container .to-top{
+		padding-right: 30px;
+	}
+	footer.footer_v3 .wrap_top .subcribe .ova_mailchimp .info{
+		border-right: none;
+		width: 90%;
+		padding-left: 15px;
+	}
+	footer.footer_v3 .wrap_top .subcribe .ova_mailchimp p{
+		float: left;
+		width: 100%;
+	}
+	footer.footer_v3 .wrap_top .subcribe .ova_mailchimp input.email{
+		width: 80%;
+		margin-left: 15px;
+	}
+	
+
+	footer.footer_v4 .info_two,
+	footer.footer_v4 .info_three,
+	footer.footer_v4 .info_four,
+	footer.footer_v4 .social,
+	footer.footer_v4 .copyright{
+		float: left;
+		width: 100%;
+		text-align: center;
+	}
+	footer.footer_v4 .copyright{
+		margin-bottom: 30px;
+	}
+
+	/* Breadcrumbs */
+	.ova-bg-heading .ova-breadcrumbs .ova_title {
+	    font-size: 25px;
+	    line-height: 30px;
+	    margin-top: 50px;
+	}
+
+	/* Archive Blog */
+	.ovaem_blog_page .post-wrap {
+		.post-meta .right_side{
+			text-align: left;
+			margin-left: 15px;	
+		}
+		.post-title h2 a{
+			font-size: 18px;
+		}
+	}
+
+	.ovaem_blog_grid_page  {
+		.post-wrap{
+			float: left;
+			.content .post-meta .post-meta-content .post-date{
+				margin-right: 0px;
+			    width: 100%;
+			    float: left;
+			}	
+		}
+		
+		.pagination-wrapper{
+			float: left;
+			width: 100%;
+		}
+	    
+	}
+
+	#comments ul li .comment-details{
+		.author-name{
+			padding-left: 0;	
+		}
+		.comment-content p{
+			padding-bottom: 0;
+		}	
+	}
+	
+	.ova_countdown_slideshow{
+		margin-top: 45px;
+		.countdown-row.countdown-show4{
+			background: rgba(255, 255, 255, 0.2);
+    		display: inline-block;
+		}
+		.countdown-section{
+			width: auto;
+		    height: auto;
+		    border-radius: 0;
+		    display: inline-block;
+		    background-color: transparent;
+		    padding-top: 0;
+		    margin: 10px;
+			.countdown-amount{
+				color: #fff;
+				font-weight: 600;
+				font-size: 14px;
+				display: block;
+
+			}
+			.countdown-period{
+				text-transform: uppercase;
+				color: #fff;
+				font-weight: 300;
+				font-size: 14px;
+				display: block;
+			}
+		}
+	}
+	.ovaem_skill .name {
+	    margin-top: 30px;
+	    margin-bottom: 30px;
+	}
+
+	.ova_heading_v3{
+		padding-left: 0;
+		text-align: center;
+		span{
+			left: 50%;
+			&.one{
+				top: -10px;
+				margin-left: -24px;
+			}
+			&.two{
+				top: -10px;
+				margin-left: -15px;	
+			}
+			&.three{
+				top: -10px;
+				margin-left: -6px;	
+			}
+			&.four{
+				top: -10px;
+				margin-left: 3px;	
+			}
+			&.five{
+				top: -10px;
+				margin-left: 12px;	
+			}
+			&.six{
+				top: -10px;
+				margin-left: 21px;	
+			}	
+		}
+		
+	}
+	.ova_heading_v3 h3.title{
+		font-size: 24px;
+	}
+	.view-all-events{
+		text-align: center!important;
+	}
+	.home3_mailchimp .ova_mailchimp{
+		.info{
+			width: 100%;
+
+			&:after{
+				display: none;
+			}
+		}
+		.email{
+			width: 100%;
+			margin-top: 30px;
+		}	
+	}
+	.style2 .ova_map1{
+		width: 100%;
+		margin-top: 30px;
+		float: left;
+    	height: auto;
+		.content{
+			    padding: 15px;
+			    left: 0;
+			    top: 0px;
+			    float: left;
+			    width: 100%;
+		}
+	}
+	
+
+		
+	.ova_service.style2 {
+	    padding: 30px;
+	}
+	.service_two > .vc_column-inner{
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+	.service_two{
+		margin-bottom: 15px;
+	}
+	
+	.ovaem_skill.bg_white{
+		border: none;
+		margin-bottom: 60px;
+	}
+	.banner_one .title{
+		font-size: 24px;
+	}
+
+	.about_info{
+		text-align: center;
+		.title{
+			width: 100%;
+			float: left;
+			text-align: center;
+			img{
+				float: none;
+			}
+		}
+		.btn_video{
+			float: left;
+		    width: 100%;
+		    margin: 0 auto;
+		    text-align: center;
+		    margin-top: 40px;
+		    margin-bottom: 30px;
+		    a{
+		    	float: none;
+		    }
+		}
+	}
+
+	.event_info {
+		.icon{
+			position: relative;
+		    left: 0;
+		    top: 0;
+		    margin-top: 0;
+		    margin-bottom: 15px; 
+		    color: #4862c4;
+		    text-align: center;	
+		}
+	    
+	    .info {
+		    margin-left: 0;
+		    text-align: center;
+		}
+	}
+
+
+	.ova-woo-shop .shop_archives .ova_content_shop .product{
+		text-align: left;
+	    margin-bottom: 60px;
+	    float: left;
+	}
+	.woocommerce .ovaem_general_sidebar .widget.widget_product_search form input.search-field{
+		width: 160px;
+	}
+	.sidebar div.widget{
+		margin-bottom: 30px;
+	}
+
+	.bg_grey .ova-page-section > .container > .row{
+		padding: 15px;
+		margin-top: 15px;
+	}
+	.bg_grey .ova-page-section > .container > .row .ovatheme_nosidebar{
+		padding: 0;
+
+	}
+	.ova_map_top{
+		margin-top: 15px!important;
+		margin-right: -15px!important;
+		margin-left: -15px!important;
+		padding-top: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+		
+	}
+	.contact_heading{
+		margin-top: 45px!important;
+	}
+
+	.vc_row.search_top{
+		background-color: #4862c4!important;
+		.ovaem_submit input{
+			&:hover{
+				background-color: #000!important;
+				border-color: #000!important;
+			}
+		}
+	}
+
+	input, textarea{
+		box-shadow: none;
+	}
+
+	.ova_service{
+		&.style1{
+			&:hover{
+				transform: scale(1);
+				.icon{
+					border: none;
+					i{
+						background-color: transparent;
+					}
+				}
+				.read_more{
+					a{
+						color: #fff;
+					}
+				}
+			}
+			.icon{
+				width: 100px;
+				height: 100%;
+				border-radius: 0;
+				i{
+					font-size: 60px;
+				    border-radius: 0;
+				    padding: 0;
+				    width: auto;
+				    height: auto;
+				    position: relative;
+				    left: 0;
+				    top: 0;
+				}
+			}
+			.read_more{
+				padding-top: 27px;
+				a{
+					color: #4862c4;	
+				}
+				
+				
+			}	
+		}
+		
+	}
+
+	.ova_heading h3.title{
+		font-size: 26px;
+		margin-bottom: 12px;
+		.sub_title{
+			font-size: 16px;
+		}
+	}
+	.ova_box:hover{
+		-webkit-transform: scale(1);
+	    -ms-transform: scale(1);
+	    -moz-transform: scale(1);
+	    transform: scale(1);
+	}
+	footer.footer_v1 .wrap_widget .widget_ovaem_tags_event_widget a{
+		padding-left: 0;
+	}
+
+	.banner_one .date{
+		border: 1px solid rgba(255, 255, 255, 0.3);
+		line-height: 24px;
+    	padding: 15px 10px;
+    	margin-bottom: 25px;
+		span{
+			border: none;
+		}
+	}
+
+
+	footer.footer_v3 .wrap_bellow > .container {
+		padding: 30px 15px;
+		.social{
+			text-align: left;
+
+				
+		}
+		
+	}
+	.ova_reply{
+		padding-left: 0;
+		float: left;
+		width: 100%;
+		text-align: left;
+	}
+	#comments .date,
+	#comments .author{
+		float: left;
+
+	}
+	.bg_heading .ova-bg-heading{
+		padding-top: 70px!important;
+	}
+	.ovaem_search_event_simple{
+		padding: 215px 0px 165px 0px;
+	}
+	.event_info_mobile{
+		margin-top: 30px!important;
+	}
+
+	.ova_speaker_list_wrap .ova_speaker_list .content:before{
+		border-left: 768px solid transparent;
+	}
+
+	.ovatheme_header_v4 .ova-menu #ovatheme_header_v4 ul.nav li.li_account .ova-account a{
+		margin-left: 15px;
+	}
+
+}
+
+
+@media( max-width: 540px ){
+	.woocommerce .woocommerce-ordering{
+		float: left;
+	}
+
+}
+
+
+
+/* Layout new */
+@media (min-width: 768px){
+	.container-new{
+		width: 780px;
+	}
+	.padding_lr_mobile{
+		padding-left: 15px!important;
+		padding-right: 15px!important;
+	}
+}
+@media (min-width: 992px){
+	.container-new{
+		width: 1000px;
+	}	
+}
+
+@media (min-width: 1200px){
+	.container-new{
+		width: 1200px;
+	}
+}
+
+

@@ -1,0 +1,502 @@
+/* Event Metabox Admin */
+#event-metabox-settings .inside {
+  margin: 0;
+  padding: 0; }
+#event-metabox-settings .ui-widget.ui-widget-content {
+  margin: 0;
+  padding: 0; }
+#event-metabox-settings .ui-tabs .ui-tabs-nav {
+  border-radius: 0; }
+
+.ovaem_event_row {
+  display: block; }
+  .ovaem_event_row label {
+    min-width: 150px;
+    display: inline-block;
+    color: #555;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left; }
+
+/* Map Metabox */
+.ovaevent_map #map {
+  width: 100%;
+  height: 400px;
+  display: block; }
+.ovaevent_map .controls {
+  background-color: #fff;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  height: 29px;
+  margin-left: 17px;
+  margin-top: 10px;
+  outline: none;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 400px; }
+  .ovaevent_map .controls:focus {
+    border-color: #4d90fe; }
+.ovaevent_map .title {
+  font-weight: bold; }
+.ovaevent_map #infowindow-content {
+  display: none; }
+.ovaevent_map #map #infowindow-content {
+  display: inline; }
+
+/* Schedule Item */
+.schedule_item {
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 20px; }
+  .schedule_item .schedule_content {
+    margin: 30px 0px; }
+  .schedule_item .ovaem_event_row {
+    padding: 0px 15px; }
+  .schedule_item .head {
+    min-height: 30px;
+    width: 100%;
+    display: flex;
+    background-color: #ccc; }
+    .schedule_item .head:hover {
+      cursor: move; }
+    .schedule_item .head .date_label {
+      font-size: 16px;
+      float: left;
+      width: 90%; }
+    .schedule_item .head .icon {
+      float: right;
+      width: 10%;
+      text-align: right; }
+    .schedule_item .head .date_label a,
+    .schedule_item .head .icon a {
+      line-height: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #999;
+      font-size: 14px;
+      display: inline-block; }
+      .schedule_item .head .date_label a:hover,
+      .schedule_item .head .icon a:hover {
+        color: #333; }
+
+.label_title {
+  font-weight: bold;
+  color: #929292; }
+
+.add_schedule_plan {
+  margin: 30px 15px 0px 15px !important; }
+
+.content_plan {
+  margin: 10px;
+  border: 1px solid #e4e4e4; }
+  .content_plan .head {
+    background-color: #efefef; }
+  .content_plan .plan_data {
+    margin-top: 20px; }
+
+input.schedule_name {
+  font-weight: bold;
+  width: 138px; }
+
+input.schedule_date {
+  font-size: 16px; }
+
+/* table  */
+table.display {
+  width: 100%; }
+  table.display thead {
+    background-color: #ccc; }
+    table.display thead td {
+      padding: 5px; }
+  table.display tbody tr td {
+    padding: 10px 10px 0px 0px;
+    margin-bottom: 5px; }
+
+/* Gallery metabox */
+.ovaem_ad_galleries.form-table {
+  margin-top: 0; }
+  .ovaem_ad_galleries.form-table td {
+    padding-left: 0;
+    padding-top: 0; }
+
+#gallery-metabox-list li {
+  float: left;
+  width: 150px;
+  text-align: center;
+  margin: 10px 10px 10px 0;
+  cursor: move; }
+
+/* pagination speaker popup */
+#ovaem_pagin {
+  clear: both;
+  padding: 0;
+  margin-bottom: 10px; }
+
+#ovaem_pagin li {
+  float: left;
+  margin-right: 10px; }
+
+#ovaem_pagin li a {
+  display: block;
+  color: #717171;
+  font: bold 11px;
+  text-shadow: 0px 1px white;
+  padding: 5px 8px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+  background: #f9f9f9;
+  background: -webkit-linear-gradient(top, #f9f9f9 0%, #e8e8e8 100%);
+  background: -moz-linear-gradient(top, #f9f9f9 0%, #e8e8e8 100%);
+  background: -o-linear-gradient(top, #f9f9f9 0%, #e8e8e8 100%);
+  background: -ms-linear-gradient(top, #f9f9f9 0%, #e8e8e8 100%);
+  background: linear-gradient(top, #f9f9f9 0%, #e8e8e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9',endColorstr='#e8e8e8',GradientType=0 ); }
+
+#ovaem_pagin li a.current {
+  color: white;
+  text-shadow: 0px 1px #3f789f;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.8);
+  background: #7cb9e5;
+  background: -webkit-linear-gradient(top, #7cb9e5 0%, #57a1d8 100%);
+  background: -moz-linear-gradient(top, #7cb9e5 0%, #57a1d8 100%);
+  background: -o-linear-gradient(top, #7cb9e5 0%, #57a1d8 100%);
+  background: -ms-linear-gradient(top, #7cb9e5 0%, #57a1d8 100%);
+  background: linear-gradient(top, #7cb9e5 0%, #57a1d8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7cb9e5',endColorstr='#57a1d8',GradientType=0 ); }
+
+#ovaem_pagin li a:hover {
+  -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.55);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.55);
+  background: #fff;
+  background: -webkit-linear-gradient(top, #fff 0%, #e8e8e8 100%);
+  background: -moz-linear-gradient(top, #fff 0%, #e8e8e8 100%);
+  background: -o-linear-gradient(top, #fff 0%, #e8e8e8 100%);
+  background: -ms-linear-gradient(top, #fff 0%, #e8e8e8 100%);
+  background: linear-gradient(top, #fff 0%, #e8e8e8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff',endColorstr='#e8e8e8',GradientType=0 ); }
+
+#ovaem_pagin li a:active,
+#ovaem_pagin li a.current:active {
+  -webkit-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.5), 0px 1px 1px 0px white !important;
+  -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.5), 0px 1px 1px 0px white !important;
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.5), 0px 1px 1px 0px white !important; }
+
+#ovaem_pagin li a.current:hover {
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.9);
+  background: #99cefc;
+  background: -webkit-linear-gradient(top, #99cefc 0%, #57a1d8 100%);
+  background: -moz-linear-gradient(top, #99cefc 0%, #57a1d8 100%);
+  background: -o-linear-gradient(top, #99cefc 0%, #57a1d8 100%);
+  background: -ms-linear-gradient(top, #99cefc 0%, #57a1d8 100%);
+  background: linear-gradient(top, #99cefc 0%, #57a1d8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99cefc',endColorstr='#57a1d8',GradientType=0 ); }
+
+/* Sponsor */
+.sponsor_item {
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 20px; }
+  .sponsor_item .schedule_content {
+    margin: 30px 0px; }
+  .sponsor_item .ovaem_event_row {
+    padding: 0px 15px; }
+    .sponsor_item .ovaem_event_row.sponsor_wrap {
+      padding: 15px; }
+  .sponsor_item .head {
+    min-height: 30px;
+    width: 100%;
+    display: flex;
+    background-color: #ccc; }
+    .sponsor_item .head:hover {
+      cursor: move; }
+    .sponsor_item .head .date_label {
+      font-size: 16px;
+      float: left;
+      width: 90%; }
+    .sponsor_item .head .icon {
+      float: right;
+      width: 10%;
+      text-align: right; }
+    .sponsor_item .head .date_label a,
+    .sponsor_item .head .icon a {
+      line-height: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #999;
+      font-size: 14px;
+      display: inline-block; }
+      .sponsor_item .head .date_label a:hover,
+      .sponsor_item .head .icon a:hover {
+        color: #333; }
+  .sponsor_item .sponsor_list {
+    margin: 10px; }
+    .sponsor_item .sponsor_list .head {
+      background-color: #efefef; }
+    .sponsor_item .sponsor_list .plan_data {
+      margin-top: 20px; }
+  .sponsor_item .add_sponsor_info.button {
+    margin: 15px; }
+
+#ovaem_sponsor_logo {
+  display: inline-flex; }
+
+#image-metabox-list {
+  margin-top: 0;
+  margin-left: 70px; }
+
+/* ticket Item */
+.ticket_item {
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 20px; }
+  .ticket_item .ticket_content {
+    margin: 30px 0px; }
+  .ticket_item .ovaem_event_row {
+    padding: 0px 15px; }
+  .ticket_item .head {
+    min-height: 30px;
+    width: 100%;
+    display: flex;
+    background-color: #ccc; }
+    .ticket_item .head:hover {
+      cursor: move; }
+    .ticket_item .head .date_label {
+      font-size: 16px;
+      float: left;
+      width: 90%; }
+    .ticket_item .head .icon {
+      float: right;
+      width: 10%;
+      text-align: right; }
+    .ticket_item .head .date_label a,
+    .ticket_item .head .icon a {
+      line-height: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #999;
+      font-size: 14px;
+      display: inline-block; }
+      .ticket_item .head .date_label a:hover,
+      .ticket_item .head .icon a:hover {
+        color: #333; }
+
+/* Setting */
+.ovaem_settings .form-table th, .ovaem_settings .form-table td {
+  color: #222;
+  font-weight: 500; }
+.ovaem_settings .form-table td {
+  font-weight: normal; }
+
+/* Menu admin */
+#adminmenu ul li a {
+  text-transform: capitalize; }
+
+/* ORder Event */
+.text_grey {
+  color: grey; }
+
+.ovame_order_detail .ovaem_row strong {
+  min-width: 150px;
+  display: inline-block; }
+.ovame_order_detail .checkout_order {
+  text-align: left;
+  margin-top: 10px; }
+
+.woo_payment_section_setting .multiple-select {
+  min-height: 100px; }
+
+.hide_change_slug {
+  display: none; }
+
+.title_virtual_event {
+  margin-bottom: 10px; }
+
+.sub_title_virtual_event {
+  margin-bottom: 0; }
+
+.ticket_link,
+.ticket_password {
+  min-width: 250px; }
+
+/* FAQ */
+.faq_item {
+  display: block;
+  border: 1px solid #ccc;
+  margin-bottom: 20px; }
+  .faq_item .schedule_content {
+    margin: 30px 0px; }
+  .faq_item .ovaem_event_row {
+    padding: 15px 15px; }
+    .faq_item .ovaem_event_row.sponsor_wrap {
+      padding: 15px; }
+  .faq_item .head {
+    min-height: 30px;
+    width: 100%;
+    display: flex;
+    background-color: #ccc; }
+    .faq_item .head:hover {
+      cursor: move; }
+    .faq_item .head .date_label {
+      font-size: 16px;
+      float: left;
+      width: 90%; }
+    .faq_item .head .icon {
+      float: right;
+      width: 10%;
+      text-align: right; }
+    .faq_item .head .date_label a,
+    .faq_item .head .icon a {
+      line-height: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #999;
+      font-size: 14px;
+      display: inline-block; }
+      .faq_item .head .date_label a:hover,
+      .faq_item .head .icon a:hover {
+        color: #333; }
+  .faq_item .faq_list {
+    margin: 10px; }
+    .faq_item .faq_list .head {
+      background-color: #efefef; }
+    .faq_item .faq_list .plan_data {
+      margin-top: 20px; }
+  .faq_item .add_faq_info.button {
+    margin: 15px; }
+
+#ovaem_faq_logo {
+  display: inline-flex; }
+
+/* Custom field checkout */
+.ova-list-checkout-field {
+  position: relative;
+  text-align: left; }
+  .ova-list-checkout-field table {
+    margin: 0px;
+    width: 100%; }
+  .ova-list-checkout-field tbody tr:nth-child(odd) {
+    background: #f9f9f9; }
+  .ova-list-checkout-field tbody tr:nth-child(even) {
+    background: #fff; }
+  .ova-list-checkout-field .wrap_loader {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    height: 100%;
+    z-index: 9; }
+  .ova-list-checkout-field .loader {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 7px solid;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25) rgba(0, 0, 0, 0.35) rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    animation: ovaem_rotation 1s linear infinite; }
+@keyframes ovaem_rotation {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+  .ova-list-checkout-field table tbody tr td.ova-checkbox {
+    opacity: 1 !important; }
+  .ova-list-checkout-field table tbody tr.ova-disable td {
+    opacity: 0.4; }
+
+.ova-wrap-popup-checkout-field {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  height: 120vh;
+  display: none; }
+  .ova-wrap-popup-checkout-field .ova-popup-wrapper {
+    position: relative;
+    margin: 150px auto;
+    width: 40%;
+    height: auto;
+    background: #fff;
+    padding: 40px; }
+    .ova-wrap-popup-checkout-field .ova-popup-wrapper .close_popup {
+      font-size: 16px;
+      color: #333;
+      text-decoration: none;
+      position: absolute;
+      top: 10px;
+      right: 10px; }
+    .ova-wrap-popup-checkout-field .ova-popup-wrapper table {
+      border-spacing: 0 20px; }
+    .ova-wrap-popup-checkout-field .ova-popup-wrapper tr {
+      margin-bottom: 20px; }
+      .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.ova-row-type .file-format {
+        display: none; }
+      .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.max-file-size {
+        display: none; }
+      .ova-wrap-popup-checkout-field .ova-popup-wrapper tr td select, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr td input[type=text] {
+        width: 100%;
+        min-width: 100%; }
+      .ova-wrap-popup-checkout-field .ova-popup-wrapper tr td.label {
+        font-size: 16px;
+        color: #333333; }
+      .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-required input[type=checkbox] {
+        margin-bottom: 10px;
+        margin-right: 5px; }
+      .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-required label {
+        margin-bottom: 10px;
+        display: inline-block;
+        font-size: 15px;
+        color: #333; }
+    .ova-wrap-popup-checkout-field .ova-popup-wrapper .ova-sub-table {
+      border-spacing: 0px; }
+      .ova-wrap-popup-checkout-field .ova-popup-wrapper .ova-sub-table tr {
+        display: table;
+        margin-bottom: 10px; }
+
+.ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-options, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-radio, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-checkbox {
+  display: none; }
+  .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-options table.ova-sub-table td, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-radio table.ova-sub-table td, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-checkbox table.ova-sub-table td {
+    width: 30%;
+    padding-right: 10px; }
+    .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-options table.ova-sub-table td input, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-radio table.ova-sub-table td input, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-checkbox table.ova-sub-table td input {
+      width: 100%; }
+    .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-options table.ova-sub-table td.ova-box, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-radio table.ova-sub-table td.ova-box, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-checkbox table.ova-sub-table td.ova-box {
+      width: 5%;
+      padding-right: 0px; }
+      .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-options table.ova-sub-table td.ova-box.sort span, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-radio table.ova-sub-table td.ova-box.sort span, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-checkbox table.ova-sub-table td.ova-box.sort span {
+        cursor: pointer; }
+      .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-options table.ova-sub-table td.ova-box a, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-radio table.ova-sub-table td.ova-box a, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-checkbox table.ova-sub-table td.ova-box a {
+        color: #FFFFFF;
+        padding: 2px 5px;
+        border-radius: 3px;
+        font-size: 12px;
+        text-decoration: none; }
+        .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-options table.ova-sub-table td.ova-box a.btn-blue, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-radio table.ova-sub-table td.ova-box a.btn-blue, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-checkbox table.ova-sub-table td.ova-box a.btn-blue {
+          background-color: #00A0D2;
+          border: 1px solid #0073AA; }
+        .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-options table.ova-sub-table td.ova-box a.btn-red, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-radio table.ova-sub-table td.ova-box a.btn-red, .ova-wrap-popup-checkout-field .ova-popup-wrapper tr.row-checkbox table.ova-sub-table td.ova-box a.btn-red {
+          background-color: #ff6666;
+          border: 1px solid #ff4c4c; }
+
+/*# sourceMappingURL=style.css.map */

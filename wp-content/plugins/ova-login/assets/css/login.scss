@@ -1,0 +1,155 @@
+.ova-login-form-container {
+	h3.title {
+		text-transform: uppercase;
+		margin-bottom: 30px;
+		font-style: 20px;
+	}
+	.login-username {
+		margin-bottom: 20px;
+	}
+	.login-password {
+		margin-bottom: 20px;
+	}
+	.login-remember {
+		label {
+			font-weight: normal;
+			input {
+				margin-right: 5px;
+			}
+		}
+	}
+	.login-submit {
+		margin-top: 30px;
+		margin-bottom: 30px !important;
+		input {
+			width: 250px;
+		}
+	}
+	a.forget-password {
+		color: #4862c4;
+	}
+	#user_pass {
+		height: 50px;
+		border: 1px solid #e0e0e0;
+		box-shadow: none;
+		color: #242b46;
+		opacity: 1;
+		padding-left: 15px;
+		width: 250px;
+		&::-webkit-input-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+		&::-moz-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+		&:-ms-input-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+		&:-moz-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+	}
+	#user_login {
+		height: 50px;
+		border: 1px solid #e0e0e0;
+		box-shadow: none;
+		color: #242b46;
+		opacity: 1;
+		padding-left: 15px;
+		width: 250px;
+		&::-webkit-input-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+		&::-moz-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+		&:-ms-input-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+		&:-moz-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+	}
+	#loginform {
+		p {
+			label {
+				display: block;
+			}
+		}
+	}
+	p.login-submit {
+		#wp-submit {
+			cursor: pointer;
+			border: none;
+			background-color: #343434;
+			color: #fff;
+			font-size: 14px;
+			line-height: 24px;
+			text-transform: uppercase;
+			font-weight: 500;
+			padding: 11.5px 40px;
+			position: relative;
+		}
+	}
+	.ovaem-recaptcha-wrapper {
+		margin-bottom: 20px;
+	}
+}
+.ova_register_user {
+	h3.title {
+		text-transform: uppercase;
+		margin-bottom: 30px;
+		font-style: 20px;
+	}
+	p.form-row {
+		margin-bottom: 20px;
+	}
+	input {
+		height: 50px;
+		border: 1px solid #e0e0e0;
+		box-shadow: none;
+		color: #242b46;
+		opacity: 1;
+		padding-left: 15px;
+		width: 250px;
+		&::-webkit-input-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+		&::-moz-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+		&:-ms-input-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+		&:-moz-placeholder {
+			color: #242b46;
+			opacity: 0.7;
+		}
+	}
+	.ova-btn {
+		text-align: center;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.ovaem-recaptcha-wrapper {
+		margin-bottom: 20px;
+	}
+}
+.woocommerce {
+	.lost_reset_password{
+		.ovaem-recaptcha-wrapper {
+			margin-bottom: 6px;
+		}
+	}
+}

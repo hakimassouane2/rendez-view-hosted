@@ -1,0 +1,726 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ova Advent\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-11 11:23+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#. Description of the plugin
+msgid "A plugin to create custom post type,  shortcode"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1391
+msgid "About"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:161 shortcode/vc-shortcode.php:467
+msgid "Address"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:10 shortcode/vc-shortcode.php:135
+#: shortcode/vc-shortcode.php:309 shortcode/vc-shortcode.php:434
+#: shortcode/vc-shortcode.php:541 shortcode/vc-shortcode.php:602
+#: shortcode/vc-shortcode.php:701 shortcode/vc-shortcode.php:741
+#: shortcode/vc-shortcode.php:788 shortcode/vc-shortcode.php:828
+#: shortcode/vc-shortcode.php:880 shortcode/vc-shortcode.php:966
+#: shortcode/vc-shortcode.php:1122 shortcode/vc-shortcode.php:1173
+#: shortcode/vc-shortcode.php:1219 shortcode/vc-shortcode.php:1311
+#: shortcode/vc-shortcode.php:1350 shortcode/vc-shortcode.php:1394
+#: shortcode/vc-shortcode.php:1458 shortcode/vc-shortcode.php:1539
+#: shortcode/vc-shortcode.php:1615 shortcode/vc-shortcode.php:1708
+#: shortcode/vc-shortcode.php:1771 shortcode/vc-shortcode.php:1819
+msgid "ADVENTPRO"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:24 shortcode/vc-shortcode.php:323
+#: shortcode/vc-shortcode.php:1064 shortcode/vc-shortcode.php:1481
+#: shortcode/vc-shortcode.php:1638
+msgid "Auto slider"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1281
+msgid "Background main color"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:538
+msgid "Banner One"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:664
+msgid "Blank"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:963
+msgid "Blog"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1273
+msgid "Border Radius 0"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1272
+msgid "Border Radius 30"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1271
+msgid "Border Radius 4"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:877
+msgid "Box"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1216
+msgid "Button"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:189 shortcode/vc-shortcode.php:495
+#: shortcode/vc-shortcode.php:1433
+msgid "Button link"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:182 shortcode/vc-shortcode.php:488
+#: shortcode/vc-shortcode.php:1426
+msgid "Button text"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:974
+msgid "Category"
+msgstr ""
+
+#: ova-advent.php:106
+msgid "Category Footer"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:977
+msgid "Choose a Content Category from the drop down list."
+msgstr ""
+
+#: shortcode/vc-shortcode.php:121 shortcode/vc-shortcode.php:285
+#: shortcode/vc-shortcode.php:420 shortcode/vc-shortcode.php:514
+#: shortcode/vc-shortcode.php:587 shortcode/vc-shortcode.php:685
+#: shortcode/vc-shortcode.php:727 shortcode/vc-shortcode.php:774
+#: shortcode/vc-shortcode.php:813 shortcode/vc-shortcode.php:867
+#: shortcode/vc-shortcode.php:930 shortcode/vc-shortcode.php:1108
+#: shortcode/vc-shortcode.php:1159 shortcode/vc-shortcode.php:1204
+#: shortcode/vc-shortcode.php:1296 shortcode/vc-shortcode.php:1335
+#: shortcode/vc-shortcode.php:1380 shortcode/vc-shortcode.php:1442
+#: shortcode/vc-shortcode.php:1525 shortcode/vc-shortcode.php:1591
+#: shortcode/vc-shortcode.php:1694 shortcode/vc-shortcode.php:1748
+#: shortcode/vc-shortcode.php:1802 shortcode/vc-shortcode.php:1871
+msgid "Class"
+msgstr ""
+
+#: shortcode/shortcode.php:438
+msgid "comment"
+msgstr ""
+
+#: shortcode/shortcode.php:438
+msgid "comments"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1768
+msgid "Contact Info"
+msgstr ""
+
+#: ova-advent.php:95
+msgid "Copyright Footer"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1472 shortcode/vc-shortcode.php:1629
+msgid "Count item each slide"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:154 shortcode/vc-shortcode.php:453
+#: shortcode/vc-shortcode.php:1741
+msgid "Date"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:566
+msgid "Date and Address"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:232
+msgid "Day"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:580 shortcode/vc-shortcode.php:627
+#: shortcode/vc-shortcode.php:904 shortcode/vc-shortcode.php:1328
+#: shortcode/vc-shortcode.php:1373 shortcode/vc-shortcode.php:1419
+#: shortcode/vc-shortcode.php:1572 shortcode/vc-shortcode.php:1794
+msgid "Description"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:208 shortcode/vc-shortcode.php:502
+msgid "Display cover background"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1084
+msgid "Dots"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:36 shortcode/vc-shortcode.php:335
+#: shortcode/vc-shortcode.php:1076 shortcode/vc-shortcode.php:1493
+#: shortcode/vc-shortcode.php:1650
+msgid "Duration of slider(ms). 1000ms = 1s"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:28 shortcode/vc-shortcode.php:48
+#: shortcode/vc-shortcode.php:60 shortcode/vc-shortcode.php:212
+#: shortcode/vc-shortcode.php:327 shortcode/vc-shortcode.php:347
+#: shortcode/vc-shortcode.php:359 shortcode/vc-shortcode.php:506
+#: shortcode/vc-shortcode.php:1068 shortcode/vc-shortcode.php:1088
+#: shortcode/vc-shortcode.php:1100 shortcode/vc-shortcode.php:1485
+#: shortcode/vc-shortcode.php:1505 shortcode/vc-shortcode.php:1517
+#: shortcode/vc-shortcode.php:1583 shortcode/vc-shortcode.php:1642
+#: shortcode/vc-shortcode.php:1662 shortcode/vc-shortcode.php:1674
+#: shortcode/vc-shortcode.php:1686
+msgid "False"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:996 shortcode/vc-shortcode.php:1008
+#: shortcode/vc-shortcode.php:1020 shortcode/vc-shortcode.php:1032
+#: shortcode/vc-shortcode.php:1044 shortcode/vc-shortcode.php:1056
+msgid "false"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:986
+msgid "For example: 10"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:841
+msgid "For example: About {this event}"
+msgstr ""
+
+#: ova-advent.php:117
+msgid "Gallery Footer"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1612
+msgid "Gallery v1"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1705
+msgid "Gallery V1 Item"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1816
+msgid "Google Map"
+msgstr ""
+
+#: ova-advent.php:185
+msgid "Header Version 3: Top Info"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:698
+msgid "Heading"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:738
+msgid "Heading V2"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:785
+msgid "Heading V3"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:825
+msgid "Heading V4"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:69 shortcode/vc-shortcode.php:368
+msgid "Height desk"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:78 shortcode/vc-shortcode.php:377
+msgid "Height Ipad"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:87 shortcode/vc-shortcode.php:386
+msgid "Height Mobile"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:256 shortcode/vc-shortcode.php:460
+msgid "Hour"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themeforest.net/user/ovatheme"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://themeforest.net/user/ovatheme/portfolio"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:551 shortcode/vc-shortcode.php:612
+#: shortcode/vc-shortcode.php:1183 shortcode/vc-shortcode.php:1359
+#: shortcode/vc-shortcode.php:1779
+msgid "Icon"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1863
+msgid "Icon for marker"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1411
+msgid "Icon image beside title"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1826
+msgid "Id for map section"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:147 shortcode/vc-shortcode.php:446
+#: shortcode/vc-shortcode.php:559 shortcode/vc-shortcode.php:766
+#: shortcode/vc-shortcode.php:1132 shortcode/vc-shortcode.php:1551
+#: shortcode/vc-shortcode.php:1720
+msgid "Image"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1139 shortcode/vc-shortcode.php:1347
+msgid "Info"
+msgstr ""
+
+#: ova-advent.php:128
+msgid "Info 1 Footer"
+msgstr ""
+
+#: ova-advent.php:139
+msgid "Info 2 Footer"
+msgstr ""
+
+#: ova-advent.php:150
+msgid "Info 3 Footer"
+msgstr ""
+
+#: ova-advent.php:161
+msgid "Info 4 Footer"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:124 shortcode/vc-shortcode.php:288
+#: shortcode/vc-shortcode.php:423 shortcode/vc-shortcode.php:517
+#: shortcode/vc-shortcode.php:1528 shortcode/vc-shortcode.php:1594
+#: shortcode/vc-shortcode.php:1697 shortcode/vc-shortcode.php:1751
+#: shortcode/vc-shortcode.php:1805
+msgid "Insert class to use for your style"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:552 shortcode/vc-shortcode.php:613
+#: shortcode/vc-shortcode.php:636
+msgid ""
+"Insert Font icon: Fontawesome, Flaticon, Eleganticon. You can read in the "
+"documentation"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:72 shortcode/vc-shortcode.php:371
+msgid "Insert full-height or height (750px)"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:81 shortcode/vc-shortcode.php:380
+msgid "Insert full-height or height (768px)"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:90 shortcode/vc-shortcode.php:389
+msgid "Insert full-height or height (800px)"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:590 shortcode/vc-shortcode.php:688
+#: shortcode/vc-shortcode.php:730 shortcode/vc-shortcode.php:777
+#: shortcode/vc-shortcode.php:816 shortcode/vc-shortcode.php:933
+#: shortcode/vc-shortcode.php:1162 shortcode/vc-shortcode.php:1207
+#: shortcode/vc-shortcode.php:1299 shortcode/vc-shortcode.php:1338
+#: shortcode/vc-shortcode.php:1445
+msgid "Insert no_border to dont display border-right"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1383
+msgid ""
+"Insert no_border to dont display border-right. Insert white_color to text is "
+"white"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:257
+msgid "Insert Number from 0 to 12"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:265
+msgid "Insert Number from 0 to 59"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:233 shortcode/vc-shortcode.php:241
+msgid "Insert Number: 10"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:249
+msgid "Insert Number: 2017"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1140
+msgid ""
+"Insert shortcode: [ova_advent_info icon=\"arrow_right\" title=\"name1\" /] "
+msgstr ""
+
+#: shortcode/vc-shortcode.php:870
+msgid "Insert text-center to dislay center"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1308
+msgid "Intro"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1565
+msgid "job"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1258
+msgid "Large"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:911 shortcode/vc-shortcode.php:1236
+msgid "Link"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1835
+msgid "location"
+msgstr ""
+
+#: shortcode/shortcode.php:476
+msgid "logo"
+msgstr ""
+
+#: ova-advent.php:73
+msgid "Logo Dark Footer"
+msgstr ""
+
+#: ova-advent.php:62
+msgid "Logo White Footer"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:56 shortcode/vc-shortcode.php:355
+#: shortcode/vc-shortcode.php:1096 shortcode/vc-shortcode.php:1513
+#: shortcode/vc-shortcode.php:1682
+msgid "Loop"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1285
+msgid "Main Color"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1119
+msgid "Map 1"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1259
+msgid "Medium"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:264
+msgid "Minute"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:240
+msgid "Month"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1190 shortcode/vc-shortcode.php:1229
+msgid "Name"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1558
+msgid "name"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:44 shortcode/vc-shortcode.php:343
+#: shortcode/vc-shortcode.php:1670
+msgid "Navigation"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:200 shortcode/vc-shortcode.php:1247
+msgid "New Window"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:223 shortcode/vc-shortcode.php:858
+msgid "No"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:890 shortcode/vc-shortcode.php:1197
+msgid "Number"
+msgstr ""
+
+#. Name of the plugin
+msgid "Ova Advent"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ovatheme"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:97 shortcode/vc-shortcode.php:396
+msgid "Padding Top Desktop"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:105 shortcode/vc-shortcode.php:404
+msgid "Padding Top Ipad"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:113 shortcode/vc-shortcode.php:412
+msgid "Padding Top Mobile"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1501 shortcode/vc-shortcode.php:1658
+msgid "Pagination"
+msgstr ""
+
+#: shortcode/shortcode.php:807
+msgid "Preview"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1268
+msgid "Radius"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:635
+msgid "Read more icon."
+msgstr ""
+
+#: shortcode/vc-shortcode.php:652
+msgid "Read more link"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:644
+msgid "Read more text"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:199 shortcode/vc-shortcode.php:1246
+msgid "Same Window"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1286
+msgid "Second Color"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:663
+msgid "Self"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:599
+msgid "Service"
+msgstr ""
+
+#: ova-advent.php:201
+msgid "Share: "
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1028
+msgid "Show Comment"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:220
+msgid "Show CountDown"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1040
+msgid "Show Date"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1016
+msgid "Show description"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:992
+msgid "Show image thumbnail"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:854
+msgid "Show Line"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1579
+msgid "Show quota"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1052
+msgid "Show Readmore"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1004
+msgid "Show title"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1255
+msgid "Size"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1170
+msgid "Skill"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:7
+msgid "Slider"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:132 shortcode/vc-shortcode.php:431
+msgid "Slider Item"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:306
+msgid "Slider V2"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1260
+msgid "Small"
+msgstr ""
+
+#: ova-advent.php:84
+msgid "Social Footer"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:673 shortcode/vc-shortcode.php:918
+#: shortcode/vc-shortcode.php:1147
+msgid "Style"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:676 shortcode/vc-shortcode.php:921
+#: shortcode/vc-shortcode.php:1150
+msgid "Style 1"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:677 shortcode/vc-shortcode.php:922
+#: shortcode/vc-shortcode.php:1151
+msgid "Style 2"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:175 shortcode/vc-shortcode.php:481
+msgid "Sub Title"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:719 shortcode/vc-shortcode.php:759
+#: shortcode/vc-shortcode.php:806 shortcode/vc-shortcode.php:847
+msgid "Sub title"
+msgstr ""
+
+#: ova-advent.php:51
+msgid "Subcribe Footer"
+msgstr ""
+
+#: ova-advent.php:173
+msgid "Tags Footer"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:660 shortcode/vc-shortcode.php:1243
+msgid "Target"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:196
+msgid "Target Link"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1455
+msgid "Testimonial"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1536
+msgid "Testimonial Item"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:273
+msgid ""
+"The timezone for the target times. <br/>\n"
+"For example:<br/>\n"
+"If Timezone is UTC-9:00 you have to insert -9 <br/>\n"
+"If Timezone is UTC-9:30, you have to insert -9*60+30=-570. <br/>\n"
+"Read about UTC Time: http://en.wikipedia.org/wiki/List_of_UTC_time_offsets"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1727
+msgid "Thumbnail"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:272
+msgid "Timezone"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:168 shortcode/vc-shortcode.php:474
+#: shortcode/vc-shortcode.php:573 shortcode/vc-shortcode.php:620
+#: shortcode/vc-shortcode.php:712 shortcode/vc-shortcode.php:752
+#: shortcode/vc-shortcode.php:799 shortcode/vc-shortcode.php:839
+#: shortcode/vc-shortcode.php:897 shortcode/vc-shortcode.php:1321
+#: shortcode/vc-shortcode.php:1366 shortcode/vc-shortcode.php:1404
+#: shortcode/vc-shortcode.php:1734
+msgid "Title"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1787 shortcode/vc-shortcode.php:1845
+msgid "title"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:983
+msgid "Total item show"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1284
+msgid "Transparent"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:27 shortcode/vc-shortcode.php:47
+#: shortcode/vc-shortcode.php:59 shortcode/vc-shortcode.php:211
+#: shortcode/vc-shortcode.php:326 shortcode/vc-shortcode.php:346
+#: shortcode/vc-shortcode.php:358 shortcode/vc-shortcode.php:505
+#: shortcode/vc-shortcode.php:1067 shortcode/vc-shortcode.php:1087
+#: shortcode/vc-shortcode.php:1099 shortcode/vc-shortcode.php:1484
+#: shortcode/vc-shortcode.php:1504 shortcode/vc-shortcode.php:1516
+#: shortcode/vc-shortcode.php:1582 shortcode/vc-shortcode.php:1641
+#: shortcode/vc-shortcode.php:1661 shortcode/vc-shortcode.php:1673
+#: shortcode/vc-shortcode.php:1685
+msgid "True"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:995 shortcode/vc-shortcode.php:1007
+#: shortcode/vc-shortcode.php:1019 shortcode/vc-shortcode.php:1031
+#: shortcode/vc-shortcode.php:1043 shortcode/vc-shortcode.php:1055
+msgid "true"
+msgstr ""
+
+#: ova-advent.php:39 ova-advent.php:41
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:248
+msgid "Year"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:224 shortcode/vc-shortcode.php:857
+msgid "Yes"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1781
+msgid ""
+"You can find here: https://www.elegantthemes.com/blog/resources/elegant-icon-"
+"font"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1796
+msgid "You can insert like {{ Line 1}} {{ Line 2}}"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1109
+msgid "You can use bg_grey for new style"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:645
+msgid "You have to empty 'Read more icon' field to display this text"
+msgstr ""
+
+#: shortcode/vc-shortcode.php:1854
+msgid "Zoom"
+msgstr ""
