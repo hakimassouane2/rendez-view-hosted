@@ -489,7 +489,7 @@ class Ova_Login_Plugin {
 	 *
 	 * @return int|WP_Error         The id of the user that was created, or error if failed.
 	 */
-	private function register_user( $email, $first_name, $last_name ) {
+	private function register_user( $email, $first_name, $last_name, $phone ) {
 	    $errors = new WP_Error();
 	 
 	    // Email address is used as both username and email. It is also the only
@@ -514,6 +514,7 @@ class Ova_Login_Plugin {
 	        'first_name'    => $first_name,
 	        'last_name'     => $last_name,
 	        'nickname'      => $first_name,
+					'phone'					=> $phone,
 	    );
 	 
 	    $user_id = wp_insert_user( $user_data );
@@ -540,6 +541,7 @@ class Ova_Login_Plugin {
 	            $email = $_POST['email'];
 	            $first_name = sanitize_text_field( $_POST['first_name'] );
 	            $last_name = sanitize_text_field( $_POST['last_name'] );
+							$phone = sanitize_text_field( $_POST['phone'] );
 
 	            // recapcha
 		    	if ( isset( $_REQUEST['g-recaptcha-response'] ) ) {
@@ -555,7 +557,7 @@ class Ova_Login_Plugin {
 		    		}
 		    	}
 	 
-	            $result = $this->register_user( $email, $first_name, $last_name );
+	            $result = $this->register_user( $email, $first_name, $last_name, $phone );
 	 
 	            if ( is_wp_error( $result ) ) {
 	                // Parse errors into a string and append as parameter to redirect

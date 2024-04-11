@@ -25,6 +25,10 @@
         <p class="form-row">
             <input placeholder="<?php _e( 'Last name', 'ova-login' ); ?>" type="text" name="last_name" id="last-name">
         </p>
+
+        <p class="form-row">
+            <input placeholder="<?php _e( 'Phone', 'ova-login' ); ?>" type="text" name="phone" id="phone">
+        </p>
  
         <p class="form-row">
             <?php _e( 'Note: Your password will be generated automatically and sent to your email address.', 'ova-login' ); ?>
