@@ -533,6 +533,7 @@ class Ova_Login_Plugin {
 	public function do_register_user() {
 	    if ( 'POST' == $_SERVER['REQUEST_METHOD'] ) {
 	        $redirect_url = site_url( 'member-register' );
+					$locale = isset($_GET['locale']) ? $_GET['locale'] : get_locale();
 	 
 	        if ( ! get_option( 'users_can_register' ) ) {
 	            // Registration closed, display error
@@ -567,9 +568,8 @@ class Ova_Login_Plugin {
 	                // Success, redirect to login page.
 	                $member_account = new WP_Query( 'pagename=member-login' );
      				if ( $member_account->have_posts() && get_option('permalink_structure' ) ) {
-										$current_locale = get_locale();
-										if ($current_locale == 'fr_FR') {
-											$redirect_url = site_url( 'fr/member-login' );
+										if ($locale === 'fr_FR') {
+											$redirect_url = site_url( '/fr/member-login' );
 										} else {
 											$redirect_url = site_url( 'member-login' );
 										}
