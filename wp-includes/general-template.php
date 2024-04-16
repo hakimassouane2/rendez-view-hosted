@@ -484,7 +484,7 @@ function wp_registration_url() {
 	 */
 	$current_locale = get_locale();
 	if ( $current_locale === 'fr_FR' ) {
-		return apply_filters( 'register_url', site_url( 'wp-login.php?action=register?locale=' . $current_locale, 'login' ) );
+		return apply_filters( 'register_url', site_url( 'wp-login.php?action=register&locale=' . $current_locale, 'login' ) );
 	} else {
 		return apply_filters( 'register_url', site_url( 'wp-login.php?action=register', 'login' ) );
 	}
