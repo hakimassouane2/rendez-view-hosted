@@ -880,16 +880,20 @@ class OVAEM_Settings {
     * mail template
     */
 	public static function mail_template() {
-		$ops = get_option('ovaem_options');
-		return isset($ops['mail_template']) ? $ops['mail_template'] : 'Event Name: [event] <br/>
-		Order ID: [orderid]<br/>
-		Name: [name] <br/>
-		Phone: [phone] <br/>
-		Email: [email] <br/>
-		Address: [address] <br/>
-		Company: [company] <br/>
-		Number: [number] <br/>
-		Addition: [addition] <br/>';
+		$file_path = plugin_dir_path(__FILE__) . '../mail-templates/free-ticket-mail-template-customer.html';
+		if (file_exists($file_path)) {
+			return file_get_contents($file_path);
+		} else {
+			return 'Event Name: [event] <br/>
+			Order ID: [orderid]<br/>
+			Name: [name] <br/>
+			Phone: [phone] <br/>
+			Email: [email] <br/>
+			Address: [address] <br/>
+			Company: [company] <br/>
+			Number: [number] <br/>
+			Addition: [addition] <br/>';
+		}
 	}
 
 	/**

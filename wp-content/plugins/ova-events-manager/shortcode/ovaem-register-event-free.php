@@ -109,7 +109,7 @@ function ovaem_register_event_free($atts, $content = null) {
 					type="submit" 
 					class="ova-btn ova-btn-rad-5 ova-btn-white ova-btn-main-color" 
 					data-id="ova_register_event">
-						<?php esc_html_e( "Register Event", 'ovaem-events-manager' ); ?>
+						<?php esc_html_e( "Register Event Free", 'ovaem-events-manager' ); ?>
 					</button>
 				</div>
 

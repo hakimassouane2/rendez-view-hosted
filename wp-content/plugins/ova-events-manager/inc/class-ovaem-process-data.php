@@ -139,17 +139,28 @@ if (!class_exists('OVAEM_Process_Data')) {
 
                $send_mail_to_multi_obj = !empty($send_mail_array) ? implode(',', $send_mail_array) : '';
 
-               $subject = esc_html__("Register Event Success", 'ovaem-events-manager');
+              
                $body = OVAEM_Settings::mail_template();
                $body = str_replace('[event]', '<a href="' . home_url('/?post_type=' . OVAEM_Settings::event_post_type_slug() . '&p=' . $event_obj->ID) . '">' . $event_obj->post_title . '</a>', $body);
                $body = str_replace('[orderid]', $order_id_new, $body);
-               $body = str_replace('[name]', $input_ovaem_name, $body);
+               $body = str_replace('[client_name]', $input_ovaem_name, $body);
                $body = str_replace('[phone]', $input_ovaem_phone, $body);
                $body = str_replace('[email]', $input_ovaem_email, $body);
                $body = str_replace('[address]', $input_ovaem_address, $body);
                $body = str_replace('[addition]', $input_ovaem_desc, $body);
                $body = str_replace('[number]', $input_ovaem_number, $body);
                $body = str_replace('[company]', $input_ovaem_company, $body);
+
+               $current_locale = get_locale();
+
+               if ($current_locale == 'fr_FR') {
+                  $body = str_replace('Here are your tickets', 'Voici vos billets', $body);
+                  $body = str_replace('[bottom_text]', 'N\'hésitez pas à nous contacter si vous avez des questions ! Nous serions heureux de vous aider. Il vous suffit de nous contacter via', $body);
+                   $subject = esc_html__("Voici vos billets", 'ovaem-events-manager');
+               } else {
+                 $body = str_replace('[bottom_text]', 'Feel free to contact us if you have any questions or comments! We are happy to help. Just contact us via', $body);
+                  $subject = esc_html__("Here are your tickets", 'ovaem-events-manager');
+               }
 
                if( $info_ticket ){
                   $body .= $info_ticket['link'] ? '<br/>'.esc_html__( 'Link:', 'ovaem-events-manager' ).' '.$info_ticket['link'] : '';

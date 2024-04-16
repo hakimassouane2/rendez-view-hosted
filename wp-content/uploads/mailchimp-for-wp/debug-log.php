@@ -7,3 +7,4 @@
 [2024-03-30 16:06:53] ERROR: Form 434 > Mailchimp API error: 1 Missing API key.
 [2024-03-30 16:09:02] ERROR: Form 434 > Mailchimp API error: 1 Missing API key.
 [2024-03-31 15:33:58] ERROR: Form 434 > Mailchimp API error: 1 Missing API key.
+[2024-04-13 08:58:50] ERROR: Form 434 > Mailchimp API error: 1 Missing API key.
