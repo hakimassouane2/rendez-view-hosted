@@ -489,7 +489,7 @@ class Ova_Login_Plugin {
 	 *
 	 * @return int|WP_Error         The id of the user that was created, or error if failed.
 	 */
-	private function register_user( $email, $first_name, $last_name, $phone ) {
+	private function register_user( $email, $first_name, $last_name, $phone, $locale ) {
 	    $errors = new WP_Error();
 	 
 	    // Email address is used as both username and email. It is also the only
@@ -515,6 +515,7 @@ class Ova_Login_Plugin {
 	        'last_name'     => $last_name,
 	        'nickname'      => $first_name,
 					'phone'					=> $phone,
+					'locale'				=> $locale,
 	    );
 	 
 	    $user_id = wp_insert_user( $user_data );
@@ -558,7 +559,7 @@ class Ova_Login_Plugin {
 		    		}
 		    	}
 	 
-	            $result = $this->register_user( $email, $first_name, $last_name, $phone );
+	            $result = $this->register_user( $email, $first_name, $last_name, $phone, $locale );
 	 
 	            if ( is_wp_error( $result ) ) {
 	                // Parse errors into a string and append as parameter to redirect

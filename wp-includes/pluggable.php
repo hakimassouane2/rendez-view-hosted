@@ -2221,10 +2221,8 @@ if ( ! function_exists( 'wp_new_user_notification' ) ) :
 
 		$switched_locale = switch_to_user_locale( $user_id );
 
-		$current_locale = get_locale();
-
 		/* translators: %s: User login. */
-		if ($current_locale === "fr_FR") {
+		if ($switched_locale === "fr_FR") {
 			$message  = sprintf( __( 'Nom d\'utilisateur: %s' ), $user->user_login ) . "\r\n\r\n";
 			$message .= __( 'Pour configurer votre mot de passe, rendez-vous à l’adresse suivante :' ) . "\r\n\r\n";
 			$message .= network_site_url( "wp-login.php?wp_lang=fr_FR&action=rp&key=$key&login=" . rawurlencode( $user->user_login ), 'login' ) . "\r\n\r\n";
