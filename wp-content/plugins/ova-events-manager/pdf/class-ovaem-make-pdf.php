@@ -26,13 +26,14 @@ if (!class_exists('OVAEM_Make_PDF')) {
          $venue = get_post_meta($ticket_id, 'ovaem_ticket_event_venue', true);
          $address = get_post_meta($ticket_id, 'ovaem_ticket_event_address', true);
          $code = get_post_meta($ticket_id, 'ovaem_ticket_code', true);
-         $qrcode = (OVAEM_Settings::pdf_ticket_format_qr() == 'code') ? $code : home_url('/') . '?qrcode=' . $code;
+         // $qrcode = (OVAEM_Settings::pdf_ticket_format_qr() == 'code') ? $code : home_url('/') . '?qrcode=' . $code;
          $local = get_locale();
 
          if ($local == 'fr_FR') {
-            $qrcode .= 'fr/?qrcode=' . $code;
+            // $qrcode .= 'fr/?qrcode=' . $code;
+            $qrcode = (OVAEM_Settings::pdf_ticket_format_qr() == 'code') ? $code : home_url('/') . 'fr/?qrcode=' . $code;
          } else {
-            $qrcode .= '?qrcode=' . $code;
+            $qrcode = (OVAEM_Settings::pdf_ticket_format_qr() == 'code') ? $code : home_url('/') . '?qrcode=' . $code;
          }
 
          $holder_ticket = get_post_meta($ticket_id, 'ovaem_ticket_buyer_name', true);
