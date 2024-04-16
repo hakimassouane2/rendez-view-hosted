@@ -992,7 +992,7 @@ switch ( $action ) {
 			login_header(
 				__( 'Password Reset' ),
 				wp_get_admin_notice(
-					__( 'Your password has been reset.' ) . ' <a href="' . esc_url( wp_login_url() ) . $user->locale. '">' . __( 'Log in' ) . '</a>',
+					__( 'Your password has been reset.' ) . ' <a href="' . esc_url( wp_login_url() ) . '?locale=' . $user->locale. '">' . __( 'Log in' ) . '</a>',
 					array(
 						'type'               => 'info',
 						'additional_classes' => array( 'message', 'reset-pass' ),

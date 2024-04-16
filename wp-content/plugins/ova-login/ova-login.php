@@ -210,8 +210,16 @@ class Ova_Login_Plugin {
 	            exit;
 	        }
 	 
+					// @TODO: redirect here to the custom login page with locale
+
+					$locale = isset($_GET['locale']) ? $_GET['locale'] : get_locale();
 	        // The rest are redirected to the login page
-	        $login_url = site_url( 'member-login' );
+
+					if ($locale === 'fr_FR') {
+						$login_url = site_url( '/fr/member-login' );
+					} else {
+	        	$login_url = site_url( 'member-login' );
+					}
 	        if ( ! empty( $redirect_to ) ) {
 	            $login_url = add_query_arg( 'redirect_to', $redirect_to, $login_url );
 	        }
