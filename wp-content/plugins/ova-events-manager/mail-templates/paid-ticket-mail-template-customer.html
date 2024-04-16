@@ -4,17 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Email</title>
-  </head>
-  <body style="font-family: Poppins, sans-serif">
-    <div
-      style="
+    <style>
+      /* Inline CSS */
+      body {
+        font-family: Poppins, sans-serif;
+      }
+      /* Avoid margin */
+      .container {
         max-width: 600px;
         margin: 0 auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
-      "
-    >
+        padding: 0 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
       <!-- Logo -->
       <div
         style="
@@ -49,7 +56,7 @@
       <!-- Order info -->
       <div>
         <h2 style="margin-bottom: 10px">Your order from [order_date]</h2>
-        <div style="display: grid; grid-template-columns: repeat(2, 1fr)">
+        <div>
           <div>
             <h3 style="font-size: 17px">Order number</h3>
             <p style="color: #808080; font-size: 17px">[orderid]</p>
