@@ -568,7 +568,7 @@ class Ova_Login_Plugin {
 	                $member_account = new WP_Query( 'pagename=member-login' );
      				if ( $member_account->have_posts() && get_option('permalink_structure' ) ) {
 										$current_locale = get_locale();
-										if ($locale == 'fr_FR') {
+										if ($current_locale == 'fr_FR') {
 											$redirect_url = site_url( 'fr/member-login' );
 										} else {
 											$redirect_url = site_url( 'member-login' );
