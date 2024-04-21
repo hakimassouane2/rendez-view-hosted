@@ -224,6 +224,7 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 			
 			$ticket_pdf = array();
 			$k = 0;
+			$client_count = 1;
 
 			if( $tickets->have_posts() ): while( $tickets->have_posts() ): $tickets->the_post();
 
@@ -232,7 +233,7 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 
 				if( OVAEM_Settings::event_mail_attachment() == 'pdf' || OVAEM_Settings::event_mail_attachment() == 'both' ){
 					if( get_post_meta( $ticket_id, 'ovaem_ticket_verify', true ) == 'true' ){
-						$ticket_pdf[$k] = $pdf->make_pdf_ticket( $ticket_id, $k );
+						$ticket_pdf[$k] = $pdf->make_pdf_ticket( $ticket_id, $client_count );
 						$k++;	
 					}
 				}
@@ -247,6 +248,8 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 					$ticket_pdf[$k] = $qr_image;
 					$k++;
 				}
+
+				$client_count++;
 
 			endwhile; endif; wp_reset_postdata();
 			
