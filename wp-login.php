@@ -217,22 +217,21 @@ background-size: 84px;
 background-position: center top;
 background-repeat: no-repeat;
 color: #3c434a;
-/* height: 84px; */
 font-size: 20px;
 font-weight: 400;
 line-height: 1.3;
-/* margin: 0 auto 25px; */
 padding: 0;
 width: 100%;
 text-decoration: none;
-/* width: 84px; */
 text-indent: -9999px;
 outline: 0;
 overflow: hidden;
 display: block;
 zoom: 3.9;
+height: 100%;
 margin-bottom: 0.2em;
 "><?php echo $login_header_text; ?></a></h1>
+
 	<?php
 	/**
 	 * Filters the message to display above the login form.
