@@ -11,13 +11,13 @@ if (!class_exists('OVAEM_Make_PDF')) {
          
       }
 
-      function make_pdf_ticket($ticket_id = '') {
+      function make_pdf_ticket($ticket_id = '', $count = 1) {
 
-         return $this->em4u_template_version($ticket_id);
+         return $this->em4u_template_version($ticket_id, $count);
 
       }
 
-      function em4u_template_version($ticket_id) {
+      function em4u_template_version($ticket_id, $count) {
 
          $ticket = array();
          
@@ -36,7 +36,7 @@ if (!class_exists('OVAEM_Make_PDF')) {
             $qrcode = (OVAEM_Settings::pdf_ticket_format_qr() == 'code') ? $code : home_url('/') . '?qrcode=' . $code;
          }
 
-         $holder_ticket = get_post_meta($ticket_id, 'ovaem_ticket_buyer_name', true);
+         $holder_ticket = get_post_meta($ticket_id, 'ovaem_ticket_buyer_name', true) . " - Client " . $count;
          $package = get_post_meta($ticket_id, 'ovaem_ticket_event_package', true);
 
          $ticket['ticket_id'] = $ticket_id;
@@ -154,14 +154,13 @@ if (!class_exists('OVAEM_Make_PDF')) {
          $attach_file = '';
 
          ob_start();
-
-            $template = OVAEM_Settings::pdf_ticket_template();
-            if ($template == 'version1') {
-               ovaem_get_template( 'pdf/template1.php', array( 'ticket' => $ticket ) );
-            } else if ($template == 'version2') {
-               ovaem_get_template( 'pdf/template2.php', array( 'ticket' => $ticket ) );
-            }
-            $html = ob_get_contents();
+         $template = OVAEM_Settings::pdf_ticket_template();
+         if ($template == 'version1') {
+            ovaem_get_template( 'pdf/template1.php', array( 'ticket' => $ticket ) );
+         } else if ($template == 'version2') {
+            ovaem_get_template( 'pdf/template2.php', array( 'ticket' => $ticket ) );
+         }
+         $html = ob_get_contents();
          ob_get_clean();
 
          try {

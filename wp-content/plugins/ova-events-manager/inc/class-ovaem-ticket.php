@@ -232,7 +232,7 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 
 				if( OVAEM_Settings::event_mail_attachment() == 'pdf' || OVAEM_Settings::event_mail_attachment() == 'both' ){
 					if( get_post_meta( $ticket_id, 'ovaem_ticket_verify', true ) == 'true' ){
-						$ticket_pdf[$k] = $pdf->make_pdf_ticket( $ticket_id );
+						$ticket_pdf[$k] = $pdf->make_pdf_ticket( $ticket_id, $k );
 						$k++;	
 					}
 				}
