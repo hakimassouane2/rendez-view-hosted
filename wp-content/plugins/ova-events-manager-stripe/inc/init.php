@@ -59,28 +59,29 @@ class OVA_EVENTS_MANAGER_STRIPE_CHECKOUT {
 					OVA_Add_Order::ova_update_order( $order_id , 'Stripe', 'Completed', $charge->balance_transaction, $payer_email );
 
 					// Delete all item in cart
-				    unset( $_SESSION['cart'] );
-		        	unset( $_SESSION['coupon'] );
+				  unset( $_SESSION['cart'] );
+		      unset( $_SESSION['coupon'] );
+
+								
+					// Delete all item in cart
+					@session_start();
+					if( isset($_SESSION['cart']) ){
+						unset($_SESSION['cart']);
+					}
+					if( isset($_SESSION['coupon']) ){
+						unset($_SESSION['coupon']);	
+					}
+					session_write_close();
+
+					wp_redirect( OVAEM_Settings::thanks_page() );
+					exit();
 					
 				} catch (Exception $e) {
 					echo $e->getMessage();
 					echo '<a href="'.OVAEM_Settings::checkout_page().'">'.esc_html__('Go to checkout page', 'ovaem-events-manager-stripe').'</a>';
+					wp_redirect( home_url('/payment-error') );
+					exit();
 				}
-
-				 // Delete all item in cart
-				@session_start();
-				if( isset($_SESSION['cart']) ){
-					unset($_SESSION['cart']);
-				}
-				if( isset($_SESSION['coupon']) ){
-					unset($_SESSION['coupon']);	
-				}
-				session_write_close();
-
-				wp_redirect( OVAEM_Settings::thanks_page() );
-				exit();
-			
-
 			}
 
 	}
