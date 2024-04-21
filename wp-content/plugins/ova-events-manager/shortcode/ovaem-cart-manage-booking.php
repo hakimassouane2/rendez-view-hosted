@@ -25,8 +25,6 @@ function ovaem_cart_manage_booking($atts, $content = null) {
 
 if (function_exists('vc_map')) {
 
-   echo 'vc_map';
-
    vc_map(array(
       "name" => esc_html__("Manage Booking", 'ovaem-events-manager'),
       "base" => "ovaem_cart_manage_booking",

@@ -449,7 +449,6 @@ if( !class_exists( 'OVAEM_Frontend_Ajax' ) ){
 					
 						<td data-colname="<?php esc_attr_e('Status', 'ovaem-events-manager'); ?>" >
 								<?php 
-								esc_html_e('55555', 'ovaem-events-manager');
 								switch ($ovaem_event_status) {
 										case 'Pending':
 												esc_html_e('Pending', 'ovaem-events-manager');

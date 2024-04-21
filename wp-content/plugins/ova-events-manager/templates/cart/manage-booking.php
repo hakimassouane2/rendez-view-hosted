@@ -1,6 +1,5 @@
 <?php 
 if ( !defined( 'ABSPATH' ) ) exit();
-
 ?>
 
 <div class="ovaem-bookings">
@@ -11,22 +10,20 @@ if ( !defined( 'ABSPATH' ) ) exit();
 				<td class="id"><?php esc_html_e("ID", "ovaem-events-manager") ?></td>
 				<td><?php esc_html_e("Date Created", "ovaem-events-manager") ?></td>
 				<td><?php esc_html_e("Status", "ovaem-events-manager") ?></td>
-				<!-- <td><?php esc_html_e("Language", "ovaem-events-manager") ?></td> -->
 				<td><?php esc_html_e("Action", "ovaem-events-manager") ?></td>
 			</tr>
 		</thead>
 		<tbody class="event_body">
 			<?php 
-			
 			$list_bookings = apply_filters( 'ovaem_get_list_booking', 1 );
 
 			if($list_bookings->have_posts() ) : while ( $list_bookings->have_posts() ) : $list_bookings->the_post();
 				$booking_id = get_the_ID();
-				$id_event = get_post_meta( $booking_id, 'ovaem_ticket_event_id', true );
-				$booking_locale = get_post_meta( $booking_id, 'ovaem_order_locale', true );
-				$ovaem_event_id = get_post_meta( $booking_id, 'ovaem_event_id', true );
 				$ovaem_event_status = get_post_meta( $booking_id, 'ovaem_event_status', true );
-				?>
+
+				// Display row only if status is "Pending"
+				if ($ovaem_event_status === 'Pending') :
+			?>
 				<tr>
 					<td data-colname="<?php esc_attr_e('ID', 'ovaem-events-manager'); ?>" class="id"><?php echo esc_html($booking_id); ?></td>
 
@@ -121,30 +118,27 @@ if ( !defined( 'ABSPATH' ) ) exit();
 						?>
 					</td>
 
-
-					<!-- <td data-colname="<?php esc_attr_e('Language', 'ovaem-events-manager'); ?>" class="language"><?php echo esc_html($booking_locale); ?></td> -->
-
-
 					<td>
 						<div class="wp-button-my-booking">
-
 							<div class="button-dowload-ticket">
 								<button class="button download-ticket" data-nonce="<?php echo wp_create_nonce( 'ovaem_download_ticket_nonce' ); ?>" data-booking_id="<?php echo esc_attr($booking_id) ?>"><?php esc_html_e( "Download", "ovaem-events-manager" ); ?></button>
 							</div>
 						</div>
 					</td>
 				</tr>
-			<?php endwhile; else : ?> 
-			<td colspan="8"><?php esc_html_e( 'Not Found Bookings', 'ovaem-events-manager' ); ?></td> 
-			<?php ; endif; wp_reset_postdata(); ?>
+			<?php
+				endif; // End of conditional check for status
+			endwhile; else : ?> 
+			<tr><td colspan="4"><?php esc_html_e( 'Not Found Bookings', 'ovaem-events-manager' ); ?></td></tr> 
+			<?php endif; wp_reset_postdata(); ?>
 
 			<?php $total = $list_bookings->max_num_pages;?>
 			<?php if ( $total > 1 ) { ?>
-				<td colspan="8">
+				<tr><td colspan="4">
 					<div class="ovaem_pagination">
 						<?php ovaem_pagination_ajax($list_bookings->found_posts, $list_bookings->query_vars['posts_per_page'], 1); ?>
 					</div>
-				</td>			
+				</td></tr>			
 			<?php } ?>
 		</tbody>
 	</table>
