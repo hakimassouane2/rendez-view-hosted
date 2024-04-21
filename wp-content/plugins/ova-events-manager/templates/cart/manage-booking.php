@@ -22,7 +22,7 @@ if ( !defined( 'ABSPATH' ) ) exit();
 				$ovaem_event_status = get_post_meta( $booking_id, 'ovaem_event_status', true );
 
 				// Display row only if status is "Pending"
-				if ($ovaem_event_status === 'Pending') :
+				if ($ovaem_event_status === 'Completed') :
 			?>
 				<tr>
 					<td data-colname="<?php esc_attr_e('ID', 'ovaem-events-manager'); ?>" class="id"><?php echo esc_html($booking_id); ?></td>
