@@ -209,7 +209,30 @@ function login_header( $title = 'Log In', $message = '', $wp_error = null ) {
 
 	?>
 	<div id="login">
-		<h1><a href="<?php echo esc_url( $login_header_url ); ?>"><?php echo $login_header_text; ?></a></h1>
+		<!-- <h1><a href="<?php echo esc_url( $login_header_url ); ?>"><?php echo $login_header_text; ?></a></h1> -->
+		<img alt="logo" style="background-image: url(../images/w-logo-blue.png?ver=20131202);
+background-image: none,
+  url(https://rendez-view.com/wp-content/uploads/2024/04/shared-image-e1713521428567-2-e1713525101549.jpg);
+background-size: 84px;
+background-position: center top;
+background-repeat: no-repeat;
+color: #3c434a;
+/* height: 84px; */
+font-size: 20px;
+font-weight: 400;
+line-height: 1.3;
+/* margin: 0 auto 25px; */
+padding: 0;
+width: 100%;
+text-decoration: none;
+/* width: 84px; */
+text-indent: -9999px;
+outline: 0;
+overflow: hidden;
+display: block;
+zoom: 3.9;
+margin-bottom: 0.2em;
+">
 	<?php
 	/**
 	 * Filters the message to display above the login form.
