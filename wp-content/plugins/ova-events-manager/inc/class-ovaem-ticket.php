@@ -7,7 +7,20 @@ if ( !defined( 'ABSPATH' ) ) {
 if( !class_exists( 'OVAEM_Ticket' ) ){
 	class OVAEM_Ticket {
 
-		
+		public static function translate_date_to_french($date_string) {
+				// Define arrays for English and French day and month names
+				$english_days = array('Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday');
+				$french_days = array('Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche');
+
+				$english_months = array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+				$french_months = array('Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre');
+
+				// Replace English day and month names with French
+				$date_string = str_replace($english_days, $french_days, $date_string);
+				$date_string = str_replace($english_months, $french_months, $date_string);
+
+				return $date_string;
+		}
 
 		// Add Ticket when client checkout before paid
 		public static function add_ticket( $order_id, $ticket_verify = 'false', $order_id_woo = '' ){
@@ -73,11 +86,11 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 						write_log($end_time_stamp);
 
 						if ($locale_code === 'fr_FR') {
-								$start_time_format = 'l j F Y'; // French date format
-								$end_time_format = 'l j F Y'; // French date format
+								$start_time_format = 'l j F Y H:i:s'; // French date format
+								$end_time_format = 'l j F Y H:i:s'; // French date format
 						} else {
-								$start_time_format = 'l jS F Y'; // English date format
-								$end_time_format = 'l jS F Y'; // English date format
+								$start_time_format = 'l jS F Y H:i:s'; // English date format
+								$end_time_format = 'l jS F Y H:i:s'; // English date format
 						}
 
 
@@ -90,6 +103,11 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 						$end_datetime = new DateTime();
 						$end_datetime->setTimestamp($end_time_stamp);
 						$end_time = $end_datetime->format($end_time_format);
+
+						if ($locale_code === 'fr_FR') {
+								$start_time = self::translate_date_to_french($start_time);
+								$end_time = self::translate_date_to_french($end_time);
+						}
 
 						write_log($start_time);
 						write_log($end_time);
@@ -174,11 +192,11 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 
 				// Check if locale is French
 				if ($locale_code === 'fr_FR') {
-						$start_time_format = 'l j F Y'; // French date format
-						$end_time_format = 'l j F Y'; // French date format
+						$start_time_format = 'l j F Y H:i:s'; // French date format
+						$end_time_format = 'l j F Y H:i:s'; // French date format
 				} else {
-						$start_time_format = 'l jS F Y'; // English date format
-						$end_time_format = 'l jS F Y'; // English date format
+						$start_time_format = 'l jS F Y H:i:s'; // English date format
+						$end_time_format = 'l jS F Y H:i:s'; // English date format
 				}
 
 				// Format start time
@@ -190,6 +208,11 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 				$end_datetime = new DateTime();
 				$end_datetime->setTimestamp($end_time_stamp);
 				$end_time = $end_datetime->format($end_time_format);
+
+			if ($locale_code === 'fr_FR') {
+						$start_time = self::translate_date_to_french($start_time);
+						$end_time = self::translate_date_to_french($end_time);
+				}
 
 
 				$venue = $venue_address = '';
