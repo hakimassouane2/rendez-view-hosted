@@ -57,29 +57,55 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 						// $start_time = $start_dayweek.', '.date_i18n($date_format, $start_time_stamp).' '.date_i18n( $time_format, $start_time_stamp );
 						// $end_time = $end_dayweek.', '.date_i18n($date_format, $end_time_stamp).' '.date_i18n( $time_format, $end_time_stamp ) ;
 
-				$locale_code = get_post_meta( $order_id, 'ovaem_order_language', true );
+						if (!function_exists('write_log')) {
 
-				$start_time_stamp = get_post_meta( $event_id, $prefix.'_date_start_time', true );
-				$end_time_stamp = get_post_meta( $event_id, $prefix.'_date_end_time', true );
+							function write_log($log) {
+									if (true === WP_DEBUG) {
+											if (is_array($log) || is_object($log)) {
+													error_log(print_r($log, true));
+											} else {
+													error_log($log);
+											}
+									}
+							}
 
-				// Check if locale is French
-				if ($locale_code === 'fr_FR') {
-						setlocale(LC_TIME, 'fr_FR.utf8');
-						$start_time_format = '%e %B %Y à %H:%M'; // French date format
-						$end_time_format = '%e %B %Y à %H:%M'; // French date format
-				} else {
-						$start_time_format = 'F j, Y g:i A'; // English date format
-						$end_time_format = 'F j, Y g:i A'; // English date format
-				}
+					}
 
-				// Format start time
-				$start_time = strftime($start_time_format, $start_time_stamp);
+						write_log('THIS IS THE START OF MY CUSTOM DEBUG');
+						$locale_code = get_post_meta( $order_id, 'ovaem_order_language', true );
 
-				// Format end time
-				$end_time = strftime($end_time_format, $end_time_stamp);
+						write_log($locale_code);
 
-				// Reset the locale to the default setting
-				setlocale(LC_TIME, '');
+						$start_time_stamp = get_post_meta( $event_id, $prefix.'_date_start_time', true );
+						$end_time_stamp = get_post_meta( $event_id, $prefix.'_date_end_time', true );
+
+						write_log($start_time_stamp);
+						write_log($end_time_stamp);
+
+						// Check if locale is French
+						if ($locale_code === 'fr_FR') {
+								setlocale(LC_TIME, 'fr_FR.utf8');
+								$start_time_format = '%e %B %Y à %H:%M'; // French date format
+								$end_time_format = '%e %B %Y à %H:%M'; // French date format
+						} else {
+								$start_time_format = 'F j, Y g:i A'; // English date format
+								$end_time_format = 'F j, Y g:i A'; // English date format
+						}
+
+						// Format start time
+						$start_time = strftime($start_time_format, $start_time_stamp);
+
+						write_log($start_time);
+
+
+
+						// Format end time
+						$end_time = strftime($end_time_format, $end_time_stamp);
+
+						write_log($end_time);
+
+						// Reset the locale to the default setting
+						setlocale(LC_TIME, '');
 
 						$venue = $venue_address = '';
 						$venue_slug = get_post_meta( $event_id, $prefix.'_venue', true );
