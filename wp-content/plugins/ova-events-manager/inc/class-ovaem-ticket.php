@@ -47,16 +47,6 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 
 					if( $event->post_type == OVAEM_Settings::event_post_type_slug() ){
 
-                		// Start End time event
-						// $start_time_stamp = get_post_meta( $event_id, $prefix.'_date_start_time', true );
-						// $end_time_stamp = get_post_meta( $event_id, $prefix.'_date_end_time', true );
-
-						// $start_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $start_time_stamp) );
-						// $end_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $end_time_stamp) );
-
-						// $start_time = $start_dayweek.', '.date_i18n($date_format, $start_time_stamp).' '.date_i18n( $time_format, $start_time_stamp );
-						// $end_time = $end_dayweek.', '.date_i18n($date_format, $end_time_stamp).' '.date_i18n( $time_format, $end_time_stamp ) ;
-
 						if (!function_exists('write_log')) {
 
 							function write_log($log) {
@@ -82,29 +72,27 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 						write_log($start_time_stamp);
 						write_log($end_time_stamp);
 
-						// Check if locale is French
 						if ($locale_code === 'fr_FR') {
-								$start_time_format = '%A %e %B %Y'; // French date format
-								$end_time_format = '%A %e %B %Y'; // French date format
+								$start_time_format = 'l j F Y'; // French date format
+								$end_time_format = 'l j F Y'; // French date format
 						} else {
 								$start_time_format = 'l jS F Y'; // English date format
 								$end_time_format = 'l jS F Y'; // English date format
 						}
 
+
 						// Format start time
-						$start_time = date($start_time_format, $start_time_stamp);
-
-						write_log($start_time);
-
-
+						$start_datetime = new DateTime();
+						$start_datetime->setTimestamp($start_time_stamp);
+						$start_time = $start_datetime->format($start_time_format);
 
 						// Format end time
-						$end_time = date($end_time_format, $end_time_stamp);
+						$end_datetime = new DateTime();
+						$end_datetime->setTimestamp($end_time_stamp);
+						$end_time = $end_datetime->format($end_time_format);
 
+						write_log($start_time);
 						write_log($end_time);
-
-						// Reset the locale to the default setting
-						setlocale(LC_TIME, '');
 
 						$venue = $venue_address = '';
 						$venue_slug = get_post_meta( $event_id, $prefix.'_venue', true );
@@ -183,29 +171,25 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 				$start_time_stamp = get_post_meta( $event_id, $prefix.'_date_start_time', true );
 				$end_time_stamp = get_post_meta( $event_id, $prefix.'_date_end_time', true );
 
-				// $start_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $start_time_stamp) );
-				// $end_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $end_time_stamp) );
-
-				// $start_time = $start_dayweek.', '.date_i18n($date_format, $start_time_stamp).' '.date_i18n( $time_format, $start_time_stamp );
-				// $end_time = $end_dayweek.', '.date_i18n($date_format, $end_time_stamp).' '.date_i18n( $time_format, $end_time_stamp ) ;
 
 				// Check if locale is French
 				if ($locale_code === 'fr_FR') {
-						$start_time_format = '%A %e %B %Y'; // French date format
-						$end_time_format = '%A %e %B %Y'; // French date format
+						$start_time_format = 'l j F Y'; // French date format
+						$end_time_format = 'l j F Y'; // French date format
 				} else {
 						$start_time_format = 'l jS F Y'; // English date format
 						$end_time_format = 'l jS F Y'; // English date format
 				}
 
 				// Format start time
-				$start_time = date($start_time_format, $start_time_stamp);
+				$start_datetime = new DateTime();
+				$start_datetime->setTimestamp($start_time_stamp);
+				$start_time = $start_datetime->format($start_time_format);
 
 				// Format end time
-				$end_time = date($end_time_format, $end_time_stamp);
-
-				// Reset the locale to the default setting
-				setlocale(LC_TIME, '');
+				$end_datetime = new DateTime();
+				$end_datetime->setTimestamp($end_time_stamp);
+				$end_time = $end_datetime->format($end_time_format);
 
 
 				$venue = $venue_address = '';
