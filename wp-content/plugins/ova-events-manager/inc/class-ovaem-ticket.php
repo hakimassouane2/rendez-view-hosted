@@ -59,31 +59,9 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 					$event = get_post( $event_id  );
 
 					if( $event->post_type == OVAEM_Settings::event_post_type_slug() ){
-
-						if (!function_exists('write_log')) {
-
-							function write_log($log) {
-									if (true === WP_DEBUG) {
-											if (is_array($log) || is_object($log)) {
-													error_log(print_r($log, true));
-											} else {
-													error_log($log);
-											}
-									}
-							}
-
-					}
-
-						write_log('THIS IS THE START OF MY CUSTOM DEBUG');
 						$locale_code = get_post_meta( $order_id, 'ovaem_order_language', true );
-
-						write_log($locale_code);
-
 						$start_time_stamp = get_post_meta( $event_id, $prefix.'_date_start_time', true );
 						$end_time_stamp = get_post_meta( $event_id, $prefix.'_date_end_time', true );
-
-						write_log($start_time_stamp);
-						write_log($end_time_stamp);
 
 						if ($locale_code === 'fr_FR') {
 								$start_time_format = 'l j F Y H:i:s'; // French date format
@@ -92,7 +70,6 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 								$start_time_format = 'l jS F Y H:i:s'; // English date format
 								$end_time_format = 'l jS F Y H:i:s'; // English date format
 						}
-
 
 						// Format start time
 						$start_datetime = new DateTime();
@@ -108,9 +85,6 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 								$start_time = self::translate_date_to_french($start_time);
 								$end_time = self::translate_date_to_french($end_time);
 						}
-
-						write_log($start_time);
-						write_log($end_time);
 
 						$venue = $venue_address = '';
 						$venue_slug = get_post_meta( $event_id, $prefix.'_venue', true );
