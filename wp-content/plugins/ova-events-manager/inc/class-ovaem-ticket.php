@@ -37,7 +37,7 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 			$post_data['post_author'] = $author ? $author : '';
 
 
-			if( is_array( $ovaem_order_cart ) ){ /* Paid Ticket */
+			if ( is_array( $ovaem_order_cart ) ){ /* Paid Ticket */
 				foreach ( $ovaem_order_cart as $id => $quantity ){
 
 					$parse_id = explode('_', $id);
@@ -48,14 +48,38 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 					if( $event->post_type == OVAEM_Settings::event_post_type_slug() ){
 
                 		// Start End time event
-						$start_time_stamp = get_post_meta( $event_id, $prefix.'_date_start_time', true );
-						$end_time_stamp = get_post_meta( $event_id, $prefix.'_date_end_time', true );
+						// $start_time_stamp = get_post_meta( $event_id, $prefix.'_date_start_time', true );
+						// $end_time_stamp = get_post_meta( $event_id, $prefix.'_date_end_time', true );
 
-						$start_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $start_time_stamp) );
-						$end_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $end_time_stamp) );
+						// $start_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $start_time_stamp) );
+						// $end_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $end_time_stamp) );
 
-						$start_time = $start_dayweek.', '.date_i18n($date_format, $start_time_stamp).' '.date_i18n( $time_format, $start_time_stamp );
-						$end_time = $end_dayweek.', '.date_i18n($date_format, $end_time_stamp).' '.date_i18n( $time_format, $end_time_stamp ) ;
+						// $start_time = $start_dayweek.', '.date_i18n($date_format, $start_time_stamp).' '.date_i18n( $time_format, $start_time_stamp );
+						// $end_time = $end_dayweek.', '.date_i18n($date_format, $end_time_stamp).' '.date_i18n( $time_format, $end_time_stamp ) ;
+
+				$locale_code = get_post_meta( $order_id, 'ovaem_order_language', true );
+
+				$start_time_stamp = get_post_meta( $event_id, $prefix.'_date_start_time', true );
+				$end_time_stamp = get_post_meta( $event_id, $prefix.'_date_end_time', true );
+
+				// Check if locale is French
+				if ($locale_code === 'fr_FR') {
+						setlocale(LC_TIME, 'fr_FR.utf8');
+						$start_time_format = '%e %B %Y à %H:%M'; // French date format
+						$end_time_format = '%e %B %Y à %H:%M'; // French date format
+				} else {
+						$start_time_format = 'F j, Y g:i A'; // English date format
+						$end_time_format = 'F j, Y g:i A'; // English date format
+				}
+
+				// Format start time
+				$start_time = strftime($start_time_format, $start_time_stamp);
+
+				// Format end time
+				$end_time = strftime($end_time_format, $end_time_stamp);
+
+				// Reset the locale to the default setting
+				setlocale(LC_TIME, '');
 
 						$venue = $venue_address = '';
 						$venue_slug = get_post_meta( $event_id, $prefix.'_venue', true );
@@ -121,7 +145,7 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 					}
 
 				}
-			}else if( intval( $ovaem_number ) ){ /* Free Ticket */
+			} else if ( intval( $ovaem_number ) ){ /* Free Ticket */
 
 				$event_id = get_post_meta( $order_id, 'ovaem_free_event_id', true );
 
@@ -129,16 +153,35 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 
 				$free_event_info = get_post( $event_id );
 
-
+				$locale_code = get_post_meta( $order_id, 'ovaem_order_language', true );
 
 				$start_time_stamp = get_post_meta( $event_id, $prefix.'_date_start_time', true );
 				$end_time_stamp = get_post_meta( $event_id, $prefix.'_date_end_time', true );
 
-				$start_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $start_time_stamp) );
-				$end_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $end_time_stamp) );
+				// $start_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $start_time_stamp) );
+				// $end_dayweek = OVAEM_Ticket::em4u_dayweek( date( 'w' , $end_time_stamp) );
 
-				$start_time = $start_dayweek.', '.date_i18n($date_format, $start_time_stamp).' '.date_i18n( $time_format, $start_time_stamp );
-				$end_time = $end_dayweek.', '.date_i18n($date_format, $end_time_stamp).' '.date_i18n( $time_format, $end_time_stamp ) ;
+				// $start_time = $start_dayweek.', '.date_i18n($date_format, $start_time_stamp).' '.date_i18n( $time_format, $start_time_stamp );
+				// $end_time = $end_dayweek.', '.date_i18n($date_format, $end_time_stamp).' '.date_i18n( $time_format, $end_time_stamp ) ;
+
+				// Check if locale is French
+				if ($locale_code === 'fr_FR') {
+						setlocale(LC_TIME, 'fr_FR.utf8');
+						$start_time_format = '%e %B %Y à %H:%M'; // French date format
+						$end_time_format = '%e %B %Y à %H:%M'; // French date format
+				} else {
+						$start_time_format = 'F j, Y g:i A'; // English date format
+						$end_time_format = 'F j, Y g:i A'; // English date format
+				}
+
+				// Format start time
+				$start_time = strftime($start_time_format, $start_time_stamp);
+
+				// Format end time
+				$end_time = strftime($end_time_format, $end_time_stamp);
+
+				// Reset the locale to the default setting
+				setlocale(LC_TIME, '');
 
 
 				$venue = $venue_address = '';
