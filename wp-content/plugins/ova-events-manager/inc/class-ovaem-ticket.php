@@ -84,23 +84,22 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 
 						// Check if locale is French
 						if ($locale_code === 'fr_FR') {
-								setlocale(LC_TIME, 'fr_FR.utf8');
-								$start_time_format = '%e %B %Y à %H:%M'; // French date format
-								$end_time_format = '%e %B %Y à %H:%M'; // French date format
+								$start_time_format = '%A %e %B %Y'; // French date format
+								$end_time_format = '%A %e %B %Y'; // French date format
 						} else {
-								$start_time_format = 'F j, Y g:i A'; // English date format
-								$end_time_format = 'F j, Y g:i A'; // English date format
+								$start_time_format = 'l jS F Y'; // English date format
+								$end_time_format = 'l jS F Y'; // English date format
 						}
 
 						// Format start time
-						$start_time = strftime($start_time_format, $start_time_stamp);
+						$start_time = date($start_time_format, $start_time_stamp);
 
 						write_log($start_time);
 
 
 
 						// Format end time
-						$end_time = strftime($end_time_format, $end_time_stamp);
+						$end_time = date($end_time_format, $end_time_stamp);
 
 						write_log($end_time);
 
@@ -192,19 +191,18 @@ if( !class_exists( 'OVAEM_Ticket' ) ){
 
 				// Check if locale is French
 				if ($locale_code === 'fr_FR') {
-						setlocale(LC_TIME, 'fr_FR.utf8');
-						$start_time_format = '%e %B %Y à %H:%M'; // French date format
-						$end_time_format = '%e %B %Y à %H:%M'; // French date format
+						$start_time_format = '%A %e %B %Y'; // French date format
+						$end_time_format = '%A %e %B %Y'; // French date format
 				} else {
-						$start_time_format = 'F j, Y g:i A'; // English date format
-						$end_time_format = 'F j, Y g:i A'; // English date format
+						$start_time_format = 'l jS F Y'; // English date format
+						$end_time_format = 'l jS F Y'; // English date format
 				}
 
 				// Format start time
-				$start_time = strftime($start_time_format, $start_time_stamp);
+				$start_time = date($start_time_format, $start_time_stamp);
 
 				// Format end time
-				$end_time = strftime($end_time_format, $end_time_stamp);
+				$end_time = date($end_time_format, $end_time_stamp);
 
 				// Reset the locale to the default setting
 				setlocale(LC_TIME, '');
