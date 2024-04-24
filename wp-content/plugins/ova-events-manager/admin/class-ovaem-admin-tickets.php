@@ -69,7 +69,12 @@ if (!class_exists('OVAEM_Admin_Tickets')) {
 			if ($column_name == 'order_locale') {
 				if (get_post_meta($post_id, 'ovaem_ticket_from_order_id', true)) {
 					$orderid = get_post_meta($post_id, 'ovaem_ticket_from_order_id', true);
-					echo get_post_meta($orderid, 'ovaem_order_locale', true);
+					$order_locale = get_post_meta($orderid, 'ovaem_order_language', true);
+					if ($order_locale === 'fr_FR') {
+						echo 'Français';
+					} else {
+						echo 'English';
+					}
 				} 
 
 			}
