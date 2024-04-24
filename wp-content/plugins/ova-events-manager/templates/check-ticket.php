@@ -55,7 +55,7 @@
 			if( $result != '' ) { ?>
 				<?php if( get_locale() == 'fr_FR' ) { ?>
 					<div style="max-width: 430px;margin: 0 auto;display: flex;align-items: center;flex-direction: column;padding: 2rem 0;">
-						<img src="https://rendez-view2.localwp/wp-content/uploads/2024/03/success.png" alt="success" style="width: 60px;" >
+						<img src="https://rendez-view.com/wp-content/uploads/2024/03/success.png" alt="success" style="width: 60px;" >
 						<h1 style="margin: 0;margin-top: 1rem; color: green;">Billet Valide</h1>
 						<div style="text-align: center; margin-top: 1em; margin-bottom: 1em;">
 						<p style="margin: 0px;">
@@ -124,7 +124,7 @@
 
 				<?php }else{ ?>
 					<div style="max-width: 430px;margin: 0 auto;display: flex;align-items: center;flex-direction: column;padding: 2rem 0;">
-						<img src="https://rendez-view2.localwp/wp-content/uploads/2024/03/success.png" alt="success" style="width: 60px;" >
+						<img src="https://rendez-view.com/wp-content/uploads/2024/03/success.png" alt="success" style="width: 60px;" >
 						<h1 style="margin: 0;margin-top: 1rem; color: green;">Valid Ticket</h1>
 						<div style="text-align: center; margin-top: 1em; margin-bottom: 1em;">
 						<p style="margin: 0px;">
@@ -195,7 +195,7 @@
 			<?php } else { ?>
 				<?php if(get_locale() == 'fr_FR' ) { ?>
 					<div style="max-width: 430px;margin: 0 auto;display: flex;align-items: center;flex-direction: column;padding: 2rem 0;">
-						<img src="https://rendez-view2.localwp/wp-content/uploads/2024/03/failure.png" alt="Failure" style="width: 60px;" >
+						<img src="https://rendez-view.com/wp-content/uploads/2024/03/failure.png" alt="Failure" style="width: 60px;" >
 						<h1 style="margin: 0;margin-top: 1rem; color: red;">Billet Invalide</h1>
 						<p style="font-size: 18px;font-weight: 600;">Ce billet est expiré ou a déjà été utilisé</p>
 						<div style="background-color: rgb(230, 230, 255,0.3);padding: 1.5rem;border-radius: 16px;">
@@ -206,7 +206,7 @@
 					</div>
 				<?php } else { ?>
 					<div style="max-width: 430px;margin: 0 auto;display: flex;align-items: center;flex-direction: column;padding: 2rem 0;">
-						<img src="https://rendez-view2.localwp/wp-content/uploads/2024/03/failure.png" alt="Failure" style="width: 60px;" >
+						<img src="https://rendez-view.com/wp-content/uploads/2024/03/failure.png" alt="Failure" style="width: 60px;" >
 						<h1 style="margin: 0;margin-top: 1rem; color: red;">Invalid Ticket</h1>
 						<p style="font-size: 18px;font-weight: 600;">This ticket is either used or expired.</p>
 						<div style="background-color: rgb(230, 230, 255,0.3);padding: 1.5rem;border-radius: 16px;">
