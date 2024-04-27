@@ -87,6 +87,7 @@
 
 		<div class="ova-logo navbar-header">
 
+			<?php echo do_shortcode('[language-switcher]'); ?>
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ovatheme_header_v1" aria-expanded="true">
 				<span class="sr-only"><?php esc_html_e('Toggle navigation', 'em4u'); ?></span>
 				<span class="icon-bar"></span>
@@ -156,8 +157,6 @@
 			  </div> 
 			</nav>
 		</div>
-
-		<?php echo do_shortcode('[language-switcher]'); ?>
 
 
 		<?php if( get_theme_mod( 'show_menu_account', 'no' ) == 'yes' ){ ?>
