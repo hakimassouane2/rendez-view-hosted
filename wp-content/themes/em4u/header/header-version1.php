@@ -157,6 +157,8 @@
 			</nav>
 		</div>
 
+		<?php echo do_shortcode('[language-switcher]'); ?>
+
 
 		<?php if( get_theme_mod( 'show_menu_account', 'no' ) == 'yes' ){ ?>
 			<div class="ova-account">
