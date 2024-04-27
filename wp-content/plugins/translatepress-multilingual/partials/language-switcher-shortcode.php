@@ -4,12 +4,24 @@ $current_language_preference = $this->add_shortcode_preferences($shortcode_setti
 ?>
 <div class="trp_language_switcher_shortcode">
 <div class="trp-language-switcher trp-language-switcher-container" data-no-translation <?php echo ( isset( $_GET['trp-edit-translation'] ) && $_GET['trp-edit-translation'] == 'preview' ) ? 'data-trp-unpreviewable="trp-unpreviewable"' : '' ?>>
+    <?php foreach ( $other_languages as $code => $name ){
+
+        if ( $code == $current_language['code'] ){
+            continue;
+        }
+        $language_preference = $this->add_shortcode_preferences($shortcode_settings, $code, $name);
+        ?>
+        <a href="<?php echo (isset($is_editor) && $is_editor) ? '#' : esc_url( $this->url_converter->get_url_for_language($code, false) ); /* phpcs:ignore */ /* $is_editor is not outputted */ ?>" title="<?php echo esc_attr( $name ); ?>">
+            <?php echo $language_preference; /* phpcs:ignore */ /* escaped inside the function that generates the output */ ?>
+        </a>
+
+    <?php } ?>
     <!-- <div class="trp-ls-shortcode-current-language">
         <a href="#" class="trp-ls-shortcode-disabled-language trp-ls-disabled-language" title="<?php echo esc_attr( $current_language['name'] ); ?>" onclick="event.preventDefault()">
 			<?php echo $current_language_preference; /* phpcs:ignore */ /* escaped inside the function that generates the output */ ?>
 		</a>
     </div> -->
-    <div class="trp-ls-shortcode-language">
+    <!-- <div class="trp-ls-shortcode-language">
         <?php if ( apply_filters('trp_ls_shortcode_show_disabled_language', true, $current_language, $current_language_preference, $this->settings ) ){ ?>
         <a href="#" class="trp-ls-shortcode-disabled-language trp-ls-disabled-language"  title="<?php echo esc_attr( $current_language['name'] ); ?>" onclick="event.preventDefault()">
 			<?php echo $current_language_preference; /* phpcs:ignore */ /* escaped inside the function that generates the output */ ?>
@@ -23,7 +35,7 @@ $current_language_preference = $this->add_shortcode_preferences($shortcode_setti
             <?php echo $language_preference; /* phpcs:ignore */ /* escaped inside the function that generates the output */ ?>
         </a>
 
-    <?php } ?>
+    <?php } ?> -->
     </div>
     <script type="application/javascript">
         // need to have the same with set from JS on both divs. Otherwise it can push stuff around in HTML
